@@ -1,47 +1,55 @@
 ---
+title: Intro
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Desenvolvimento de um robô de serviço
 
-Let's discover **Docusaurus in less than 5 minutes**.
+O módulo atual vai lidar com o desenvolvimento de um robô de serviço. Assim como
+vimos no módulo 6, vamos voltar a trabalhar com robôs móveis. Dessa vez, no entanto, 
+vamos nos aprofundar nos conceitos de mapeamento e localização simultânea (SLAM) 
+e integrar a plataforma robótica (e o ROS) com modelos de processamento de linguagem
+(LLMs).
 
-## Getting Started
+A seguir, um resumo em português claro e conciso do que deve ser desenvolvido em 
+cada sprint.
 
-Get started by **creating a new site**.
+### Sprint 1 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Entendimento do projeto. Aspectos de negócio, ética e usabilidade assim como a 
+elicitação de requisitos funcionais e não funcionais.
 
-### What you'll need
+### Sprint 2
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Primeira entrega completa do projeto. O que isso significa? Significa uma versão 
+que o cliente pode usar tranquilamente, seguindo os preceitos do 
+[desenvolvimento em espiral](https://medium.com/contexto-delimitado/o-modelo-em-espiral-de-boehm-ed1d85b7df).
+O que, exatamente, vamos entregar?
 
-## Generate a new site
+1. Um software desenvolvido para ROS que implementa SLAM em um robô móvel;
+2. Um sistema de interface de usuário por terminal, onde o usuário pode digitar
+comandos para o robô;
+3. Um sistema de chatbot básico utilizando expressões regulares para compreender
+os comandos enviados pelo usuário e linkar com a ação adequada no robô; e
+4. Documentação e manual de usuário para essa versão do projeto.
 
-Generate a new Docusaurus site using the **classic template**.
+### Sprint 3
 
-The classic template will automatically be added to your project after you run the command:
+:::info
+Em construção. Volte mais tarde =D
+:::
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Sprint 4
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+:::info
+Em construção. Volte mais tarde =D
+:::
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Sprint 5
 
-## Start your site
+:::info
+Em construção. Volte mais tarde =D
+:::
 
-Run the development server:
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
