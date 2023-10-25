@@ -1,0 +1,14 @@
+# TAM, SAM e SOM
+
+## Total Addressable Market (TAM)
+Ao discutir automação e robótica, o cenário global evidencia uma revolução silenciosa ocorrendo nos armazéns e centros de distribuição. A indústria global de robôs autônomos, especificamente os AMRs, está avaliada em cerca de USD 12,1 bilhões. Este é um reflexo da necessidade crescente de operações eficientes, precisas e rápidas em setores onde a logística e a movimentação de mercadorias são essenciais.
+No contexto da Ambev, uma empresa líder mundial no setor de bebidas, onde há um fluxo intenso de produtos variados como Skol, Brahma, Budweiser e Stella, a eficiência no almoxarifado é crucial. O TAM, nesse contexto, não aborda apenas a demanda financeira, mas também a necessidade operacional de otimizar os processos de armazenamento e distribuição, reduzindo tempos de espera e erros de localização.
+
+## Serviceable Addressable Market (SAM)
+O SAM é um recorte do TAM, focalizando nas oportunidades viáveis para uma solução específica. Nesse projeto da Ambev, o objetivo principal é criar uma solução que aperfeiçoe e agilize o processo de localização e requisição de peças no almoxarifado, e não necessariamente a movimentação das mesmas. Esta distinção é vital. Embora o TAM global de AMRs seja enorme, muitos desses robôs são usados para transporte de mercadorias pesadas.
+Neste projeto, o robô terá uma abordagem mais orientada à assistência e navegação, guiando os funcionários até os itens desejados. Assumindo uma perspectiva conservadora, podemos inferir que o SAM, que considera armazéns e centros de distribuição interessados neste tipo específico de solução, seja de 10% do TAM global, resultando em USD 1,2 bilhões.
+
+## Serviceable Obtainable Market (SOM)
+O SOM é o segmento mais realista e tangível, representando a porção do mercado que a solução tem potencial de capturar no curto a médio prazo. Para a Ambev, há vantagens claras. Com sua vasta rede de cervejarias, maltarias e centros de distribuição, a empresa tem a capacidade de implementar e testar essa solução em múltiplos locais, coletando feedback e refinando o robô de acordo.
+No entanto, é fundamental reconhecer as barreiras. Primeiramente, há desafios tecnológicos - a navegação precisa em ambientes complexos e a integração com sistemas existentes. Além disso, há a curva de aprendizado dos funcionários e a necessidade de integração cultural da nova tecnologia.
+Dada a natureza de prova de conceito do projeto e os desafios mencionados, podemos projetar um SOM inicial de 1% do SAM no primeiro ano após o lançamento, equivalente a USD 12 milhões. Isso proporciona à Ambev uma entrada estratégica no mercado, permitindo aperfeiçoamentos iterativos e a expansão subsequente da solução.
