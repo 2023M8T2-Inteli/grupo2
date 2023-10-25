@@ -1,47 +1,36 @@
 ---
+title: Sobre
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+### Sprint 1 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Entendimento do projeto. Aspectos de negócio, ética e usabilidade assim como a 
+elicitação de requisitos funcionais e não funcionais.
 
-## Getting Started
+### Sprint 2
 
-Get started by **creating a new site**.
+:::info
+Em construção. Volte mais tarde =D
+:::
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Sprint 3
 
-### What you'll need
+:::info
+Em construção. Volte mais tarde =D
+:::
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Sprint 4
 
-## Generate a new site
+:::info
+Em construção. Volte mais tarde =D
+:::
 
-Generate a new Docusaurus site using the **classic template**.
+### Sprint 5
 
-The classic template will automatically be added to your project after you run the command:
+:::info
+Em construção. Volte mais tarde =D
+:::
 
-```bash
-npm init docusaurus@latest my-website classic
-```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
