@@ -1,6 +1,6 @@
 # Canvas Proposta de Valor
 
-![Canvas Proposta de Valor](../../assets/canvas_proposta_valor.png)
+![Canvas Proposta de Valor](../../../assets/canvas_proposta_valor.png)
 
 ## **Proposta de Valor**
 A proposta é focada na prototipação de um veículo autônomo guiado (AGV) destinado à inspeção de espaços confinados.
