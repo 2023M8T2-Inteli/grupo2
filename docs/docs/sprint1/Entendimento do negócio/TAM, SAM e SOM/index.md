@@ -1,14 +1,47 @@
-# TAM, SAM e SOM
+# TAM, SAM e SOM do projeto
 
-## Total Addressable Market (TAM)
-Ao discutir automação e robótica, o cenário global evidencia uma revolução silenciosa ocorrendo nos armazéns e centros de distribuição. A indústria global de robôs autônomos, especificamente os AMRs, está avaliada em cerca de USD 12,1 bilhões. Este é um reflexo da necessidade crescente de operações eficientes, precisas e rápidas em setores onde a logística e a movimentação de mercadorias são essenciais.
-No contexto da Ambev, uma empresa líder mundial no setor de bebidas, onde há um fluxo intenso de produtos variados como Skol, Brahma, Budweiser e Stella, a eficiência no almoxarifado é crucial. O TAM, nesse contexto, não aborda apenas a demanda financeira, mas também a necessidade operacional de otimizar os processos de armazenamento e distribuição, reduzindo tempos de espera e erros de localização.
 
-## Serviceable Addressable Market (SAM)
-O SAM é um recorte do TAM, focalizando nas oportunidades viáveis para uma solução específica. Nesse projeto da Ambev, o objetivo principal é criar uma solução que aperfeiçoe e agilize o processo de localização e requisição de peças no almoxarifado, e não necessariamente a movimentação das mesmas. Esta distinção é vital. Embora o TAM global de AMRs seja enorme, muitos desses robôs são usados para transporte de mercadorias pesadas.
-Neste projeto, o robô terá uma abordagem mais orientada à assistência e navegação, guiando os funcionários até os itens desejados. Assumindo uma perspectiva conservadora, podemos inferir que o SAM, que considera armazéns e centros de distribuição interessados neste tipo específico de solução, seja de 10% do TAM global, resultando em USD 1,2 bilhões.
+## 1. TAM (Mercado Total Endereçável)
 
-## Serviceable Obtainable Market (SOM)
-O SOM é o segmento mais realista e tangível, representando a porção do mercado que a solução tem potencial de capturar no curto a médio prazo. Para a Ambev, há vantagens claras. Com sua vasta rede de cervejarias, maltarias e centros de distribuição, a empresa tem a capacidade de implementar e testar essa solução em múltiplos locais, coletando feedback e refinando o robô de acordo.
-No entanto, é fundamental reconhecer as barreiras. Primeiramente, há desafios tecnológicos - a navegação precisa em ambientes complexos e a integração com sistemas existentes. Além disso, há a curva de aprendizado dos funcionários e a necessidade de integração cultural da nova tecnologia.
-Dada a natureza de prova de conceito do projeto e os desafios mencionados, podemos projetar um SOM inicial de 1% do SAM no primeiro ano após o lançamento, equivalente a USD 12 milhões. Isso proporciona à Ambev uma entrada estratégica no mercado, permitindo aperfeiçoamentos iterativos e a expansão subsequente da solução.
+O TAM representa o total de receita anual em reais que sua solução poderia obter se 100% do mercado em questão fosse atendido.
+
+### 1.1 Cálculo do TAM
+
+Dados fornecidos:
+- 15% de todas as empresas brasileiras são de médio e grande porte.
+- O Brasil tem 12.904.523 empresas de médio/grande porte.
+- Custo de implantação de 1 ano é de 1.397.548 reais.
+
+Utilizando a fórmula fornecida:
+TAM = Número total de clientes em um mercado x Receita média anual por cliente
+
+TAM = 12.904.523 x 0,15 x 1.397.548
+TAM = 1.935.678,45 x 1.397.548
+TAM = 2.705.203.546.440,6 reais
+
+Portanto, o TAM para o projeto é de aproximadamente 2,7 trilhões de reais.
+
+## 2. SAM (Mercado Disponível para Serviço)
+
+O SAM representa a porção do TAM que pode ser atendida pelo produto ou serviço proposto. Considerando que o projeto é específico para a Ambev:
+
+SAM = Número de cervejarias da Ambev x Receita média anual por cliente
+SAM = 30 x 1.397.548
+SAM = 41.926.440 reais
+
+Portanto, o SAM para o projeto é de aproximadamente 41,9 milhões de reais.
+
+## 3. SOM (Mercado Alvo Disponível)
+
+O SOM é a porção do SAM que pode ser realista e imediatamente atendida. Para calcular o SOM, consideramos uma estimativa de que, no primeiro ano, a empresa consiga implementar o projeto em 10% de seus almoxarifados.
+
+SOM = 0,10 x 41.926.440 reais
+SOM = 4.192.644 reais
+
+## Conclusão
+
+O projeto "Robô de auto atendimento do almoxarifado AMBEV" tem um TAM de aproximadamente 2,7 trilhões de reais, um SAM de 41,9 milhões de reais e um SOM de 4,1 milhões de reais.
+
+## Referências
+
+- [IBPT divulga censo sobre empresas do país: são 12,9 milhões](https://www.jusbrasil.com.br/noticias/ibpt-divulga-censo-sobre-empresas-do-pais-sao-12-9-milhoes/100417738)
