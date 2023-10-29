@@ -1,5 +1,5 @@
 ---
-title: Jornada do usuário
+title: Jornada do Usuário
 sidebar_position: 1
 ---
 

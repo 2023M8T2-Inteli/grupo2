@@ -4,7 +4,10 @@ Personas são retratos fictícios de indivíduos reais, construídos a partir de
 
 No caso desse projeto, as personas Eloara Lopes e Rodrigo Menezes foram criadas a partir de informações obtidas em entrevistas com um responsável do almoxarifado e um estagiário da Ambev, bem como pesquisas sobre a indústria e normas de segurança. Essas informações foram usadas para criar um perfil detalhado de cada persona, incluindo suas características demográficas, habilidades, experiências, desafios e objetivos.
 
-![Personas](../../../assets/Persona.png)
-![Personas](../../../assets/Group4.png)
+![Personas](../../../assets/persona2.png)
+
+<!-- -->
+
+![Personas](../../../assets/persona.png)
 
 Ao criar essas personas, a equipe do projeto pode visualizar como o robô StellaBot pode ser útil para Eloara Lopes, por exemplo, permitindo que ela faça requisições de itens ao alomxarifado com mais rapidez e segurança. Já para Rodrigo Menezes, o robô pode ajudá-lo a gerenciar melhor a segurança no almoxarifado, permitindo que ele pegue as peças requisitadas de forma organizada e assertiva para os técnicos.

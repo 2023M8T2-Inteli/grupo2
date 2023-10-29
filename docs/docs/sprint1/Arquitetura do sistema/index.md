@@ -1,4 +1,4 @@
-# ARQUITETURA DO SISTEMA
+# Arquitetura do Sistema
 
 ![Arquitetura do sistema](../../assets/arquitetura.png)
 
