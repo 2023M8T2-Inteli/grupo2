@@ -60,3 +60,14 @@ Para garantir que o projeto atende às necessidades do cliente especificada em e
 | RFS10| O sistema deve ser capaz de retornar o robô para seu ponto de origem.                         | Obrigatório|
 | RFS11| O sistema deve ser capaz de exibir uma animação de face antropomórfica na tela presente no robô. | Desejável|
 | RFS12| O sistema deve ser capaz de exibir a foto da peça solicitada tanto na tela presente no robô quanto no mecanismo de busca. | Desejável|
+
+## Requisitos funcionais de hardware
+
+| ID  | DESCRIÇÃO                                                                                                   | CATEGORIA   |
+|-----|--------------------------------------------------------------------------------------------------------------|-------------|
+| RFH1| O robô deve ser alimentado por bateria recarregável.                                                          | Obrigatório |
+| RFH2| O robô deve ser capaz de se movimentar para frente, para trás e rotacionar no sentido horário e anti-horário. | Obrigatório |
+| RFH3| O robô deve possuir um sensor capaz de mapear seus arredores, bem como detectar obstáculos.                   | Obrigatório |
+| RFH4| O robô deve possuir um monitor capaz de exibir informações úteis para o processo que irá desempenhar.          | Obrigatório |
+| RFH5| O computador do operador do sistema deve ter entrada de áudio capaz de capturar sua voz, para a modalidade comandada por voz do sistema. | Obrigatório |
+| RFH6| O robô deve possuir acesso à internet por meio de tecnologia Wifi.                                           | Obrigatório |
