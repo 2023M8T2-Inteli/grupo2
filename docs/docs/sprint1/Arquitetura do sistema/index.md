@@ -59,6 +59,25 @@ Para garantir que o projeto atende às necessidades do cliente especificada em e
 | RFS11| O sistema deve ser capaz de exibir uma animação de face antropomórfica na tela presente no robô. | Desejável|
 | RFS12| O sistema deve ser capaz de exibir a foto da peça solicitada tanto na tela presente no robô quanto no mecanismo de busca. | Desejável|
 
+## Requisitos não funcionais de software
+
+| ID | DESCRIÇÃO | MÉTRICA | CATEGORIA |
+|-----|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------|
+| RNFS1 |O software deve ser otimizado para uso eficiente dos recursos computacionais disponíveis no hardware do robô.|Uso de CPU e Memória RAM| Obrigatório|
+| RNFS2 |O robô de serviço deve ser capaz de compreender e responder a comandos de voz em Português com uma precisão de pelo menos 95%, garantindo uma interação eficaz com os operadores no almoxarifado. |Feedback de erros e acertos| Desejável|
+| RNFS3 |O sistema de transcrição de speech-to-text, precisa ter um WER (Word Error Rate) abaixo de 5. | WER | Desejável|
+| RNFS4 |O sistema de navegação do robô deverá ser capaz de posicioná-lo em determinada coordenada com uma incerteza de, no máximo, 1 metro para ambas as coordenadas.|Cálculo do erro dos pontos das coordenadas|Desejável|
+| RNFS5 | O software deve ser robusto e capaz de lidar com exceções e situações não previstas sem falhar.| Cálculo de erros de recuperação de falhas | Obrigatório|
+| RNFS6 | A comunicação com o sistema ROS2 deve ter baixa latência para garantir a sincronia entre o robô e o sistema de controle central. | Medida em ms ou em s | Obrigatório|
+| RNFS7 | O software deve ser modular, permitindo a fácil manutenção e expansão de funcionalidades. | Medida pela facilidade de adicionar, remover ou modificar módulos sem afetar o funcionamento geral do sistema. | Obrigatório|
+| RNFS8 | A interface de usuário e os comandos de voz devem ser intuitivos para os usuários e operadores do sistema.| Testes de usabilidade | Obrigatório |
+| RNFS9 | O software deve ser compatível e interagir de forma eficaz com o ROS2 e outros sistemas e dispositivos de hardware necessários para a operação do robô. | Pode ser avaliada pela capacidade de se integrar com diferentes sistemas e dispositivos| Desejável |
+| RNFS10| Deve fornecer algoritmos de navegação eficazes para que o robô possa se mover com segurança no ambiente do almoxarifado | Avaliada pela precisão das trajetórias do robô em comparação com as trajetórias planejadas | Obrigatório |
+
+
+
+ 
+
 ## Requisitos funcionais de hardware
 
 | ID  | DESCRIÇÃO                                                                                                   | CATEGORIA   |
@@ -69,6 +88,17 @@ Para garantir que o projeto atende às necessidades do cliente especificada em e
 | RFH4| O robô deve possuir um monitor capaz de exibir informações úteis para o processo que irá desempenhar.          | Obrigatório |
 | RFH5| O computador do operador do sistema deve ter entrada de áudio capaz de capturar sua voz, para a modalidade comandada por voz do sistema. | Obrigatório |
 | RFH6| O robô deve possuir acesso à internet por meio de tecnologia Wifi.                                           | Obrigatório |
+
+
+## Requisitos não funcionais de hardware 
+
+| ID | DESCRIÇÃO | MÉTRICA | CATEGORIA |
+|-----|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------|
+|RNFH1| O robô deve ter uma velocidade mínima de 0,22 m/s  em terrenos planos e a mesma não pode ser menor que 0,10 m/s  em terrenos que tenham declividade de 1 a 5 %. | velocidade | Obrigatório |
+|RNFH2| O robô deve ser capaz de se comunicar com redes Wi-Fi. | Wi-Fi | Obrigatório|
+|RNFH3| O envelope de sensoriamento do LIDAR do robô deve ser capaz de detectar objetos em um raio de, no mínimo, 3 m e 360 graus. | Valores do sensor | Desejável |
+|RNFH4| O robô não deverá ser utilizado por tempo superior a duas horas e trinta minutos contínuos. Quando a bateria atingir um estado crítico, a operação do robô deve ser interrompida e a bateria deve ser colocada. No caso do Turtlebot3 Burger, o tempo de uso estimado é de duas horas e meia, sendo que a carga completa da bateria também deve durar duas horas e meia. | Bateria | Obrigatório|
+|RNFH5| O microfone deve ser capaz de captar a voz humana com no mínimo 50 db a uma distância de 40 cm.| Valores sensor| Desejável |
 
 # APRESENTAÇÃO DE DESIGN PATTERNS
 
