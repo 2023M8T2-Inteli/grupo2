@@ -39,3 +39,7 @@ O sistema consiste em uma arquitetura baseada em ROS que integra um Nodo Central
 5. Uma vez obtida a localização da peça, as coordenadas são enviadas ao **Robô Autônomo** através do **ROS**.
 
 6. O Robô Autônomo se move para a localização fornecida e realiza a tarefa designada.
+
+# REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
+
+Para garantir que o projeto atende às necessidades do cliente especificada em entrevista de levantamento de requisitos em sala de aula, os requisitos foram divisidos em requisitos de hardware e software. Tal divisão se deu pela característica multitécnica do projeto, que envolve componentes de software e hardware, na figura de um artefato robótico. Dentre os requisitos de hardware e software, esses foram classificados entre funcionais (descrição do requisito) e não funcionais (qual é métrica de desempenho que cada requisito funcional deve atingir). Além disso, cada um dos requisitos foi classificado como "obrigatório" ou "desejável", o que auxiliará a equipe de desenvolvimento a estabelecer uma hierarquia de prioridades para sua implementação.
