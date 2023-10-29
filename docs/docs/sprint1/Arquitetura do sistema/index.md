@@ -1,4 +1,4 @@
-# Arquitetura do sistema
+# ARQUITETURA DO SISTEMA
 
 ![Arquitetura do sistema](../../assets/arquitetura.png)
 
@@ -43,3 +43,20 @@ O sistema consiste em uma arquitetura baseada em ROS que integra um Nodo Central
 # REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
 
 Para garantir que o projeto atende às necessidades do cliente especificada em entrevista de levantamento de requisitos em sala de aula, os requisitos foram divisidos em requisitos de hardware e software. Tal divisão se deu pela característica multitécnica do projeto, que envolve componentes de software e hardware, na figura de um artefato robótico. Dentre os requisitos de hardware e software, esses foram classificados entre funcionais (descrição do requisito) e não funcionais (qual é métrica de desempenho que cada requisito funcional deve atingir). Além disso, cada um dos requisitos foi classificado como "obrigatório" ou "desejável", o que auxiliará a equipe de desenvolvimento a estabelecer uma hierarquia de prioridades para sua implementação.
+
+## Requisitos funcionais de software
+
+| ID  | DESCRIÇÃO                                                                                  | CATEGORIA  |
+|-----|---------------------------------------------------------------------------------------------|------------|
+| RFS1| O sistema deve traduzir voz em texto mediante “wake up world” ou acionamento via interface.  | Obrigatório|
+| RFS2| O modelo de linguagem natural implementado deve ser capaz de compreender qual componente e sua quantidade que usuário deseja. | Obrigatório|
+| RFS3| O sistema também deve ser capaz de receber comandos via texto.                                | Obrigatório|
+| RFS4| O sistema deve ser capaz de avaliar se o input de texto deve passar pelo LLM ou se possui instruções diretas, que serão extraídas com script de processamento de texto mais simples. | Obrigatório|
+| RFS5| O sistema deve ser capaz de exibir o número de componentes disponíveis no estoque uma vez identificado. | Obrigatório|
+| RFS6| O sistema deve ser capaz de armazenar as coordenadas de todos os componentes que podem ser solicitados. | Obrigatório|
+| RFS7| O sistema deve ser capaz de mapear o ambiente no qual o robô irá navegar.                       | Obrigatório|
+| RFS8| O sistema deve ser capaz de guiar o robô até as coordenadas do item solicitado.                | Obrigatório|
+| RFS9| O sistema deve ser capaz de modificar a quantidade de itens disponíveis uma vez que este for retirado do estoque. | Desejável  |
+| RFS10| O sistema deve ser capaz de retornar o robô para seu ponto de origem.                         | Obrigatório|
+| RFS11| O sistema deve ser capaz de exibir uma animação de face antropomórfica na tela presente no robô. | Desejável|
+| RFS12| O sistema deve ser capaz de exibir a foto da peça solicitada tanto na tela presente no robô quanto no mecanismo de busca. | Desejável|
