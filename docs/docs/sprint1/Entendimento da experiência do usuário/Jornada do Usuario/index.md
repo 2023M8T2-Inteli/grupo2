@@ -1,6 +1,6 @@
 ---
 title: Jornada do Usuário
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 ## Análise do fluxo da solução e mapeamento de pontos de fragilidade

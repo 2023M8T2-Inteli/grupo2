@@ -1,3 +1,7 @@
+---
+title: Canvas Proposta de Valor
+sidebar_position: 1
+---
 # Canvas Proposta de Valor
 
 ![Canvas Proposta de Valor](../../../assets/canvas_proposta_valor.jpg)

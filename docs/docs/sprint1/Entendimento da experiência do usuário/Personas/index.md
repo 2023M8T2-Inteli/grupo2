@@ -1,3 +1,8 @@
+---
+title: Personas
+sidebar_position: 1
+---
+
 # Personas
 
 Personas são retratos fictícios de indivíduos reais, construídos a partir de dados e informações adquiridas através de entrevistas com os stakeholders e pesquisas relacionadas à área de interesse. O propósito das personas é auxiliar a equipe do projeto na aprofundada compreensão das metas, obstáculos e padrões de comportamento dos usuários finais do produto ou serviço. Isso, por sua vez, possibilita o desenvolvimento de soluções mais adequadas e personalizadas, direcionadas para atender às necessidades específicas dos usuários.

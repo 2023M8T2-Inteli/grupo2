@@ -1,3 +1,8 @@
+---
+title: User Stories
+sidebar_position: 2
+---
+
 # User Stories
 
 As User Stories apresentadas aqui refletem as necessidades e expectativas de um técnico de almoxarifado em relação a um sistema robótico de assistência no ambiente de armazenamento. Cada história descreve um aspecto essencial da funcionalidade desejada, destacando a importância da eficiência, precisão e segurança no gerenciamento do estoque. A busca por produtos ágil e eficiente, a disponibilidade de informações atualizadas, a navegação segura, a identificação de itens, a orientação de novos funcionários, a sugestão de rotas eficientes, a integração com sistemas de gerenciamento de estoque e a capacidade de relatar problemas são todos elementos cruciais para otimizar as operações de almoxarifado. Essas User Stories definem a base para o desenvolvimento de um sistema robótico que atenda às necessidades dos técnicos de almoxarifado, contribuindo para uma gestão de estoque mais eficaz e livre de erros.

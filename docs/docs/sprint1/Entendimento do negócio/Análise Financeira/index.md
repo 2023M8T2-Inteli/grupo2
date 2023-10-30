@@ -1,3 +1,7 @@
+---
+title: Análise Financeira
+sidebar_position: 5
+---
 # Análise Financeira
 
 Construir uma análise financeira para o projeto é de fundamental importância para que o cliente possa avaliar a viabilidade de sua implementação. Desse modo, os componentes do projeto foram segmentados em *hardware*, *software*, *equipe de desenvolvimeto* e *equipe de manutenção*, e foram precificados de acordo com referências do mercado atual. 

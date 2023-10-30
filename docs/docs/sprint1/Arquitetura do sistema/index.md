@@ -1,3 +1,7 @@
+---
+title: Arquitetura do sistema
+sidebar_position: 1
+---
 # ARQUITETURA DO SISTEMA 
 
 O sistema consiste em uma arquitetura baseada em ROS que integra um Nodo Central com módulos de processamento de voz e texto a um Robô Autônomo. O objetivo é permitir que o robô interprete e execute comandos relacionados à busca de peças em um ambiente, utilizando tanto entradas de teclado quanto comandos de voz.

@@ -1,3 +1,7 @@
+---
+title: Matriz Oceano Azul
+sidebar_position: 3
+---
 # Matriz Oceano Azul
 
 A matriz Oceano Azul é uma ferramenta de estratégia de negócios que visa criar novos espaços de mercado, livres da concorrência direta, ao invés de competir em mercados existentes. Ela se concentra em identificar e explorar oportunidades de mercado não atendidas, redefinindo as regras do jogo e criando novas demandas. Isso é feito por meio da análise de diferentes atributos que podem diferenciar um produto ou serviço no mercado.

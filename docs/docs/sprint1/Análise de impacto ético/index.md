@@ -1,3 +1,7 @@
+---
+title: Análise do Impacto Ético
+sidebar_position: 1
+---
 # Análise do Impacto Ético
 
 Ao passo que a automação, robótica e inteligência artificial ficam mais presentes em ambientes diversos, é importante levantar discussões quanto à privacidade e proteção dos dados que essas aplicações gerenciam. Este tópico explora a interseção entre tecnologia e diversos pontos de preocupação ética no cenário de um artefato robótico com capacidade de navegação autônoma, capaz de receber ordens de busca de itens em um almoxarifado. No contexto desse projeto, a preocupação central é a segurança dos dados utilizados pelo robô, que podem variar desde informações sensíveis sobre ativos valiosos até dados relacionados à saúde e configuração de produção em uma fábrica. Para mitigar esses riscos, a implementação de estratégias robustas de criptografia e tokenização são discutidas, no contexto de armazenamento em nuvem. Além disso, questões de equidade e justiça, destacando desafios potenciais para usuários com diferentes habilidades linguísticas, deficiências físicas ou idades avançadas também foi discutido. 
