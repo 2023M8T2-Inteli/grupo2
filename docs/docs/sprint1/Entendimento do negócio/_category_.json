@@ -1,0 +1,9 @@
+{
+    "label": "Entendimento do negócio",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "Esta seção introdutória tem como objetivo estabelecer a importância do entendimento de negócios em um projeto que envolve a criação de um AMR com mapeamento de almoxarifado, integração com ROS2, interação por reconhecimento de fala e tecnologia de Localização e Mapeamento Simultâneo (LLM). O entendimento de negócios não apenas garante a viabilidade financeira, mas também orienta a criação de uma solução que atenda às necessidades reais dos clientes e do mercado, criando valor sustentável a longo prazo. Neste contexto, vamos aprofundar cada uma dessas seções para uma compreensão completa e uma estratégia sólida para o projeto em questão. A documentação que se segue abordará vários aspectos cruciais que compõem essa compreensão, com foco na seguinte estrutura:"
+    }
+  }
+  
