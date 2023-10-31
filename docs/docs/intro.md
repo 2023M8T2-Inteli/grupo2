@@ -11,11 +11,10 @@ elicitação de requisitos funcionais e não funcionais.
 
 [Link da Apresentação](https://www.canva.com/design/DAFya4iIWqk/_jpFrEo42OIFbSBXrga2jQ/view?utm_content=DAFya4iIWqk&utm_campaign=designshare&utm_medium=link&utm_source=viewer)
 
-:::info
-Em construção. Slides da apresentação serão disponibilizados em breve.
-:::
-
-<!-- <iframe style={{ display: 'block', margin: 'auto', width: '100%', height: '50vh', }} src="https://www.canva.com/design/DAFya4iIWqk/_jpFrEo42OIFbSBXrga2jQ/view?utm_content=DAFya4iIWqk&utm_campaign=designshare&utm_medium=link&utm_source=editor" frameborder="0" allowFullScreen> </iframe> -->
+<iframe loading="lazy"
+    style={{ display: 'block', margin: 'auto', width: '100%', height: '50vh', }}
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFya4iIWqk&#x2F;view?embed" >
+</iframe>
 
 ### Sprint 2 
 
