@@ -13,11 +13,11 @@ O sistema é composto por uma estrutura frontend-backend, integrada a um sistema
 
 ### Componentes do Sistema
 
-1. **Frontend: NEXT.js**
+1. **Frontend: Telegram**
    - Input: Teclado
-   - Comunicação: HTTP para API
+   - Comunicação: HTTP para Bot do Telegram
 
-2. **API**
+2. **Bot do Telegram**
    - Serve como ponte entre o frontend e o Nodo Central.
 
 3. **Nodo Central**
