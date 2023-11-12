@@ -47,17 +47,19 @@ O comando abaixo inicia o gazebo que é a ferramenta para mapear e visualizar o 
 ```
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
-Permite controlar o robô com o teclado 
+Permite controlar o robô com o teclado .
 ```
 ros2 run turtlebot3_teleop teleop_keyboard
 ```
-Este comando abre o Rviz, um software essencial para visualizar as informações que o sensor do robô coleta 
+Este comando abre o Rviz, um software essencial para visualizar as informações que o sensor do robô coleta .
+
 ```
-ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True ```
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True 
+```
 
 
 
 ##### 2 Mapeando o ambiente 
 
-Nesta etapa o objetivo é mapear o local onde o robô ira andar e logo em seguida salvar o arquivo para usus futuros. 
+Nesta etapa o objetivo é mapear o local onde o robô será utilizado e logo em seguida salvar o arquivo para usos futuros. 
 
