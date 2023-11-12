@@ -11,9 +11,10 @@ Assim, para mapear o ambiente, é utilizano o software gazebo, de tal modo que �
 
 ![Mapa feito com o RVIS](../../assets/mapa.png)
 
-Após o mapa do ambiente estar salvo é possível definir diferentes pontos no mapa e o robô pode navegar até esses pontos como no exemplo abaixo. 
+Após o mapa do ambiente estar salvo é possível definir diferentes pontos no mapa e o robô pode navegar até esses pontos como no vídeo abaixo. 
 
-[Mapeamento e navegação](https://youtu.be/raEjiScBLww)
+[<img src="https://i9.ytimg.com/vi/raEjiScBLww/mqdefault.jpg?sqp=CNyOxaoG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEogPSh_MA8=&rs=AOn4CLAQ4WImcVAcIBD-cmvShu5ZyxrQTw" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U "Robô em funcionamento")
+
 
 
 #### Métodos 
