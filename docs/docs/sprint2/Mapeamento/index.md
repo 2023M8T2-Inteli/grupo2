@@ -63,3 +63,5 @@ ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 
 Nesta etapa o objetivo é mapear o local onde o robô será utilizado e logo em seguida salvar o arquivo para usos futuros. 
 
+
+

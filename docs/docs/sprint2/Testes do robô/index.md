@@ -39,6 +39,18 @@ Enquanto a movimentação controlada por teclado é eficaz para testes iniciais,
 
 Além dos testes de comunicação, mapeamento e movimentação, a equipe também conduziu testes focados na interação do usuário com o sistema através de dois frontends distintos: um terminal de comando e um chatbot do Telegram. Estes testes são essenciais para assegurar que os frontends atendam às necessidades dos usuários, mantendo a funcionalidade e a usabilidade em consonância com os objetivos do projeto.
 
+### 4. Teste de Script de Navegação
+#### Descrição:
+Este teste submeteu o robô a um procedimento de navegação com um Script "nav_waypoints" que define pontos iniciais no mapa gerado pelo Cartographer e o manda seguir para pontos definidos no mapa previamente salvo e carregado com o pacote Navigation2.
+
+#### Requisitos Atendidos:
+- **Controle de Movimentação:** O script desenvolvido permitiu que o robô respondesse de maneira eficaz a comandos diretos, validando a capacidade de movimentação essencial para a funcionalidade de autoatendimento.
+- **Interatividade:** A utilização da package Navigation2 para guiar o robô estabeleceu uma base sólida para futuras implementações de controle mais intuitivas e interativas.
+
+#### Discussão e Melhorias:
+Embora a movimentação controlada por teclado tenha se mostrado eficaz para testes iniciais, é importante ressaltar que essa abordagem não representa a interação final esperada para um robô autônomo. O próximo passo deve incluir o desenvolvimento e integração de sistemas de navegação autônoma como o teste realizado com o Script de navegação propõe. Essa evolução possibilitará ao robô executar movimentos mais complexos e navegar de forma independente dentro do ambiente do almoxarifado.
+
+
 ## Testes Adicionais Realizados
 
 ### 4. Teste de Chatbot com Terminal de Comando
