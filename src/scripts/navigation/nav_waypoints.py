@@ -22,7 +22,7 @@ def create_pose_stamped(navigator, pos_x, pos_y, rot_z):
 
 rclpy.init()
 nav = BasicNavigator()
-goal_pose1 = create_pose_stamped(nav, 4.0, 1.67, -0.00143)
+goal_pose1 = create_pose_stamped(nav, 1.45, 0.516, 0.00247)
 goal_pose2 = create_pose_stamped(nav, 0.0, 0.0, 0.0)
 #goal_pose3 = create_pose_stamped(nav, 0.0, 0.0, 0.00)
 
