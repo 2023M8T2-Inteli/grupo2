@@ -1,4 +1,4 @@
-## Mapeamento do ambiente 
+# Mapeamento do ambiente 
 
 #### Introdução
 Saber onde se está é uma necessidade essencial do ser humano e primordial para um robô que visa buscar peças. Assim, para o TurtleBot 3 é utilizado o sistema de mapeamento Nav2 (Navigator 2) que recebe as informações da camera infravermelho . 
