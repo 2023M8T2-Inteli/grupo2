@@ -13,7 +13,7 @@ Assim, para mapear o ambiente, é utilizano o software gazebo, de tal modo que �
 
 Após o mapa do ambiente estar salvo é possível definir diferentes pontos no mapa e o robô pode navegar até esses pontos como no vídeo abaixo. 
 
-[__LINK DO VÍDEO__](https://www.youtube.com/watch?v=Hc79sDi3f0U)
+[__VÍDEO__](https://youtu.be/raEjiScBLww)
 
 
 #### Métodos 
