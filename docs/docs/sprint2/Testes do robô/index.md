@@ -53,7 +53,7 @@ Embora a movimentação controlada por teclado tenha se mostrado eficaz para tes
 
 ## Testes Adicionais Realizados
 
-### 4. Teste de Chatbot com Terminal de Comando
+### 5. Teste de Chatbot com Terminal de Comando
 #### Descrição:
 Este teste envolveu o uso de um script de linha de comando para simular a interação do usuário com o sistema de autoatendimento, como um meio de demonstrar a funcionalidade do chatbot sem a necessidade de uma interface gráfica.
 
@@ -64,7 +64,7 @@ Este teste envolveu o uso de um script de linha de comando para simular a intera
 #### Discussão e Melhorias:
 Embora o terminal de comando ofereça um meio eficaz para demonstrações e testes rápidos, ele não reflete a interface final que será utilizada pelos operadores do almoxarifado. Sugerimos o desenvolvimento de uma interface mais amigável, que possa simular a experiência completa do usuário final, incluindo GUIs ou integração com sistemas existentes para testes mais representativos.
 
-### 5. Teste de Chatbot com Telegram
+### 6. Teste de Chatbot com Telegram
 #### Descrição:
 O chatbot do Telegram foi testado para validar sua funcionalidade em um ambiente realista de mensagens. Foi utilizado para processar solicitações de usuários, verificar estoques e fornecer atualizações de status de pedidos.
 
