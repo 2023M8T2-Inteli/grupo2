@@ -20,10 +20,6 @@ def create_pose_stamped(navigator, pos_x, pos_y, rot_z):
     pose.pose.orientation.w = q_w
     return pose
 
-def distance_between_points(point1, point2):
-    return sqrt((point1.pose.position.x - point2.pose.position.x)**2 +
-                (point1.pose.position.y - point2.pose.position.y)**2)
-
 rclpy.init()
 nav = BasicNavigator()
 goal_pose1 = create_pose_stamped(nav, 4.0, 1.67, -0.00143)
