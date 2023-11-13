@@ -1,0 +1,3 @@
+[console_scripts]
+teste_pacote = llm.teste_pacote:main
+

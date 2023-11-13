@@ -1,0 +1,3 @@
+[console_scripts]
+teste_pacote = central.teste_pacote:main
+
