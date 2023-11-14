@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "teste_pacote= central.teste_pacote:main",
+            "chatbot= central.chatbot:main",
+            "input_node= central.input_node:main",
         ],
     },
 )
