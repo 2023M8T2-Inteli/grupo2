@@ -1,3 +1,8 @@
+---
+title: Setup do robô
+sidebar_position: 1
+---
+
 # Setup do robô
 
 #### Introdução

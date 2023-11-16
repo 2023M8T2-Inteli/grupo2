@@ -1,3 +1,8 @@
+---
+title: Mapeamento do ambiente
+sidebar_position: 3
+---
+
 # Mapeamento do ambiente 
 
 #### Introdução
@@ -13,8 +18,7 @@ Assim, para mapear o ambiente, é utilizano o software gazebo, de tal modo que �
 
 Após o mapa do ambiente estar salvo é possível definir diferentes pontos no mapa e o robô pode navegar até esses pontos como no vídeo abaixo. 
 
-[__VÍDEO__](https://youtu.be/raEjiScBLww)
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/raEjiScBLww?si=LWchqNsOgfs0wcSm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Métodos 
 Caso deseje realizar o mesmo processo é necessário realizar alguns passos que serão elencados a seguir.

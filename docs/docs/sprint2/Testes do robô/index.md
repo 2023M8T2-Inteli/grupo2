@@ -1,3 +1,8 @@
+---
+title: Testes e Avaliação dos Requisitos
+sidebar_position: 2
+---
+
 # Testes e Avaliação dos Requisitos do Sprint
 
 Durante o sprint corrente, a equipe se dedicou a testar componentes essenciais do sistema de autoatendimento robótico para o Almoxarifado da AMBEV. Os testes realizados foram desenhados para avaliar a comunicação, mapeamento de ambiente e movimentação simples do robô, além de diferentes formatos de frontend. A seguir, apresentaremos uma análise detalhada desses testes, considerando os requisitos do projeto e discutindo a adequação dos sistemas desenvolvidos.

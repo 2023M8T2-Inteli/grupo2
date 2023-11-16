@@ -1,3 +1,8 @@
+---
+title: Frontend
+sidebar_position: 4
+---
+
 # Frontend
 
 Durante a fase atual de desenvolvimento do projeto de Robô de Autoatendimento do Almoxarifado da AMBEV, nossa equipe focou em criar uma experiência de usuário eficiente e adaptável. Compreendendo a diversidade de cenários de uso e a importância de uma interação intuitiva, desenvolvemos dois frontends distintos: um para fins de demonstração e outro como uma solução completa de interação com o usuário.
