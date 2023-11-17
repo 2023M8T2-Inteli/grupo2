@@ -1,0 +1,37 @@
+[1.557s] Invoking command in '/home/antonio/Documents/grupo2/src/workspace/src/central': PYTHONPATH=/home/antonio/Documents/grupo2/src/workspace/src/central/build/central/prefix_override:/home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/central build --build-base /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build install --record /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/install.log --single-version-externally-managed
+[1.983s] running egg_info
+[1.983s] creating build/central/central.egg-info
+[1.984s] writing build/central/central.egg-info/PKG-INFO
+[1.984s] writing dependency_links to build/central/central.egg-info/dependency_links.txt
+[1.984s] writing entry points to build/central/central.egg-info/entry_points.txt
+[1.985s] writing requirements to build/central/central.egg-info/requires.txt
+[1.985s] writing top-level names to build/central/central.egg-info/top_level.txt
+[1.985s] writing manifest file 'build/central/central.egg-info/SOURCES.txt'
+[1.988s] reading manifest file 'build/central/central.egg-info/SOURCES.txt'
+[1.989s] writing manifest file 'build/central/central.egg-info/SOURCES.txt'
+[1.990s] running build
+[1.990s] running build_py
+[1.991s] creating /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build
+[1.991s] creating /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build/lib
+[1.991s] creating /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build/lib/central
+[1.991s] copying central/__init__.py -> /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build/lib/central
+[1.991s] copying central/teste_pacote.py -> /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build/lib/central
+[1.991s] running install
+[1.992s] running install_lib
+[1.993s] creating /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/python3.10/site-packages/central
+[1.993s] copying /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build/lib/central/__init__.py -> /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/python3.10/site-packages/central
+[1.993s] copying /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build/lib/central/teste_pacote.py -> /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/python3.10/site-packages/central
+[1.994s] byte-compiling /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/python3.10/site-packages/central/__init__.py to __init__.cpython-310.pyc
+[1.994s] byte-compiling /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/python3.10/site-packages/central/teste_pacote.py to teste_pacote.cpython-310.pyc
+[1.995s] running install_data
+[1.996s] creating /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/share/ament_index
+[1.996s] creating /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/share/ament_index/resource_index
+[1.996s] creating /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/share/ament_index/resource_index/packages
+[1.996s] copying resource/central -> /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/share/ament_index/resource_index/packages
+[1.996s] copying package.xml -> /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/share/central
+[1.996s] running install_egg_info
+[1.999s] Copying build/central/central.egg-info to /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/python3.10/site-packages/central-0.0.0-py3.10.egg-info
+[2.001s] running install_scripts
+[2.035s] Installing teste_pacote script to /home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/central
+[2.035s] writing list of installed files to '/home/antonio/Documents/grupo2/src/workspace/src/central/build/central/install.log'
+[2.079s] Invoked command in '/home/antonio/Documents/grupo2/src/workspace/src/central' returned '0': PYTHONPATH=/home/antonio/Documents/grupo2/src/workspace/src/central/build/central/prefix_override:/home/antonio/Documents/grupo2/src/workspace/src/central/install/central/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/central build --build-base /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/build install --record /home/antonio/Documents/grupo2/src/workspace/src/central/build/central/install.log --single-version-externally-managed
