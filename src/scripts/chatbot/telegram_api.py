@@ -5,25 +5,22 @@ CHAVE_API = '6789925207:AAGWEl8dbtY3-C-EO3-g9gJQURvYQozIuaI'
 bot = telebot.TeleBot(CHAVE_API)
 
 
-@bot.message_handler(commands=["Parafuso"])
-def parafuso(mensagem):
-    bot.send_message(mensagem.chat.id, "Pedido de parafuso realizado com sucesso!")
-
 @bot.message_handler(commands=["opcao1"])
 def opcao1(mensagem):
     texto = """
     Digite o nome do item que você deseja pedir:    
 """
-    if mensagem.text.lower() == 'parafuso':
-        parafuso(mensagem)
+    
     bot.send_message(mensagem.chat.id, texto)
+    bot.register_next_step_handler(mensagem, processar_resposta)
 
 
-def handle_messages(mensagem):
-    if mensagem.text.lower() == 'parafuso':
-        parafuso(mensagem)
-    else:
-        bot.reply_to(mensagem, "Mensagem recebida!")
+def processar_resposta(mensagem):
+    resposta_usuario = mensagem.text
+
+    bot.send_message(mensagem.chat.id, "Pedido de " + resposta_usuario + " realizado com sucesso!")
+
+
 
 @bot.message_handler(commands=["opcao2"])
 def opcao2(mensagem):
@@ -31,6 +28,13 @@ def opcao2(mensagem):
     Digite o nome do item que você deseja verificar se há em estoque:    
 """
     bot.send_message(mensagem.chat.id, texto)
+    bot.register_next_step_handler(mensagem, processar_resposta_estoque)
+
+def processar_resposta_estoque(mensagem):
+    resposta_usuario = mensagem.text
+
+    bot.send_message(mensagem.chat.id, "Há 10 " + resposta_usuario + "(s) no estoque!")
+
 
 @bot.message_handler(commands=["opcao3"])
 def opcao3(mensagem):
@@ -38,13 +42,19 @@ def opcao3(mensagem):
     Digite o nome do item que você deseja verificar o status do pedido:    
 """
     bot.send_message(mensagem.chat.id, texto)
+    bot.register_next_step_handler(mensagem, processar_resposta_status)
 
+
+def processar_resposta_status(mensagem):
+    resposta_usuario = mensagem.text
+
+    bot.send_message(mensagem.chat.id, "Seu pedido de " + resposta_usuario + " já foi processado e será entregue nesta tarde!")
 
 @bot.message_handler(commands=["opcao4"])
 def opcao4(mensagem):
     texto = """
     Aqui está a lista de itens disponíveis:
-    - /Parafuso
+    - Parafuso
     - Prego
     - Chave de fenda
     - Martelo
@@ -55,7 +65,7 @@ def opcao4(mensagem):
 
 """
     bot.send_message(mensagem.chat.id, texto)
-
+    
 def verify(msg):
     return True
 
