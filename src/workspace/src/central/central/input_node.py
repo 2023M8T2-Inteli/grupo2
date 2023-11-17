@@ -5,7 +5,7 @@ from std_msgs.msg import String
 class InputNode(Node):
     def __init__(self):
         super().__init__('input_node')
-        self.publisher_ = self.create_publisher(String, 'chat_commands', 10)
+        self.publisher_ = self.create_publisher(String, 'llm_command', 10)
         self.get_logger().info('InputNode is ready to receive commands...')
 
     def run(self):

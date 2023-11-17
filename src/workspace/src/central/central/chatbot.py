@@ -41,7 +41,6 @@ class ChatbotNode(Node):
         self.publisher_.publish(response_msg)
 
 
-
 def main(args=None):
     rclpy.init(args=args)
 
