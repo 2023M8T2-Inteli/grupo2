@@ -25,9 +25,9 @@ nav = BasicNavigator()
 initial_pose = create_pose_stamped(nav, 0.0, 0.0, 0.0)
 goal_pose1 = create_pose_stamped(nav, 1.45, 0.516, 0.00247)
 goal_pose2 = create_pose_stamped(nav, 0.0, 0.0, 0.0)
-#goal_pose3 = create_pose_stamped(nav, 0.0, 0.0, 0.00)
 
-waypoints = [goal_pose1, goal_pose2] #goal_pose3]
+
+waypoints = [goal_pose1, goal_pose2]
 
 nav.waitUntilNav2Active()
     # Envie a pose inicial
