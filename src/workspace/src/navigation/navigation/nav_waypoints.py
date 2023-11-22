@@ -15,7 +15,7 @@ class WaypointListener(Node):
         super().__init__('waypoint_listener')
         self.nav = BasicNavigator()
         self.waypoints = []
-        self.initial_pose = None
+        self.initial_pose = self.create_pose_stamped(nav, 0.0, 0.0, 0.0)
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
@@ -52,7 +52,7 @@ class WaypointListener(Node):
         command = msg.data
         if command == 'adicionar_waypoint':
             # Adiciona um novo waypoint à lista
-            new_waypoint = create_pose_stamped(self.nav, 2.0, 3.0, 1.57)  # Exemplo de novo waypoint
+            new_waypoint = self.create_pose_stamped(self.nav, 2.0, 3.0, 1.57)  # Exemplo de novo waypoint
             self.waypoints.append(new_waypoint)
             self.nav.followWaypoints(self.waypoints)
 

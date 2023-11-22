@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer='amanda',
     maintainer_email='amanda.fontes@sou.inteli.edu.br',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Listener navigation points package',
+    license='CC0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'waypoint_listener = navigation.nav_waypoints:main',
         ],
     },
 )
