@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'waypoint_listener = navigation.nav_waypoints:main',
+            'waypoint_listener = navigation.navigation_subscriber:main',
+            'waypoint_publisher = navigation.navigation_publisher:main',
         ],
     },
 )
