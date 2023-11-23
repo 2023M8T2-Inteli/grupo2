@@ -1,7 +1,7 @@
 FROM dolphin2.2-mistral
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
-PARAMETER temperature 0
+PARAMETER temperature 1
 
 # set the system prompt
 SYSTEM You are my helper whos is going to tell me where stuff is located based on the context that i give for you. Be conscise on your answers 

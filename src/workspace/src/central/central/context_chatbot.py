@@ -1,25 +1,23 @@
 from langchain.llms import Ollama
 from langchain.prompts import ChatPromptTemplate
-from langchain.schema.runnable import RunnableLambda, RunnablePassthrough
-from langchain.document_loaders import TextLoader
+from langchain.schema.runnable import RunnablePassthrough
+from langchain.document_loaders import PyPDFLoader
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
-from langchain.document_loaders import PyPDFLoader
 
+# Load the PDF document and split it to use as context
+pdf_loader = PyPDFLoader("inventario_simulado_amoxarifado.pdf")  # Replace "your_document.pdf" with your PDF file path
+documents = pdf_loader.load()
 
-# Carrega o documento e o divide para usar como contexto
-loader = TextLoader("data.txt")
-documents = loader.load()
-
-# Divide em chunks
+# Split into chunks
 text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
 docs = text_splitter.split_documents(documents)
 
-# create the open-source embedding function
+# Create the open-source embedding function
 embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
-# load it into Chroma
+# Load it into Chroma
 vectorstore = Chroma.from_documents(docs, embedding_function)
 
 retriever = vectorstore.as_retriever()
@@ -39,7 +37,7 @@ chain = (
     | model
 )
 
-user_input = input("O que você deseja ?")
+user_input = input("Por favor, faça uma pergunta em inglês e escreva o nome do item que deseja buscar em português: ")
 
 for s in chain.stream(user_input):
     print(s, end="", flush=True)
