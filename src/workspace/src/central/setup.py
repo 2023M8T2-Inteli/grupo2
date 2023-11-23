@@ -26,6 +26,7 @@ setup(
             "chatbot= central.chatbot:main",
             "input_node= central.input_node:main",
             "llm= central.llm:main",
+            "telegram= central.telegram_api:main",
         ],
     },
 )
