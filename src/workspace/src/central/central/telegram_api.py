@@ -57,7 +57,7 @@ def main(args=None):
 
     try:
         telegram_node = TelegramNode(chave_api=CHAVE_API)
-        telegram_node.spin()
+        rclpy.spin(telegram_node)
     except KeyboardInterrupt:
         pass
     finally:

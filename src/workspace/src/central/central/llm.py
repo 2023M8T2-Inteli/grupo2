@@ -32,10 +32,8 @@ class LlmNode(Node):
 
                     Responding to Queries:
 
-                    For queries asking about a specific tool, like its location, always return the information in the following format: x: [number], y: [number]. After this, always end the conversation.
                     Keep the response concise and focused solely on answering the user query. Do not add any additional information or dialogue.
-                    Always end the conversation after responding to a query.
-                    
+                    For queries asking about a specific tool, like its location, always return the information in the following format: [(x: [coordinate x]), (y: [coordinate y])]. After this, always end the conversation.
 
                     Context from File:
                     {context}
@@ -98,7 +96,7 @@ def main(args=None):
     package_share_directory = get_package_share_directory(package_name)
 
     # Construa o caminho para o seu arquivo de dados dentro do diretório de recursos
-    data_file_path = os.path.join(package_share_directory, 'resource', 'inventario_simulado_almoxarifado.pdf')
+    data_file_path = os.path.join(package_share_directory, 'resource', 'data.txt')
 
     rclpy.init(args=args)
     llm_node = LlmNode(
