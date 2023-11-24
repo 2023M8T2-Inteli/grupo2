@@ -2,6 +2,7 @@ import telebot
 from rclpy.node import Node
 from std_msgs.msg import String
 import rclpy
+import threading
 
 class TelegramNode(Node):
     def __init__(self, chave_api):
@@ -15,7 +16,6 @@ class TelegramNode(Node):
         self.chat_id = None
         self.init_telegram_bot()
 
-    
     def verify(self, msg):
         return True
 
@@ -30,11 +30,13 @@ class TelegramNode(Node):
 - Fazer a requisicao de uma peça
 - Perguntar sobre alguma peça
 
-        """
+            """
             self.bot.register_next_step_handler(msg, self.processar_resposta)
             self.bot.reply_to(msg, texto)
 
-        self.bot.polling()
+        # Executa o polling do bot em uma thread separada
+        thread = threading.Thread(target=self.bot.polling)
+        thread.start()
 
     def processar_resposta(self, mensagem):
         resposta_usuario = mensagem.text.lower()
@@ -42,13 +44,11 @@ class TelegramNode(Node):
         self.publisher_.publish(String(data=resposta_usuario))
         self.get_logger().info(f'LLM recebeu: "{resposta_usuario}"')
 
-
     def listener_callback(self, msg):
         self.get_logger().info(f'Listener callback ativado')
         response = msg.data
         self.get_logger().info(f'LLM enviou: "{response}"')
         self.bot.send_message(self.chat_id, response)
-       
 
 def main(args=None):
     CHAVE_API = '6789925207:AAGWEl8dbtY3-C-EO3-g9gJQURvYQozIuaI'
@@ -62,7 +62,6 @@ def main(args=None):
         pass
     finally:
         rclpy.shutdown()
-
 
 if __name__ == "__main__":
     main()

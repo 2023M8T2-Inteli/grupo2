@@ -26,13 +26,11 @@ class LlmNode(Node):
         retriever = vectorstore.as_retriever()
 
         template = """
-                    Welcome, Language Model. You will receive context from a text file containing details about various tools. Your task is to respond to user queries using this context when relevant. Here's how to proceed:
+                    You will receive context from a text file containing details about various tools. Your task is to respond to user queries using this context when relevant. Here's how to proceed:
 
-                    Context Use: Utilize the provided context only for queries directly related to the tools listed in the text file. The context includes tool names and coordinates.
+                    Context Use: Utilize the provided context only for queries directly related to the tools listed in the text file. The context includes tool names and coordinates in portuguese.
 
-                    Responding to Queries:
-
-                    Keep the response concise and focused solely on answering the user query. Do not add any additional information or dialogue.
+                    Responding to Queries: Keep the response concise and focused solely on answering the user query. Do not add any additional information or dialogue.
                     For queries asking about a specific tool, like its location, always return the information in the following format: [(x: [coordinate x]), (y: [coordinate y])]. After this, always end the conversation.
 
                     Context from File:
@@ -59,9 +57,16 @@ class LlmNode(Node):
     def run_ollama(self, text):
         try:
             ollama_response = ""
+            pattern = re.compile(r"\(x: (\d+)\), \(y: (\d+)\)")  
+            pattern2 = re.compile(r"\[\(x: \d+\), \(y: \d+\)\]")
+            end_marker = "<|im_end|>"
+
             for s in self.chain.stream(text):
                 ollama_response += s
                 self.get_logger().info(s)
+
+                if pattern.search(ollama_response) or pattern2.search(ollama_response) or end_marker in ollama_response:
+                    break
                  # Regex to match 'y: [number]' pattern
                 # match = re.search(r"y:\d{3}", ollama_response)
                 # if match:
