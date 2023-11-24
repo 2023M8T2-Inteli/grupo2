@@ -1,154 +1,75 @@
-8744209 Engrenagem Engrenagem de transmissão, dentes helicoidais, aço endurecido, diâmetro 50mm 10 25.00 x:220, y:180
----
-5356890 Bomba Bomba de líquido, centrífuga, caixa de aço inoxidável, vazão 200L/min 5 50.00 x:150, y:250
----
-2916047 Válvula Válvula de pressão, bronze, diâmetro nominal 25mm, pressão máxima 10 bar 8 30.00 x:300, y:50
----
-6532718 Motor Motor elétrico, trifásico, potência 2 HP, velocidade 1750 RPM 3 120.00 x:100, y:100
----
-4087695 Correia Correia transportadora, borracha resistente ao óleo, largura 100mm 15 10.00 x:180, y:300
----
-7819302 Sensor de Temperatura Sensor de temperatura, termopar tipo K, faixa de medição -50 a 500°C 6 40.00 x:250, y:200
----
-1802503 Rolamento Rolamento de esferas, vedação de borracha, diâmetro interno 20mm 12 8.00 x:50, y:350
----
-9474816 Tubo para Fluidos Tubo de aço inoxidável, diâmetro externo 25mm, espessura 1.5mm 20 15.00 x:300, y:300
----
-6053574 Filtro para Líquidos Filtro de líquido, malha de aço inoxidável, micragem 50 μm 7 35.00 x:200, y:150
----
-3491832 Bico para Gases Bico de pulverização, aço inoxidável, padrão cone cheio, vazão 5 L/min 4 18.00 x:50, y:200
----
-8239104 Cilindro Hidráulico Cilindro hidráulico, dupla ação, diâmetro 40mm, curso 200mm 2 80.00 x:350, y:100
----
-5134270 Tela Painel touchscreen, LCD colorido, resolução 1280x800, tamanho 10 polegadas 1 150.00 x:100, y:50
----
-2674718 Controlador PLC Controlador PLC, CPU dual-core, memória RAM 4GB, interfaces Ethernet e USB 3 200.00 x:200, y:250
----
-7931480 Interruptor de Segurança Interruptor de segurança, contato normal fechado, grau de proteção IP65 5 15.00 x:250, y:150
----
-49053837 Caixa de Engrenagens Montagem da caixa de engrenagens, relação de transmissão 1:1, caixa de alumínio 2 100.00 x:150, y:100
----
-1583942 Ventilador Axial Ventilador de resfriamento, axial, diâmetro 120mm, velocidade 2000 RPM 4 30.00 x:350, y:300
----
-8063251 Bomba Diafragma Montagem da bomba, diafragma, vazão 50 L/min, pressão máxima 15 psi 6 60.00 x:200, y:350
----
-3741469 Válvula de Controle de Fluxo Válvula de controle de fluxo, aço inoxidável, diâmetro nominal 15mm 10 45.00 x:300, y:200
----
-9423356 Motor Servo Motor servo, brushless, potência 500W, torque 2 Nm 2 180.00 x:50, y:350
----
-6903817 Correia Sincronizada Correia sincronizada, passo 8mm, largura 20mm 8 12.00 x:150, y:300
----
-2345914 Sensor de Pressão Sensor de pressão, piezoelétrico, faixa 0-100 bar 5 55.00 x:300, y:50
----
-7894302 Rolamento de Rolos Rolamento de rolos, vedação de borracha, diâmetro externo 50mm 10 20.00 x:100, y:200
----
-5362494 Válvula de Controle de Vazão Válvula de controle de vazão, aço inoxidável, diafragma, vazão 30 L/min 7 55.00 x:350, y:150
----
-2796354 Motor de Passo Motor de passo, bipolar, passo 1.8°, torque 0.5 Nm 1 75.00 x:180, y:250
----
-8109352 Sensor de Luz Sensor de luz, fotossensível, faixa de medição 0-1000 lux 5 20.00 x:250, y:350
----
-5743301 Rolamento Radial Rolamento radial, esferas de cerâmica, vedação de borracha 10 12.00 x:50, y:100
----
-3293178 Tubo para Gases Tubo de PVC, diâmetro externo 50mm, espessura 2mm 15 8.00 x:300, y:200
----
-9833174 Filtro de Ar Comprimido Filtro de ar comprimido, elemento de papel, conexão 1/2" 3 25.00 x:200, y:100
----
-6412409 Bico de Ar Bico de ar, latão, ângulo de 45°, vazão 10 L/min 2 30.00 x:350, y:300
----
-3957301 Cilindro Pneumático Cilindro pneumático, simples ação, diâmetro 63mm, curso 100mm 4 50.00 x:100, y:50
----
-1592678 Tela LED Monitor de tela plana, LED, resolução 1920x1080, tamanho 23 polegadas 1 250.00 x:250, y:250
----
-7138546 Controlador de Temperatura Controlador de temperatura, faixa 0-100°C, saída de relé 2 90.00 x:180, y:150
----
-4679018 Interruptor de Proximidade Interruptor de proximidade, sensor indutivo, alcance 10mm 3 22.00 x:50, y:350
----
-8206365 Caixa de Engrenagens Helicoidais Caixa de engrenagens helicoidais, relação 2:1, carcaça de alumínio 2 120.00 x:300, y:300
----
-5844102 Ventilador Axial Ventilador axial, 220V, diâmetro 80mm, velocidade 3000 RPM 1 40.00 x:150, y:200
----
-3486627 Bomba Peristáltica Bomba peristáltica, vazão ajustável, mangueira de silicone 4 70.00 x:200, y:100
----
-9017475 Válvula Solenoide Válvula solenoide, latão, normalmente fechada, 12V DC 6 32.00 x:350, y:150
----
-6558718 Motor de Indução Monofásico Motor de indução monofásico, 1/2 HP, 220V, 60Hz 1 110.00 x:250, y:250
----
-4199385 Correia em V Correia em V, borracha, largura 15mm 10 14.00 x:100, y:50
----
-5360209 Válvula de Controle de Vazão Válvula de controle de vazão, aço inoxidável, diafragma, vazão 30 L/min 7 55.00 x:180, y:250
----
-8742810 Chave de Fenda Phillips Chave de fenda com ponta Phillips, cabo plástico, comprimento 20cm 10 5.00 x:220, y:180
----
-5368691 Parafuso Phillips 5x20 Parafuso Phillips de aço, rosca M5, comprimento 20mm, pacote com 50 unidades 5 1.50 x:150, y:250
----
-2910548 Prego 10x2 Prego de aço, tamanho 10x2, pacote com 100 unidades 8 0.10 x:300, y:50
----
-6532419 Chave de Fenda de Precisão Chave de fenda de precisão, cabo antideslizante, conjunto com 6 peças 3 8.00 x:100, y:100
----
-4087366 Porca M8 Porca sextavada de aço, rosca M8, pacote com 20 unidades 15 0.20 x:180, y:300
----
-7193203 Broca para Metal 6mm Broca de aço rápido para metal, diâmetro 6mm, haste cilíndrica 6 3.00 x:250, y:200
----
-1825204 Arruela de Pressão Arruela de pressão de aço, diâmetro 20mm, pacote com 30 unidades 12 0.15 x:50, y:350
----
-9478417 Parafuso Allen M6x25 Parafuso Allen de aço, rosca M6, comprimento 25mm, pacote com 50 unidades 20 2.00 x:300, y:300
----
-6053575 Bucha de Nylon 8mm Bucha de nylon para fixação, diâmetro 8mm, pacote com 50 unidades 7 0.25 x:200, y:150
----
-3491862 Chave Inglesa 10" Chave inglesa ajustável, comprimento 10 polegadas 4 12.00 x:50, y:200
----
-8291074 Parafuso Autoatarraxante Parafuso autoatarraxante de aço, ponta broca, rosca M4, pacote com 100 unidades 2 1.50 x:350, y:100
----
-5132740 Trena 5m Trena métrica de 5 metros, corpo plástico resistente 1 15.00 x:100, y:50
----
-2674183 Furadeira de Impacto 600W Furadeira elétrica de impacto, potência 600W, velocidade variável 3 90.00 x:200, y:250
----
-7314803 Serra Circular 1200W Serra circular elétrica, potência 1200W, lâmina 7 1/4 polegadas 5 150.00 x:250, y:150
----
-4958374 Bucha de Expansão 12mm Bucha de expansão para concreto, diâmetro 12mm, pacote com 25 unidades 2 1.00 x:300, y:200
----
-1589423 Estilete Retrátil Estilete retrátil, lâmina retrátil automática, cabo emborrachado 4 4.00 x:150, y:100
----
-8062513 Parafuso de Fixação M10x50 Parafuso de fixação de aço, rosca M10, comprimento 50mm, pacote com 30 unidades 6 3.50 x:350, y:300
----
-3741649 Martelo de Unha 500g Martelo de unha de aço, cabo de madeira, peso 500g 10 15.00 x:200, y:350
----
-942356 Chave de Boca Ajustável Chave de boca ajustável, tamanho 8", abertura máxima 25mm 3 7.00 x:300, y:200
----
-6490817 Lixa para Madeira 80 grit Lixa para madeira, granulação 80 grit, pacote com 10 unidades 2 5.00 x:50, y:350
----
-2535914 Nível a Laser Nível a laser, alcance 10m, precisão ±2mm a 10m 5 40.00 x:300, y:50
----
-7869302 Alicate de Corte Diagonal Alicate de corte diagonal, aço cromo-vanádio, cabo emborrachado 10 8.00 x:100, y:200
----
-5367294 Parafuso Sextavado 1/4x1 Parafuso sextavado de aço, rosca 1/4, comprimento 1 polegada, pacote com 100 unidades 7 1.00 x:350, y:150
----
-2796454 Esquadro de Carpinteiro Esquadro de carpinteiro, aço inoxidável, lado 30cm 2 10.00 x:180, y:250
----
-8109522 Serra Tico-Tico 600W Serra tico-tico elétrica, potência 600W, velocidade variável 5 80.00 x:250, y:350
----
-5743014 Parafuso de Fixação M6x30 Parafuso de fixação de aço, rosca M6, comprimento 30mm, pacote com 50 unidades 10 2.50 x:50, y:100
----
-3429178 Chave de Fenda Isolada Chave de fenda isolada, cabo com isolamento elétrico, comprimento 25cm 15 6.00 x:300, y:200
----
-9863174 Prego 8x1 Prego de aço, tamanho 8x1, pacote com 200 unidades 3 0.08 x:200, y:100
----
-6414209 Serra Copo 3" Serra copo de aço rápido, diâmetro 3 polegadas, haste 3/8" 2 7.00 x:350, y:300
----
-3957015 Chave de Fenda Torx T25 Chave de fenda com ponta Torx T25, cabo plástico, comprimento 15cm 4 4.00 x:100, y:50
----
-1592778 Fita Métrica 3m Fita métrica de 3 metros, corpo em plástico resistente 1 6.00 x:250, y:250
----
-7135486 Nível de Bolha 12" Nível de bolha magnético, comprimento 12 polegadas 2 10.00 x:180, y:150
----
-4637018 Marreta de Borracha 1kg Marreta de borracha, cabeça 1kg, cabo de fibra de vidro 3 20.00 x:50, y:350
----
-8240365 Parafuso de Fixação M12x70 Parafuso de fixação de aço, rosca M12, comprimento 70mm, pacote com 20 unidades 2 4.00 x:300, y:300
----
-5854102 Chave Phillips 2" Chave Phillips com cabo emborrachado, comprimento 2 polegadas 1 3.00 x:150, y:200
----
-3468627 Parafuso Sextavado 3/8x2 Parafuso sextavado de aço, rosca 3/8, comprimento 2 polegadas, pacote com 30 unidades 4 2.50 x:200, y:100
----
-9071475 Chave Inglesa 8" Chave inglesa ajustável, comprimento 8 polegadas 6 9.00 x:350, y:150
----
+Engrenagem: [(x:220), (y:180)],
+Bomba de líquido: [(x:150), (y:250)],
+Válvula de pressão: [(x:300), (y:50)],
+Motor elétrico: [(x:100), (y:100)],
+Correia transportadora: [(x:180), (y:300)],
+Sensor de Temperatura: [(x:250), (y:200)],
+Rolamento: [(x:50), (y:350)],
+Tubo para Fluidos: [(x:300), (y:300)],
+Filtro para Líquidos: [(x:200), (y:150)],
+Bico para Gases: [(x:50), (y:200)],
+Cilindro Hidráulico: [(x:350), (y:100)],
+Tela: [(x:100), (y:50)],
+Controlador PLC: [(x:200), (y:250)],
+Interruptor de Segurança: [(x:250), (y:150)],
+Caixa de Engrenagens: [(x:150), (y:100)],
+Ventilador Axial: [(x:350), (y:300)],
+Bomba Diafragma: [(x:200), (y:350)],
+Válvula de Controle de Fluxo: [(x:300), (y:200)],
+Motor Servo: [(x:50), (y:350)],
+Correia Sincronizada: [(x:150), (y:300)],
+Sensor de Pressão: [(x:300), (y:50)],
+Rolamento de Rolos: [(x:100), (y:200)],
+Válvula de Controle de Vazão: [(x:350), (y:150)],
+Motor de Passo: [(x:180), (y:250)],
+Sensor de Luz: [(x:250), (y:350)],
+Rolamento Radial: [(x:50), (y:100)],
+Tubo para Gases: [(x:300), (y:200)],
+Filtro de Ar Comprimido: [(x:200), (y:100)],
+Bico de Ar: [(x:350), (y:300)],
+Cilindro Pneumático: [(x:100), (y:50)],
+Tela LED: [(x:250), (y:250)],
+Controlador de Temperatura: [(x:180), (y:150)],
+Interruptor de Proximidade: [(x:50), (y:350)],
+Caixa de Engrenagens Helicoidais: [(x:300), (y:300)],
+Ventilador Axial: [(x:150), (y:200)],
+Bomba Peristáltica: [(x:200), (y:100)],
+Válvula Solenoide: [(x:350), (y:150)],
+Motor de Indução Monofásico: [(x:250), (y:250)],
+Correia em V: [(x:100), (y:50)],
+Válvula de Controle de Vazão: [(x:180), (y:250)],
+Chave de Fenda Phillips: [(x:220), (y:180)],
+Parafuso Phillips 5x20: [(x:150), (y:274)],
+Prego 10x2: [(x:300), (y:50)],
+Chave de Fenda de Precisão: [(x:100), (y:100)],
+Porca M8: [(x:180), (y:300)],
+Broca para Metal 6mm: [(x:250), (y:200)],
+Arruela de Pressão: [(x:50), (y:350)],
+Parafuso Allen M6x25: [(x:300), (y:300)],
+Bucha de Nylon 8mm: [(x:200), (y:150)],
+Chave Inglesa 10": [(x:50), (y:200)],
+Parafuso Autoatarraxante: [(x:350), (y:100)],
+Trena 5m: [(x:100), (y:50)],
+Furadeira de Impacto 600W: [(x:200), (y:250)],
+Serra Circular 1200W: [(x:250), (y:150)],
+Bucha de Expansão 12mm: [(x:300), (y:200)],
+Estilete Retrátil: [(x:150), (y:100)],
+Parafuso de Fixação M10x50: [(x:350), (y:300)],
+Martelo de Unha 500g: [(x:200), (y:350)],
+Chave de Boca Ajustável: [(x:300), (y:200)],
+Lixa para Madeira 80 grit: [(x:50), (y:350)],
+Nível a Laser: [(x:300), (y:50)],
+Alicate de Corte Diagonal: [(x:100), (y:200)],
+Parafuso Sextavado 1/4x1: [(x:350), (y:150)],
+Esquadro de Carpinteiro: [(x:180), (y:250)],
+Serra Tico-Tico 600W: [(x:250), (y:350)],
+Parafuso de Fixação M6x30: [(x:50), (y:100)],
+Chave de Fenda Isolada: [(x:300), (y:200)],
+Prego 8x1: [(x:200), (y:100)],
+Serra Copo 3": [(x:350), (y:300)],
+Chave de Fenda Torx T25: [(x:100), (y:50)],
+Fita Métrica 3m: [(x:250), (y:250)],
+Nível de Bolha 12": [(x:180), (y:150)],
+Marreta de Borracha 1kg: [(x:50), (y:350)],
+Parafuso de Fixação M12x70: [(x:300), (y:300)]
+

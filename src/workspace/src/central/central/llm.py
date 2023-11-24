@@ -4,7 +4,7 @@ import rclpy
 from langchain.llms import Ollama
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
-from langchain.document_loaders import PyPDFLoader
+from langchain.document_loaders import TextLoader
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
@@ -17,7 +17,7 @@ class LlmNode(Node):
         super().__init__("llm_node")
 
         # Carrega o documento e o processa para usar como contexto
-        loader = PyPDFLoader(data_file_path)
+        loader = TextLoader(data_file_path)
         documents = loader.load()
         text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
         docs = text_splitter.split_documents(documents)
@@ -28,14 +28,14 @@ class LlmNode(Node):
         template = """
                     Welcome, Language Model. You will receive context from a text file containing details about various tools. Your task is to respond to user queries using this context when relevant. Here's how to proceed:
 
-                    Context Use: Utilize the provided context only for queries directly related to the tools listed in the text file. The context includes tool names, descriptions, prices, quantities, and coordinates.
+                    Context Use: Utilize the provided context only for queries directly related to the tools listed in the text file. The context includes tool names and coordinates.
 
                     Responding to Queries:
 
                     For queries asking about a specific tool, like its location, always return the information in the following format: x: [number], y: [number]. After this, always end the conversation.
-                    For general queries not related to the tools, use your built-in knowledge to answer.
-                    Response Criteria: Keep your responses under 50 words. Be clear and direct.
                     Keep the response concise and focused solely on answering the user query. Do not add any additional information or dialogue.
+                    Always end the conversation after responding to a query.
+                    
 
                     Context from File:
                     {context}
@@ -65,17 +65,17 @@ class LlmNode(Node):
                 ollama_response += s
                 self.get_logger().info(s)
                  # Regex to match 'y: [number]' pattern
-                match = re.search(r"y:\d{3}", ollama_response)
-                if match:
-                    # Get the end position of the match
-                    end_pos = match.end()
+                # match = re.search(r"y:\d{3}", ollama_response)
+                # if match:
+                #     # Get the end position of the match
+                #     end_pos = match.end()
 
-                    # Check if the match is at the end of the response or followed by a non-numeric character
-                    if len(ollama_response) == end_pos or not ollama_response[end_pos].isdigit():
-                        # If conditions are met, break the loop
-                        break
-                if "end" in ollama_response:
-                    break  # Stop if 'end' is found
+                #     # Check if the match is at the end of the response or followed by a non-numeric character
+                #     if len(ollama_response) == end_pos or not ollama_response[end_pos].isdigit():
+                #         # If conditions are met, break the loop
+                #         break
+                # if "end" in ollama_response:
+                #     break  # Stop if 'end' is found
 
             return ollama_response
         except Exception as exp:
@@ -87,9 +87,7 @@ class LlmNode(Node):
         response = self.run_ollama(msg.data)
         self.get_logger().info(f'LLM retornou: "{response}"')
 
-        response_msg = String()
-        response_msg.data = response
-        self.publisher_.publish(response_msg)
+        self.publisher_.publish(String(data=response))
 
 def main(args=None):
 

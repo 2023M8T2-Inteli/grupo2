@@ -3,75 +3,61 @@ from rclpy.node import Node
 from std_msgs.msg import String
 import rclpy
 
-
-CHAVE_API = '6789925207:AAGWEl8dbtY3-C-EO3-g9gJQURvYQozIuaI'
-
-bot = telebot.TeleBot(CHAVE_API)
-
 class TelegramNode(Node):
-    def __init__(self,chat_id):
+    def __init__(self, chave_api):
         super().__init__('telegram_node')
-        self.chat_id = chat_id
+        self.bot = telebot.TeleBot(chave_api)
         self.subscription = self.create_subscription(
-            String, "chabot_answer", self.listener_callback, 10
+            String, "llm_response", self.listener_callback, 10
         )
         self.publisher_ = self.create_publisher(String, "llm_command", 10)
         self.get_logger().info("Telegram Node está rodando e esperando por comandos...")
+        self.chat_id = None
+        self.init_telegram_bot()
+
+    
+    def verify(self, msg):
+        return True
+
+    def init_telegram_bot(self):
+
+        @self.bot.message_handler(func=self.verify)
+        def answer(msg):
+
+            texto = """
+            Olá, eu sou o Bot do grupo BBB, no que posso te ajudar hoje?
+
+- Fazer a requisicao de uma peça
+- Perguntar sobre alguma peça
+
+        """
+            self.bot.register_next_step_handler(msg, self.processar_resposta)
+            self.bot.reply_to(msg, texto)
+
+        self.bot.polling()
+
+    def processar_resposta(self, mensagem):
+        resposta_usuario = mensagem.text.lower()
+        self.chat_id = mensagem.chat.id
+        self.publisher_.publish(String(data=resposta_usuario))
+        self.get_logger().info(f'LLM recebeu: "{resposta_usuario}"')
+
 
     def listener_callback(self, msg):
-        self.get_logger().info(f'Telegram recebeu: "{msg}"')
+        self.get_logger().info(f'Listener callback ativado')
         response = msg.data
-        self.get_logger().info(f'Telegram retornou: "{response}"')
-
-        response_msg = String()
-        response_msg.data = response
-        self.publisher_.publish(response_msg)
-
-
-
-@bot.message_handler(commands=["opcao1"])
-def opcao1(mensagem):
-    texto = """
-    Digite o nome do item que você deseja pedir:    
-"""
-    
-    bot.send_message(mensagem.chat.id, texto)
-
-    bot.register_next_step_handler(mensagem, processar_resposta)
-
-
-def processar_resposta(mensagem):
-    resposta_usuario = mensagem.text.lower()
-    telegram_node_instance = TelegramNode(mensagem.chat.id)
-    telegram_node_instance.listener_callback(String(data=resposta_usuario))
-
-    bot.send_message(mensagem.chat.id, "Pedido de realizado com sucesso!")
-
-
-def verify(msg):
-    return True
-
-@bot.message_handler(func=verify)
-def answer(msg):
-
-    texto = """
-    Olá, eu sou o Bot do grupo BBB, no que posso te ajudar hoje?
-
-    1) Fazer um pedido
-    2) Cancelar um pedido
-    3) Verificar status de um pedido
-    4) Tirar dúvidas
-    5) Lista de produtos
-
-"""
-    bot.register_next_step_handler(msg, processar_resposta)
-    bot.reply_to(msg, texto)
+        self.get_logger().info(f'LLM enviou: "{response}"')
+        self.bot.send_message(self.chat_id, response)
+       
 
 def main(args=None):
+    CHAVE_API = '6789925207:AAGWEl8dbtY3-C-EO3-g9gJQURvYQozIuaI'
+
     rclpy.init(args=args)
 
     try:
-        bot.polling()
+        telegram_node = TelegramNode(chave_api=CHAVE_API)
+        telegram_node.spin()
     except KeyboardInterrupt:
         pass
     finally:
