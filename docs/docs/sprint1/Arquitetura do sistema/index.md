@@ -6,39 +6,37 @@ sidebar_position: 1
 
 ![Arquitetura do sistema](../../assets/arquitetura_do_sistema.png)
 
-### Visão Geral
-O sistema consiste em uma arquitetura baseada em ROS que integra um Nodo Central com módulos de processamento de voz e texto a um Robô Autônomo. O objetivo é permitir que o robô interprete e execute comandos relacionados à busca de peças em um ambiente, utilizando tanto entradas de teclado quanto comandos de voz.
+## Visão Geral
+Este sistema utiliza a plataforma ROS para automatizar a busca e identificação de itens em almoxarifados. O objetivo é permitir que o robô interprete e execute comandos relacionados à busca de peças em um ambiente, permitindo que os usuários enviem comandos de texto ou voz para localizar itens com a ajuda de um robô autônomo.
 
-O sistema é composto por uma estrutura frontend-backend, integrada a um sistema robótico autônomo. O frontend foi construído usando Next.js, e a comunicação com o backend ocorre via API. No núcleo do sistema, temos um Nodo Central que gerencia a entrada de dados e direciona para os respectivos componentes. Uma parte crucial é o Robô Autônomo, que possui vários periféricos, incluindo um microfone, um sensor Lidar e uma tela LCD.
+### Frontend
+- **Telegram**: Interface de usuário para enviar comandos de texto ou voz.
+- **Teclado**: Permite a entrada de comandos de texto.
+- **Microfone**: Permite a entrada de comandos de voz, que são convertidos em texto.
 
-### Componentes do Sistema
+### Processamento de Comandos
+- **Nó do Regex**: Processa expressões regulares para identificar intenções do usuário, como pesquisa de um item ou requisição de informações sobre peças.
+- **Nó do LLM (Large Language Model)**: Identifica a intenção do usuário e acessa informações relevantes para a tarefa.
 
-1. **Frontend: Telegram**
-   - Input: Teclado
-   - Comunicação: HTTP para Bot do Telegram
+### Conversão de Voz
+- **Nó de Voz (Whisper)**: Converte mensagens de voz em texto para processamento.
 
-2. **Bot do Telegram**
-   - Serve como ponte entre o frontend e o Nodo Central.
+### Robô Autônomo
+- **Interface Física**: Equipado com Sensor LiDAR para navegação e Tela LCD para feedback.
+- **Operação**: Executa ações com base nos comandos processados e informações do sistema.
 
-3. **Nodo Central**
-   - Responsável pela lógica principal e pelo gerenciamento dos nodos auxiliares.
-   - Integração com o banco de dados para recuperar a relação entre IDs de peças e suas coordenadas.
-   - Contém um script identificador de palavras-chave para determinar o tipo de entrada (simples ou complexa).
+### Integração de Dados
+- **PDF de Peças**: Contém informações sobre peças, quantidade em estoque e localização para contextualização da conversa.
 
-4. **Nodo de voz**
-   - Conversão de voz para texto usando o serviço Whisper.
+## Fluxo de Dados
+1. O usuário envia um comando pelo Telegram (texto ou voz).
+2. O nó de LLM processa o comando e envia para o nó de Regex.
+2. O nó de REGEX identifica a intenção do usuário.
+3. O robô autônomo é direcionado para localizar e identificar o item solicitado. 
+4. O feedback é apresentado ao usuário através do Telegram e da Tela LCD do robô.
 
-5. **Nodo de LLM**
-   - LLM para extração do código da peça.
-   - Imagem representativa: Llama
-
-6. **Robô Autônomo**
-   - Interface física: Sensor Lidar, Tela LCD, Microfone.
-   - Busca coordenadas das peças com base nos inputs.
-
-### Fluxo de Dados
-
-1. O usuário insere dados via teclado no frontend Next.js ou através da voz no microfone do Robô Autônomo.
-2. O input é enviado à API.
-3. O Nodo Central avalia a entrada, e, se for simples, procura as coordenadas diretamente no banco de dados. Se for uma entrada complexa, direciona para o Nodo de LLM para processamento adicional.
-4. O Robô Autônomo busca a peça com base nas coordenadas obtidas e exibe informações na Tela LCD.
+## Tecnologias e Ferramentas
+- **ROS (Robot Operating System)**: Framework de robótica que gerencia a comunicação entre os nós.
+- **Telegram API**: Interface para comunicação com o usuário.
+- **Whisper**: Tecnologia de conversão de voz para texto.
+- **Sensor LiDAR**: Para mapeamento e navegação do robô.
