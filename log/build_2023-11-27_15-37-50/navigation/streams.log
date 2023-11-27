@@ -1,0 +1,43 @@
+[1.603s] Invoking command in '/Users/lyo.quintao/Documents/development/Projects/projeto_ambev/src/workspace/src/navigation': PYTHONPATH=/Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/prefix_override:/Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} SHLVL=4 _=/usr/bin/env /Users/lyo.quintao/anaconda3/envs/ros_env/bin/python3.10 setup.py egg_info --egg-base ../../../../build/navigation build --build-base /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build install --record /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/install.log --single-version-externally-managed
+[2.140s] running egg_info
+[2.140s] creating ../../../../build/navigation/navigation.egg-info
+[2.179s] writing ../../../../build/navigation/navigation.egg-info/PKG-INFO
+[2.207s] writing dependency_links to ../../../../build/navigation/navigation.egg-info/dependency_links.txt
+[2.293s] writing entry points to ../../../../build/navigation/navigation.egg-info/entry_points.txt
+[2.347s] writing requirements to ../../../../build/navigation/navigation.egg-info/requires.txt
+[2.375s] writing top-level names to ../../../../build/navigation/navigation.egg-info/top_level.txt
+[2.375s] writing manifest file '../../../../build/navigation/navigation.egg-info/SOURCES.txt'
+[2.428s] reading manifest file '../../../../build/navigation/navigation.egg-info/SOURCES.txt'
+[2.430s] writing manifest file '../../../../build/navigation/navigation.egg-info/SOURCES.txt'
+[2.430s] running build
+[2.430s] running build_py
+[2.430s] creating /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build
+[2.431s] creating /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build/lib
+[2.431s] creating /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build/lib/navigation
+[2.431s] copying navigation/navigation_publisher.py -> /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build/lib/navigation
+[2.431s] copying navigation/__init__.py -> /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build/lib/navigation
+[2.431s] copying navigation/navigation.py -> /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build/lib/navigation
+[2.431s] running install
+[2.432s] /Users/lyo.quintao/anaconda3/envs/ros_env/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.432s]   warnings.warn(
+[2.433s] running install_lib
+[2.473s] creating /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages/navigation
+[2.473s] copying /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build/lib/navigation/navigation_publisher.py -> /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages/navigation
+[2.473s] copying /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build/lib/navigation/__init__.py -> /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages/navigation
+[2.473s] copying /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build/lib/navigation/navigation.py -> /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages/navigation
+[2.473s] byte-compiling /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages/navigation/navigation_publisher.py to navigation_publisher.cpython-310.pyc
+[2.474s] byte-compiling /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages/navigation/__init__.py to __init__.cpython-310.pyc
+[2.474s] byte-compiling /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages/navigation/navigation.py to navigation.cpython-310.pyc
+[2.475s] running install_data
+[2.486s] creating /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/share/ament_index
+[2.486s] creating /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/share/ament_index/resource_index
+[2.486s] creating /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/share/ament_index/resource_index/packages
+[2.486s] copying resource/navigation -> /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/share/ament_index/resource_index/packages
+[2.487s] copying package.xml -> /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/share/navigation
+[2.487s] running install_egg_info
+[2.525s] Copying ../../../../build/navigation/navigation.egg-info to /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[2.527s] running install_scripts
+[2.613s] Installing waypoint_listener script to /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/navigation
+[2.614s] Installing waypoint_publisher script to /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/navigation
+[2.614s] writing list of installed files to '/Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/install.log'
+[2.636s] Invoked command in '/Users/lyo.quintao/Documents/development/Projects/projeto_ambev/src/workspace/src/navigation' returned '0': PYTHONPATH=/Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/prefix_override:/Users/lyo.quintao/Documents/development/Projects/projeto_ambev/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} SHLVL=4 _=/usr/bin/env /Users/lyo.quintao/anaconda3/envs/ros_env/bin/python3.10 setup.py egg_info --egg-base ../../../../build/navigation build --build-base /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/build install --record /Users/lyo.quintao/Documents/development/Projects/projeto_ambev/build/navigation/install.log --single-version-externally-managed

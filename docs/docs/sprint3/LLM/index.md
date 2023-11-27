@@ -66,3 +66,14 @@ Engrenagem: [(x:220), (y:180)],
 Bomba de líquido: [(x:150), (y:250)],
 ...
 ```
+
+### Comprovação de Funcionamento do Contexto
+Para comprovar o funcionamento do contexto, foi feita uma consulta ao LLM perguntando a localização de uma peça. Segue a mensagem e o output retornado pelo LLM:
+
+#### Entrada
+![Contexto](../../assets/llm_contexto_1.png)
+
+#### Saída
+![Contexto](../../assets/llm_contexto_2.png)
+
+

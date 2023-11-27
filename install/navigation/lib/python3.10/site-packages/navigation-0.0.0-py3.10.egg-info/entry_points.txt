@@ -1,0 +1,3 @@
+[console_scripts]
+waypoint_listener = navigation.navigation_subscriber:main
+waypoint_publisher = navigation.navigation_publisher:main
