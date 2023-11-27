@@ -81,7 +81,6 @@ class LlmNode(Node):
         self.publisher_.publish(String(data=response))
 
 def main(args=None):
-
     # Nome do seu pacote
     package_name = 'central'
 

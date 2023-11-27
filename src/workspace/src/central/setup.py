@@ -23,10 +23,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "chatbot= central.chatbot:main",
-            "input_node= central.input_node:main",
-            "llm= central.llm:main",
-            "telegram= central.telegram_api:main",
+            "regex= central.regex_node:main",
+            "input= central.input_node:main",
+            "llm= central.llm_node:main",
+            "telegram= central.telegram_node:main",
+            "voice_processing= central.voice_processing_node:main",
         ],
     },
 )
