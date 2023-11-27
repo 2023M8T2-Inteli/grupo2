@@ -27,7 +27,7 @@ Durante a Sprint 2, a equipe dedicou esforços significativos para realizar uma 
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFya4iIWqk&#x2F;view?embed" >
 </iframe>
 
-### Sprint 3
+### [Sprint 3](sprint3/Sistema%20de%20navegação/index.md)
 
 A terceira sprint do projeto foi dedicada à concretização do sistema de navegação do robô, à implementação de um modelo do tipo Large Language Model (LLM) no chatbot em desenvolvimento e ao refinamento da infraestrurura da solução. Dessa forma, considerando o ambiente ROS no qual o projeto está sendo desenvolvido, foram criados nós que, futuramente, comunicar-se-ão a fim de permitir o funcionamento integral do produto. Enquanto o nodo central do workspace ROS foca na interface de comunicação entre o usuário e o chatbot, assim como o modelo de processamento de linguagem natural utilizado pelo chatbot, o nodo de navegação é responsável por interpretar os comandos do usuário relacionados à localização dos itens do almoxarifado da Ambev. Dessa forma, ambas as frentes do projeto foram estruturadas, a fim de que possam ser integradas e testadas na sprint seguinte.
 
@@ -49,5 +49,3 @@ Em construção. Volte mais tarde =D
 :::info
 Em construção. Volte mais tarde =D
 :::
-
-
