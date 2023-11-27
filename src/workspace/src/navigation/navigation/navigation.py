@@ -12,10 +12,10 @@ from tf2_geometry_msgs import do_transform_pose
 from geometry_msgs.msg import PoseStamped, String
 from nav2_simple_commander.robot_navigator import BasicNavigator
 
-class NavigationSubscriber(Node):
+class Navigation(Node):
 
     def __init__(self):
-        super().__init__('waypoint_listener')
+        super().__init__('navigation')
         self.nav = BasicNavigator()
         self.waypoints = []
         self.initial_pose = self.create_pose_stamped(nav, 0.0, 0.0, 0.0)
@@ -64,7 +64,7 @@ nav = BasicNavigator()
 def main(args=None):
 
     rclpy.init(args=args)
-    waypoint_listener = NavigationSubscriber()
+    waypoint_listener = Navigation()
     rclpy.spin(waypoint_listener)
     waypoint_listener.destroy_node()
     rclpy.shutdown()
