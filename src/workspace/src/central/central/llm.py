@@ -67,18 +67,6 @@ class LlmNode(Node):
 
                 if pattern.search(ollama_response) or pattern2.search(ollama_response) or end_marker in ollama_response:
                     break
-                 # Regex to match 'y: [number]' pattern
-                # match = re.search(r"y:\d{3}", ollama_response)
-                # if match:
-                #     # Get the end position of the match
-                #     end_pos = match.end()
-
-                #     # Check if the match is at the end of the response or followed by a non-numeric character
-                #     if len(ollama_response) == end_pos or not ollama_response[end_pos].isdigit():
-                #         # If conditions are met, break the loop
-                #         break
-                # if "end" in ollama_response:
-                #     break  # Stop if 'end' is found
 
             return ollama_response
         except Exception as exp:
