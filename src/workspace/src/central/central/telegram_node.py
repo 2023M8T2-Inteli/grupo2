@@ -40,6 +40,9 @@ class TelegramNode(Node):
         polling_thread.start()
 
     def process_response(self, message):
+
+        self.get_logger().info("Mensagem chegou")
+        self.get_logger().info(message.content_type)
         if message.content_type == 'voice':
             self.handle_voice_message(message)
         elif message.content_type == 'text':

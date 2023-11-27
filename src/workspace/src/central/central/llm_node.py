@@ -1,7 +1,7 @@
 from rclpy.node import Node
 from std_msgs.msg import String
 import rclpy
-from langchain.llms import Ollama
+from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
 from langchain.document_loaders import TextLoader
@@ -44,7 +44,7 @@ class LlmNode(Node):
         self.chain = (
             {"context": retriever, "question": RunnablePassthrough()}
             | prompt
-            | Ollama(base_url=base_url, model=model_name)
+            | ChatOpenAI(model="gpt-3.5-turbo", api_key='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')
         )
 
         # Configuração do ROS
@@ -54,28 +54,28 @@ class LlmNode(Node):
         self.publisher_ = self.create_publisher(String, "llm_response", 10)
         self.get_logger().info("LLM Node está rodando e esperando por comandos...")
 
-    def run_ollama(self, text):
+    def run_model(self, text):
         try:
-            ollama_response = ""
-            pattern = re.compile(r"\(x: (\d+)\), \(y: (\d+)\)")  
-            pattern2 = re.compile(r"\[\(x: \d+\), \(y: \d+\)\]")
-            end_marker = "<|im_end|>"
+            model_response = ""
+            # pattern = re.compile(r"\(x: (\d+)\), \(y: (\d+)\)")  
+            # pattern2 = re.compile(r"\[\(x: \d+\), \(y: \d+\)\]")
+            # end_marker = "<|im_end|>"
 
             for s in self.chain.stream(text):
-                ollama_response += s
-                self.get_logger().info(s)
+                model_response += s
+            #     self.get_logger().info(s)
 
-                if pattern.search(ollama_response) or pattern2.search(ollama_response) or end_marker in ollama_response:
-                    break
+            #     if pattern.search(model_response) or pattern2.search(model_response) or end_marker in model_response:
+            #         break
 
-            return ollama_response
+            return model_response
         except Exception as exp:
             self.get_logger().info(exp)
             return "Erro ao processar a resposta."
 
     def listener_callback(self, msg):
         self.get_logger().info(f'LLM recebeu: "{msg.data}"')
-        response = self.run_ollama(msg.data)
+        response = self.run_model(msg.data)
         self.get_logger().info(f'LLM retornou: "{response}"')
 
         self.publisher_.publish(String(data=response))

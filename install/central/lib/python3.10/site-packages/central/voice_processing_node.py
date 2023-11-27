@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import openai
+from openai import OpenAI
 
 class VoiceProcessingNode(Node):
     def __init__(self):
@@ -10,6 +10,7 @@ class VoiceProcessingNode(Node):
             String, 'voice_command', self.voice_command_callback, 10)
         self.publisher = self.create_publisher(String, 'llm_command', 10)
         self.get_logger().info('Voice Processing Node has been started.')
+        self.client = OpenAI
 
     def voice_command_callback(self, msg):
         voice_file_path = msg.data
@@ -25,7 +26,7 @@ class VoiceProcessingNode(Node):
 
             # Transcreva o áudio para texto usando o Whisper
             model = "whisper-1"  # Especifique o modelo adequado do Whisper aqui
-            transcript = openai.Audio.transcribe(audio_data, model=model)
+            transcript = self.client.audio.transcribe(audio_data, model=model)
             transcription_text = transcript['data']['text']
             self.get_logger().info(f'Transcription: {transcription_text}')
             return transcription_text
