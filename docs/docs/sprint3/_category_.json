@@ -3,6 +3,6 @@
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Localização e mapeamento simultâneo"
+    "description": "Implementação de LLM, refinamento da interface de comunicação entre usuário e solução, e estruturação do sistema de navegação do robô."
   }
 }
