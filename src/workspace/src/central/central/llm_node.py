@@ -44,7 +44,7 @@ class LlmNode(Node):
         self.chain = (
             {"context": retriever, "question": RunnablePassthrough()}
             | prompt
-            | ChatOpenAI(model="gpt-3.5-turbo", api_key='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')
+            | ChatOpenAI(model="gpt-3.5-turbo", api_key='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')
         )
 
         # Configuração do ROS
@@ -62,7 +62,7 @@ class LlmNode(Node):
             # end_marker = "<|im_end|>"
 
             for s in self.chain.stream(text):
-                model_response += s
+                model_response += s.content
             #     self.get_logger().info(s)
 
             #     if pattern.search(model_response) or pattern2.search(model_response) or end_marker in model_response:
