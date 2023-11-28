@@ -1,0 +1,6 @@
+User input: Hello world 
+ 2023-11-27 21:13:56.197149User input: olá, como você pode me ajudar?
+ 2023-11-28 16:31:17.557929User input: olá
+ 2023-11-28 16:33:35.400282User input: ola
+ 2023-11-28 16:40:10.934356User input: ola
+ 2023-11-28 16:46:11.051262
