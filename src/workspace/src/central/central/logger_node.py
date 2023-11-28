@@ -21,19 +21,25 @@ class LoggerNode(Node):
 
         # Pegando o tempo e input no LLM
         time_input = datetime.now()
+        # os.makedirs(os.path.dirname(self.data_file_path), exist_ok=True)
 
         with open(self.data_file_path, "a") as log_file:
-            log_file.write(f"{msg.data} | {time_input}")
+            try:
+                log_file.write(f"{msg.data} | {time_input}\n")  # Ensure a new line after each entry
+            except Exception as e:
+                self.get_logger().error(f"Error writing to file: {str(e)}")
 
 def main(args=None):
+    rclpy.init(args=args)
+
     # Nome do seu pacote
     package_name = 'central'
 
     # Construa o caminho para o diretório de compartilhamento do pacote
-    package_share_directory = get_package_share_directory(package_name)
+    # package_share_directory = get_package_share_directory(package_name)
 
     # Construa o caminho para o seu arquivo de dados dentro do diretório de recursos
-    data_file_path = os.path.join(package_share_directory, 'resource', 'logs.txt')
+    data_file_path = 'logs.txt'
 
     logger_node = LoggerNode(data_file_path=data_file_path)
     try:
