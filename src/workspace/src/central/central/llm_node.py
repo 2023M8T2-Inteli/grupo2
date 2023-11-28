@@ -1,5 +1,6 @@
 from rclpy.node import Node
 from std_msgs.msg import String
+from datetime import datetime
 import rclpy
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
@@ -16,6 +17,9 @@ class LlmNode(Node):
     def __init__(self, base_url, model_name, data_file_path):
         super().__init__("llm_node")
 
+        # Definindo o caminho para o log
+        self.log_file_path = "logs_llm.txt" 
+        
         # Carrega o documento e o processa para usar como contexto
         loader = TextLoader(data_file_path)
         documents = loader.load()
@@ -75,8 +79,21 @@ class LlmNode(Node):
 
     def listener_callback(self, msg):
         self.get_logger().info(f'LLM recebeu: "{msg.data}"')
+        
+        # Pegando o tempo e input no LLM 
+        time_input = datetime.now()
+
+        with open(self.log_file_path, 'a') as log_file:
+            log_file.write(f'User input: {msg.data}\n {time_input}')
+
         response = self.run_model(msg.data)
         self.get_logger().info(f'LLM retornou: "{response}"')
+        
+        # Pegando o tempo e resposta do LLM
+
+        time_output = datetime.now()
+        with open(self.log_file_path, 'a') as log_file:
+            log_file.write(f'LLM output: {response}\n {time_output}')
 
         self.publisher_.publish(String(data=response))
 

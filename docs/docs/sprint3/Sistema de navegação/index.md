@@ -1,5 +1,5 @@
 ---
-title: Sistema de navegação
+title: Sistema de Navegação
 sidebar_position: 1
 ---
 
