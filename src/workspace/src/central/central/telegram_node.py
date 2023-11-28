@@ -18,6 +18,7 @@ class TelegramNode(Node):
         self.get_logger().info("Telegram Node is running and waiting for commands...")
         self.chat_id = None
         self.initialize_telegram_bot()
+        self.log_publisher = self.create_publisher(String, "log_register", 10)
 
     def verify_message(self, message):
         return True
@@ -40,9 +41,8 @@ class TelegramNode(Node):
         polling_thread.start()
 
     def process_response(self, message):
+        self.log_publisher.publish(String(data=f'Telegram recebeu mensagem do tipo: "{message.content_type}"'))
 
-        self.get_logger().info("Mensagem chegou")
-        self.get_logger().info(message.content_type)
         if message.content_type == 'voice':
             self.handle_voice_message(message)
         elif message.content_type == 'text':
@@ -50,9 +50,10 @@ class TelegramNode(Node):
 
     def handle_text_message(self, message):
         user_response = message.text.lower()
+        self.log_publisher.publish(String(data=f'Telegram recebeu mensagem: "{user_response}"'))
         self.chat_id = message.chat.id
         self.publisher.publish(String(data=user_response))
-        self.get_logger().info(f'LLM received: "{user_response}"')
+        self.log_publisher.publish(String(data=f'Telegram enviou para a LLM: "{user_response}"'))
 
     def handle_voice_message(self, message):
         # Obter informações do arquivo de voz
@@ -80,12 +81,12 @@ class TelegramNode(Node):
     
     def publish_voice_file_path(self, file_path):
         self.voice_publisher.publish(String(data=file_path))
-        self.get_logger().info(f'Voice file path sent to voice processing node: "{file_path}"')
+        self.log_publisher.publish(String(data=f'Voice file path sent to voice processing node: "{file_path}"'))
 
     def listener_callback(self, msg):
-        self.get_logger().info('Listener callback activated')
+        self.log_publisher.publish(String(data=f'Telegram recebeu da LLM: "{msg.data}"'))
         response = msg.data
-        self.get_logger().info(f'LLM sent: "{response}"')
+        self.log_publisher.publish(String(data=f'Mensagem enviada via bot do telegram: "{msg.data}"'))
         self.bot.send_message(self.chat_id, response)
 
 def main(args=None):

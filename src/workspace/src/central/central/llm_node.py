@@ -14,7 +14,7 @@ import re
 import os
 
 class LlmNode(Node):
-    def __init__(self, base_url, model_name, data_file_path):
+    def __init__(self, data_file_path):
         super().__init__("llm_node")
 
         # Definindo o caminho para o log
@@ -57,44 +57,25 @@ class LlmNode(Node):
         )
         self.publisher_ = self.create_publisher(String, "llm_response", 10)
         self.get_logger().info("LLM Node está rodando e esperando por comandos...")
+        self.log_publisher = self.create_publisher(String, "log_register", 10)
 
     def run_model(self, text):
         try:
             model_response = ""
-            # pattern = re.compile(r"\(x: (\d+)\), \(y: (\d+)\)")  
-            # pattern2 = re.compile(r"\[\(x: \d+\), \(y: \d+\)\]")
-            # end_marker = "<|im_end|>"
-
             for s in self.chain.stream(text):
                 model_response += s.content
-            #     self.get_logger().info(s)
-
-            #     if pattern.search(model_response) or pattern2.search(model_response) or end_marker in model_response:
-            #         break
-
+           
             return model_response
         except Exception as exp:
             self.get_logger().info(exp)
             return "Erro ao processar a resposta."
 
     def listener_callback(self, msg):
-        self.get_logger().info(f'LLM recebeu: "{msg.data}"')
+        self.log_publisher.publish(String(data=f'LLM recebeu: "{msg.data}"'))
         
-        # Pegando o tempo e input no LLM 
-        time_input = datetime.now()
-
-        with open(self.log_file_path, 'a') as log_file:
-            log_file.write(f'User input: {msg.data}\n {time_input}')
-
         response = self.run_model(msg.data)
-        self.get_logger().info(f'LLM retornou: "{response}"')
+        self.log_publisher.publish(String(data=f'LLM retornou: "{response}"'))
         
-        # Pegando o tempo e resposta do LLM
-
-        time_output = datetime.now()
-        with open(self.log_file_path, 'a') as log_file:
-            log_file.write(f'LLM output: {response}\n {time_output}')
-
         self.publisher_.publish(String(data=response))
 
 def main(args=None):
@@ -109,8 +90,6 @@ def main(args=None):
 
     rclpy.init(args=args)
     llm_node = LlmNode(
-        base_url="http://localhost:11434",
-        model_name="dolphin2.2-mistral",
         data_file_path=data_file_path
     )
     try:

@@ -11,11 +11,15 @@ class VoiceProcessingNode(Node):
         self.publisher = self.create_publisher(String, 'llm_command', 10)
         self.get_logger().info('Voice Processing Node has been started.')
         self.client = openai
+        self.log_publisher = self.create_publisher(String, "log_register", 10)
 
     def voice_command_callback(self, msg):
+        self.log_publisher.publish(String(data=f'Voice Processing Node ativado"'))
+
         voice_file_path = msg.data
         transcript = self.transcribe_voice(voice_file_path)
         if transcript:
+            self.log_publisher.publish(String(data=f'Transcript do Voice Processing Node: "{transcript}"'))
             self.publisher.publish(String(data=transcript))
 
     def transcribe_voice(self, voice_file_path):
