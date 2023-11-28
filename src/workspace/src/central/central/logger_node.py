@@ -14,7 +14,7 @@ class LoggerNode(Node):
             String, "log_register", self.listener_callback, 10
         )
         self.data_file_path = data_file_path
-        self.get_logger().info("Logger Node está rodando e esperando por comandos...")
+        self.get_logger().info("Logger Node está rodando e registrando informações ")
 
     def listener_callback(self, msg):
         self.get_logger().info(f'Registrando log: "{msg.data}"')
