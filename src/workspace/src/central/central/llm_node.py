@@ -72,9 +72,10 @@ class LlmNode(Node):
 
     def listener_callback(self, msg):
         self.log_publisher.publish(String(data=f'LLM recebeu: "{msg.data}"'))
-        
         response = self.run_model(msg.data)
-        self.log_publisher.publish(String(data=f'LLM retornou: "{response}"'))
+        response_log = f'LLM retornou: "{response}"'
+        self.get_logger().info(response_log)
+        self.log_publisher.publish(String(data=response_log))
         
         self.publisher_.publish(String(data=response))
 
