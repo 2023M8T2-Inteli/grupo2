@@ -1,9 +1,9 @@
 ---
-title: Descrição de testes (LLM)
+title: Descrição de Testes (LLM)
 sidebar_position: 3
 ---
 
-# Descrição de testes (LLM)
+# Descrição de Testes (LLM)
 
 Um dos requisitos da sprint foi a testagem do chatbot construído, uma vez que um Large Language Model (LLM) foi implementado para compor a solução. Embora a integração entre o chatbot e o sistema de navegação do robô esteja prevista para a quarta sprint, é possível testar as funcionalidades do chatbot de forma isolada, a fim de verificar a eficácia do modelo de linguagem adotado pela equipe de projeto.
 
