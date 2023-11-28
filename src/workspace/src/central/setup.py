@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             "regex= central.regex_node:main",
+            "logs= central.logger_node:main",
             "input= central.input_node:main",
             "llm= central.llm_node:main",
             "telegram= central.telegram_node:main",
