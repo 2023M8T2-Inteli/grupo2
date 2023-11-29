@@ -17,8 +17,6 @@ class CommandProcessor:
                     resposta = self.acoes[intencao](match.group(1))
                     return resposta
         return "Desculpe, não entendi o comando."
-    
-    
 
 class ChatbotNode(Node):
     def __init__(self, command_processor):

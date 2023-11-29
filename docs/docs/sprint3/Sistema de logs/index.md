@@ -68,6 +68,6 @@ ros2 run central logs
 Após a interação com os nós como foi explicado na seção de descrição dos testes é possível conferir o resultado dos logs no seguinte arquivo. 
 
 ```bash
-cd 'grupo2/src/workspace/src/central/resource/logs.txt'
+cd 'src/workspace/src/logs.txt'
 
 ```

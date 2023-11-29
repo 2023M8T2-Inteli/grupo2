@@ -1,0 +1,32 @@
+running egg_info
+writing ../build/navigation/navigation.egg-info/PKG-INFO
+writing dependency_links to ../build/navigation/navigation.egg-info/dependency_links.txt
+writing entry points to ../build/navigation/navigation.egg-info/entry_points.txt
+writing requirements to ../build/navigation/navigation.egg-info/requires.txt
+writing top-level names to ../build/navigation/navigation.egg-info/top_level.txt
+writing manifest file '../build/navigation/navigation.egg-info/SOURCES.txt'
+reading manifest file '../build/navigation/navigation.egg-info/SOURCES.txt'
+writing manifest file '../build/navigation/navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying navigation/navigation.py -> /home/eduardoporto/github/grupo2-1/src/workspace/src/build/navigation/build/lib/navigation
+copying navigation/navigation_publisher.py -> /home/eduardoporto/github/grupo2-1/src/workspace/src/build/navigation/build/lib/navigation
+copying navigation/__init__.py -> /home/eduardoporto/github/grupo2-1/src/workspace/src/build/navigation/build/lib/navigation
+running install
+running install_lib
+copying /home/eduardoporto/github/grupo2-1/src/workspace/src/build/navigation/build/lib/navigation/navigation.py -> /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/python3.10/site-packages/navigation
+copying /home/eduardoporto/github/grupo2-1/src/workspace/src/build/navigation/build/lib/navigation/navigation_publisher.py -> /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/python3.10/site-packages/navigation
+copying /home/eduardoporto/github/grupo2-1/src/workspace/src/build/navigation/build/lib/navigation/__init__.py -> /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/python3.10/site-packages/navigation
+byte-compiling /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/python3.10/site-packages/navigation/navigation.py to navigation.cpython-310.pyc
+byte-compiling /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/python3.10/site-packages/navigation/navigation_publisher.py to navigation_publisher.cpython-310.pyc
+byte-compiling /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/python3.10/site-packages/navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/navigation -> /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/share/navigation
+running install_egg_info
+removing '/home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/navigation/navigation.egg-info to /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing waypoint_listener script to /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/navigation
+Installing waypoint_publisher script to /home/eduardoporto/github/grupo2-1/src/workspace/src/install/navigation/lib/navigation
+writing list of installed files to '/home/eduardoporto/github/grupo2-1/src/workspace/src/build/navigation/install.log'
