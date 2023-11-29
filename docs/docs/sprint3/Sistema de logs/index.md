@@ -68,6 +68,48 @@ ros2 run central logs
 Após a interação com os nós como foi explicado na seção de descrição dos testes é possível conferir o resultado dos logs no seguinte arquivo. 
 
 ```bash
-cd 'grupo2/src/workspace/src/central/resource/logs.txt'
+cd 'src/workspace/src/logs.txt'
 
+```
+
+Um exemplo de como os logs funcionam é o seguinte : 
+
+```
+LLM recebeu: "OLá como você vai ? " | 2023-11-29 17:22:51.351542
+
+LLM retornou: "Desculpe, não entendi sua pergunta. Por favor, faça uma pergunta relacionada às ferramentas listadas no arquivo de contexto." | 2023-11-29 17:22:57.703547
+
+LLM recebeu: "Olá, seria possível pegar uma tela LED ? " | 2023-11-29 17:23:29.259778
+
+LLM retornou: "[(x:250), (y:250)]" | 2023-11-29 17:23:31.859764
+
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 17:25:46.617703
+
+Telegram recebeu mensagem: "gostaria de uma correia em v" | 2023-11-29 17:25:46.619345
+
+Telegram enviou para a LLM: "gostaria de uma correia em v" | 2023-11-29 17:25:46.620673
+
+LLM recebeu: "gostaria de uma correia em v" | 2023-11-29 17:25:46.621908
+
+LLM retornou: "[(x:100), (y:50)]" | 2023-11-29 17:25:48.655218
+
+Telegram recebeu da LLM: "[(x:100), (y:50)]" | 2023-11-29 17:25:48.656767
+
+Mensagem enviada via bot do telegram: "[(x:100), (y:50)]" | 2023-11-29 17:25:48.658077
+
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 17:26:30.662016
+
+Telegram recebeu mensagem: "me explique onde está a tela led ?" | 2023-11-29 17:26:30.663844
+
+Telegram enviou para a LLM: "me explique onde está a tela led ?" | 2023-11-29 17:26:30.665485
+
+LLM recebeu: "me explique onde está a tela led ?" | 2023-11-29 17:26:30.666950
+
+LLM retornou: "[(x:250), (y:250)]" | 2023-11-29 17:26:33.019136
+
+Telegram recebeu da LLM: "[(x:250), (y:250)]" | 2023-11-29 17:26:33.021234
+
+Mensagem enviada via bot do telegram: "[(x:250), (y:250)]" | 2023-11-29 17:26:33.022666
+
+Telegram recebeu mensagem do tipo: "voice" | 2023-11-29 17:26:36.798424
 ```
