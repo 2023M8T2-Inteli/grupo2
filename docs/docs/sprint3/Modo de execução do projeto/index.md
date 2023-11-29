@@ -55,6 +55,24 @@ A pasta `navigation` é responsável pela movimentação do robô e pelo envio d
 
 ## Executando o projeto
 
+O primeiro passso, é ter o ROS instalado. Para isso, siga os passos apenas [clicando aqui!!](https://rmnicola.github.io/m8-ec-encontros/sprint1/encontro1/setup-ubuntu)
+
+Perfeito, configurou tudo direitinho? Agora vamos para o próximo passo.
+
+Precisamos fazer so mais uma configuração simples, para isso, digite esse comando:
+    
+```bash
+   echo "export OPENAI_API_KEY='Sua APIKey do chatgpt'" >> ~/.bashrc
+```
+   
+```bash
+   echo "export OPENAI_ORGANIZATION_ID='A chave da sua organização da openai'" >> ~/.bashrc
+```
+
+Esses comandos são para salvar as chaves da API e da organização da OpenAI, que são necessárias para o funcionamento do chatbot.
+
+Agora, vamos para o próximo passo.
+
 Para executar o projeto, é necessário ter o ROS instalado.
 
 Agora que você já tem o ROS instalado, vamos executar o projeto.
