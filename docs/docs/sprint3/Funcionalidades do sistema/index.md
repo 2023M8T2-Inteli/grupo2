@@ -1,6 +1,6 @@
 ---
 title: Funcionalidades do sistema
-sidebar_position: 5
+sidebar_position: 7
 ---
 
 # Funcionalidades do Sistema
