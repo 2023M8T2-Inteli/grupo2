@@ -12,9 +12,11 @@ from langchain.vectorstores import Chroma
 from ament_index_python.packages import get_package_share_directory
 import re
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 class LlmNode(Node):
-    def __init__(self, data_file_path):
+    def __init__(self, data_file_path, llm_model, open_api_key, organization_id):
         super().__init__("llm_node")
 
         # Definindo o caminho para o log
@@ -48,7 +50,7 @@ class LlmNode(Node):
         self.chain = (
             {"context": retriever, "question": RunnablePassthrough()}
             | prompt
-            | ChatOpenAI(model="gpt-3.5-turbo", api_key='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')
+            | ChatOpenAI(model=llm_model, api_key=open_api_key, organization=organization_id)
         )
 
         # Configuração do ROS
@@ -67,7 +69,7 @@ class LlmNode(Node):
            
             return model_response
         except Exception as exp:
-            self.get_logger().info(exp)
+            print(exp, flush=True)
             return "Erro ao processar a resposta."
 
     def listener_callback(self, msg):
@@ -88,10 +90,13 @@ def main(args=None):
 
     # Construa o caminho para o seu arquivo de dados dentro do diretório de recursos
     data_file_path = os.path.join(package_share_directory, 'resource', 'data.txt')
-
+    
     rclpy.init(args=args)
     llm_node = LlmNode(
-        data_file_path=data_file_path
+        data_file_path=data_file_path,
+        llm_model="gpt-3.5-turbo",
+        open_api_key=os.getenv("OPENAI_API_KEY"),
+        organization_id=os.getenv("OPENAI_ORGANIZATION_ID")
     )
     try:
         rclpy.spin(llm_node)

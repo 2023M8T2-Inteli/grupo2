@@ -1,0 +1,41 @@
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 14:45:23.926374
+Telegram recebeu mensagem: "ola" | 2023-11-29 14:45:23.928715
+Telegram enviou para a LLM: "ola" | 2023-11-29 14:45:23.930018
+LLM recebeu: "ola" | 2023-11-29 14:45:23.931113
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 14:49:17.233397
+Telegram recebeu mensagem: "yr2ny42" | 2023-11-29 14:49:17.236170
+Telegram enviou para a LLM: "yr2ny42" | 2023-11-29 14:49:17.237520
+LLM recebeu: "yr2ny42" | 2023-11-29 14:49:17.238767
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 14:50:06.368833
+Telegram recebeu mensagem: "ñu5252ks75w" | 2023-11-29 14:50:06.372450
+Telegram enviou para a LLM: "ñu5252ks75w" | 2023-11-29 14:50:06.373877
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 14:50:06.376329
+Telegram recebeu mensagem: "ñu5252ks75w" | 2023-11-29 14:50:06.377895
+Telegram enviou para a LLM: "ñu5252ks75w" | 2023-11-29 14:50:06.378962
+LLM recebeu: "ñu5252ks75w" | 2023-11-29 14:50:06.379912
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 14:51:38.700045
+Telegram recebeu mensagem: "rby" | 2023-11-29 14:51:38.703410
+Telegram enviou para a LLM: "rby" | 2023-11-29 14:51:38.705067
+LLM recebeu: "rby" | 2023-11-29 14:51:38.706490
+LLM retornou: "Erro ao processar a resposta." | 2023-11-29 14:51:42.477109
+Telegram recebeu da LLM: "Erro ao processar a resposta." | 2023-11-29 14:51:42.479085
+Mensagem enviada via bot do telegram: "Erro ao processar a resposta." | 2023-11-29 14:51:42.480296
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 14:54:23.260179
+Telegram recebeu mensagem: "bfahw" | 2023-11-29 14:54:23.263480
+Telegram enviou para a LLM: "bfahw" | 2023-11-29 14:54:23.264965
+LLM recebeu: "bfahw" | 2023-11-29 14:54:23.266185
+LLM retornou: "I'm sorry, but I couldn't find any relevant information about the tool you mentioned." | 2023-11-29 14:54:26.332222
+Telegram recebeu da LLM: "I'm sorry, but I couldn't find any relevant information about the tool you mentioned." | 2023-11-29 14:54:26.334094
+Mensagem enviada via bot do telegram: "I'm sorry, but I couldn't find any relevant information about the tool you mentioned." | 2023-11-29 14:54:26.335265
+Telegram recebeu mensagem do tipo: "voice" | 2023-11-29 14:56:39.342091
+Telegram recebeu mensagem do tipo: "text" | 2023-11-29 14:58:40.554182
+Telegram recebeu mensagem: "ujhhhj" | 2023-11-29 14:58:40.557542
+Telegram enviou para a LLM: "ujhhhj" | 2023-11-29 14:58:40.558887
+LLM recebeu: "ujhhhj" | 2023-11-29 14:58:40.560113
+LLM retornou: "I'm sorry, but I couldn't understand your query. Could you please provide a valid query related to the tools listed in the text file?" | 2023-11-29 14:58:45.312823
+Telegram recebeu da LLM: "I'm sorry, but I couldn't understand your query. Could you please provide a valid query related to the tools listed in the text file?" | 2023-11-29 14:58:45.313852
+Mensagem enviada via bot do telegram: "I'm sorry, but I couldn't understand your query. Could you please provide a valid query related to the tools listed in the text file?" | 2023-11-29 14:58:45.314466
+Telegram recebeu mensagem do tipo: "voice" | 2023-11-29 15:00:10.730223
+Telegram recebeu mensagem do tipo: "voice" | 2023-11-29 15:01:26.895726
+Voice file path sent to voice processing node: "/Users/lyo.quintao/Documents/development/Projects/projeto_ambev/src/workspace/install/central/share/central/resource/voice_files/AwACAgEAAxkBAAICq2VnfHY1qpBvKHF3qrd7W2iO-0dXAAJzBAACz4hBR2NCDwmeSJ1LMwQ.ogg" | 2023-11-29 15:01:32.055699
+Voice Processing Node ativado" | 2023-11-29 15:01:32.058002

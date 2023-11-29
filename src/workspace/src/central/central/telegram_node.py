@@ -41,6 +41,7 @@ class TelegramNode(Node):
         polling_thread.start()
 
     def process_response(self, message):
+        self.get_logger().info(f'Telegram recebeu mensagem: "{message.content_type}"')
         self.log_publisher.publish(String(data=f'Telegram recebeu mensagem do tipo: "{message.content_type}"'))
 
         if message.content_type == 'voice':
@@ -49,13 +50,16 @@ class TelegramNode(Node):
             self.handle_text_message(message)
 
     def handle_text_message(self, message):
-        user_response = message.text.lower()
-        self.log_publisher.publish(String(data=f'Telegram recebeu mensagem: "{user_response}"'))
+        message_text = message.text.lower()
+        self.log_publisher.publish(String(data=f'Telegram recebeu mensagem: "{message_text}"'))
         self.chat_id = message.chat.id
-        self.publisher.publish(String(data=user_response))
-        self.log_publisher.publish(String(data=f'Telegram enviou para a LLM: "{user_response}"'))
+        self.publisher.publish(String(data=message_text))
+        self.log_publisher.publish(String(data=f'Telegram enviou para a LLM: "{message_text}"'))
 
     def handle_voice_message(self, message):
+        self.get_logger().info('Telegram recebeu mensagem de voz')
+        self.log_publisher.publish(String(data='Telegram recebeu mensagem de voz'))
+        
         # Obter informações do arquivo de voz
         file_info = self.bot.get_file(message.voice.file_id)
 
@@ -75,6 +79,8 @@ class TelegramNode(Node):
         # Salve o arquivo de voz no diretório especificado
         with open(voice_file_path, 'wb') as new_file:
             new_file.write(downloaded_file)
+            
+        self.get_logger().info('Telegram salvou mensagem de voz')
 
         # Enviar o caminho do arquivo para o nó de processamento de voz
         self.publish_voice_file_path(voice_file_path)
