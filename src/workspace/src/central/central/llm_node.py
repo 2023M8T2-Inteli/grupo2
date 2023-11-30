@@ -10,11 +10,14 @@ from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddi
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
 from ament_index_python.packages import get_package_share_directory
-import re
 import os
+from dotenv import load_dotenv
+import json
+import threading
+from queue import Queue, Empty
 
 class LlmNode(Node):
-    def __init__(self, data_file_path):
+    def __init__(self, data_file_path, llm_model, open_api_key, organization_id):
         super().__init__("llm_node")
 
         # Definindo o caminho para o log
@@ -48,7 +51,7 @@ class LlmNode(Node):
         self.chain = (
             {"context": retriever, "question": RunnablePassthrough()}
             | prompt
-            | ChatOpenAI(model="gpt-3.5-turbo", api_key='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')
+            | ChatOpenAI(model=llm_model, api_key=open_api_key, organization=organization_id)
         )
 
         # Configuração do ROS
@@ -59,6 +62,12 @@ class LlmNode(Node):
         self.get_logger().info("LLM Node está rodando e esperando por comandos...")
         self.log_publisher = self.create_publisher(String, "log_register", 10)
 
+        # Criando a fila de mensagens
+        self.queue = Queue()
+
+        # Configurando o timer do ROS para processar a fila
+        self.timer = self.create_timer(0.1, self.process_queue)  # 0.1 segundos de intervalo
+        
     def run_model(self, text):
         try:
             model_response = ""
@@ -67,17 +76,35 @@ class LlmNode(Node):
            
             return model_response
         except Exception as exp:
-            self.get_logger().info(exp)
+            print(exp, flush=True)
             return "Erro ao processar a resposta."
 
+    def process_queue(self):
+        try:
+            # Tentar obter uma mensagem da fila
+            msg = self.queue.get_nowait()
+            self.process_message(msg)
+            self.queue.task_done()
+        except Empty:
+            # Nenhuma mensagem na fila
+            pass
+
     def listener_callback(self, msg):
+        # Adicionando mensagem à fila
+        self.queue.put(msg)
+
+    def process_message(self, msg):
         self.log_publisher.publish(String(data=f'LLM recebeu: "{msg.data}"'))
-        response = self.run_model(msg.data)
+        self.get_logger().info(msg.data)
+
+        telegram_message = json.loads(msg.data)
+        response = self.run_model(telegram_message['text'])
         response_log = f'LLM retornou: "{response}"'
         self.get_logger().info(response_log)
         self.log_publisher.publish(String(data=response_log))
-        
-        self.publisher_.publish(String(data=response))
+        telegram_message['llm_response'] = response
+        telegram_message_json = json.dumps(telegram_message)
+        self.publisher_.publish(String(data=telegram_message_json))
 
 def main(args=None):
     # Nome do seu pacote
@@ -88,10 +115,13 @@ def main(args=None):
 
     # Construa o caminho para o seu arquivo de dados dentro do diretório de recursos
     data_file_path = os.path.join(package_share_directory, 'resource', 'data.txt')
-
+    
     rclpy.init(args=args)
     llm_node = LlmNode(
-        data_file_path=data_file_path
+        data_file_path=data_file_path,
+        llm_model="gpt-3.5-turbo",
+        open_api_key=os.getenv("OPENAI_API_KEY"),
+        organization_id=os.getenv("OPENAI_ORGANIZATION_ID")
     )
     try:
         rclpy.spin(llm_node)
