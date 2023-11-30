@@ -68,6 +68,9 @@ Precisamos fazer so mais uma configuração simples, para isso, digite esse coma
 ```bash
    echo "export OPENAI_ORGANIZATION_ID='A chave da sua organização da openai'" >> ~/.bashrc
 ```
+```bash
+   echo "export TELEGRAM_API_KEY='Sua chave API do telegram'" >> ~/.bashrc
+```
 
 Esses comandos são para salvar as chaves da API e da organização da OpenAI, que são necessárias para o funcionamento do chatbot.
 
