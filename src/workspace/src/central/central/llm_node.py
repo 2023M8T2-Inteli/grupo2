@@ -38,7 +38,7 @@ class LlmNode(Node):
                     Context Use: Utilize the provided context only for queries directly related to the tools listed in the text file. The context includes tool names and coordinates in portuguese.
 
                     Responding to Queries: Keep the response concise and focused solely on answering the user query. Do not add any additional information or dialogue.
-                    For queries asking about a specific tool, like its location, always return the information in the following format: [(x: [coordinate x]), (y: [coordinate y])]. After this, always end the conversation.
+                    For queries asking about a specific tool, like its location, always return the information in the following format: [tool_name]: [(x: [coordinate x]), (y: [coordinate y])]. After this, always end the conversation.
 
                     Context from File:
                     {context}
