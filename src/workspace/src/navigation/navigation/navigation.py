@@ -5,7 +5,7 @@ import rclpy
 import tf2_ros
 import tf2_geometry_msgs
 import tf_transformations
-
+import json
 from rclpy.node import Node
 from tf2_ros import TransformListener, Buffer
 from tf2_geometry_msgs import do_transform_pose
@@ -18,7 +18,7 @@ class Navigation(Node):
         super().__init__('navigation')
         self.nav = BasicNavigator()
         self.waypoints = []
-        self.initial_pose = self.create_pose_stamped(nav, 0.0, 0.0, 0.0)
+        self.initial_pose = self.create_pose_stamped(self.nav, 0.0, 0.0, 0.0)
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
@@ -30,7 +30,7 @@ class Navigation(Node):
 
         self.subscription = self.create_subscription(
             String,
-            'command_topic',
+            'move_robot',
             self.listener_callback,
             10)
         self.subscription
@@ -42,7 +42,7 @@ class Navigation(Node):
         q_x, q_y, q_z, q_w = tf_transformations.quaternion_from_euler(0.0, 0.0, rot_z)
         self.pose = PoseStamped()
         self.pose.header.frame_id = 'map'
-        self.pose.header.stamp = nav.get_clock().now().to_msg()
+        self.pose.header.stamp = self.nav.get_clock().now().to_msg()
         self.pose.pose.position.x = pos_x
         self.pose.pose.position.y = pos_y
         self.pose.pose.position.z = pos_x
@@ -52,14 +52,24 @@ class Navigation(Node):
         self.pose.pose.orientation.w = q_w
         return self.pose
 
-    def listener_callback(self, msg):
-        command = msg.data
-        if command == 'adicionar_waypoint':
-            new_waypoint = self.create_pose_stamped(self.nav, 2.0, 3.0, 1.57)
-            self.waypoints.append(new_waypoint)
-            self.nav.followWaypoints(self.waypoints)
+    def map_range(self, x, in_min, in_max, out_min, out_max):
+        return (x - in_min) * (out_max - out_min) // (in_max - in_min) + out_min
 
-nav = BasicNavigator()
+    def listener_callback(self, msg):
+        command = json.load(msg.data)
+        
+        # Lendo os valores de x e y do comando
+        x = command['x']
+        y = command['y']
+
+        # Mapeando os valores de x e y para o intervalo desejado
+        x_mapped = self.map_range(x, 0, 1000, 0.0, 1.8)  # Supondo que o intervalo original de x seja de 0 a 1000
+        y_mapped = self.map_range(y, 0, 1000, 0.0, 1.8)  # Supondo que o intervalo original de y seja de 0 a 1000
+
+        # Criando o ponto dentro dos limites desejados
+        new_waypoint = self.create_pose_stamped(self.nav, x_mapped, y_mapped, 0.0)
+        self.waypoints.append(new_waypoint)
+        self.nav.followWaypoints(self.waypoints)
 
 def main(args=None):
 
