@@ -17,7 +17,7 @@ class TelegramNode(Node):
         self.chat_states = {}
 
     def initialize_subscriptions_and_publishers(self):
-        self.subscription = self.create_subscription(String, "llm_response", self.listener_callback, 10)
+        self.subscription = self.create_subscription(String, "telegram_message", self.listener_callback, 10)
         self.publisher = self.create_publisher(String, "llm_command", 10)
         self.voice_publisher = self.create_publisher(String, "voice_command", 10)
         self.log_publisher = self.create_publisher(String, "log_register", 10)
@@ -35,6 +35,7 @@ class TelegramNode(Node):
 
     - Fazer a requisicao de uma peça
     - Perguntar sobre alguma peça
+    - Perguntar sobre alguma norma de segurança
                 """
                 self.bot.register_next_step_handler(message, self.process_response)
                 self.bot.reply_to(message, intro_text)

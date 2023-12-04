@@ -35,10 +35,11 @@ class LlmNode(Node):
         template = """
                     You will receive context from a text file containing details about various tools. Your task is to respond to user queries using this context when relevant. Here's how to proceed:
 
-                    Context Use: Utilize the provided context only for queries directly related to the tools listed in the text file. The context includes tool names and coordinates in portuguese.
+                    The context includes tool names and coordinates in portuguese.
 
                     Responding to Queries: Keep the response concise and focused solely on answering the user query. Do not add any additional information or dialogue.
-                    For queries asking about a specific tool, like its location, always return the information in the following format: [(x: [coordinate x]), (y: [coordinate y])]. After this, always end the conversation.
+                    For queries asking about a specific tool localtion always return the information in the following format: Seu pedido de [tool_name] está sendo processado. A localização da peça é: [(x: [coordinate x]), (y: [coordinate y])]. After this, always end the conversation.
+                    If the user asks for anything else, use your own knowledge to answer. 
 
                     Context from File:
                     {context}
