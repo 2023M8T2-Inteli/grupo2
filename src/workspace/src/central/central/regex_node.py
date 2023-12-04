@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 import re
+import json
     
 class RegexNode(Node):
     def __init__(self, intents):
@@ -27,8 +28,6 @@ class RegexNode(Node):
         }
         navegation_message_json = json.dumps(navegation_message)
         self.publisher_.publish(String(data=navegation_message_json))
-        telegram_publisher.publish(String(data=))
-
 
     def listener_callback(self, msg):
         self.get_logger().info(f'Recebi: "{msg.data}"')
@@ -47,11 +46,10 @@ class RegexNode(Node):
             msg_data_dict = json.loads(msg.data)
             msg_data_dict['llm_response'] = 'Sua solicitação está sendo processada pelo robô.'
             msg_data_json = json.dumps(msg_data_dict)
-            telegram_publisher.publish(String(data=msg_data_json))
+            self.telegram_publisher.publish(String(data=msg_data_json))
             self.move_robot(x, y)
         else:
-            telegram_publisher.publish(String(data=msg.data))
-
+            self.telegram_publisher.publish(String(data=msg.data))
 
 def main(args=None):
     rclpy.init(args=args)
