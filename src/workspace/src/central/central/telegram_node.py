@@ -35,6 +35,7 @@ class TelegramNode(Node):
 
     - Fazer a requisicao de uma peça
     - Perguntar sobre alguma peça
+    - Perguntar sobre alguma norma de segurança
                 """
                 self.bot.register_next_step_handler(message, self.process_response)
                 self.bot.reply_to(message, intro_text)
