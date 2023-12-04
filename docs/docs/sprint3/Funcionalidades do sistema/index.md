@@ -42,3 +42,9 @@ Funcionalidades:
 - Leitura e interpretação de arquivos
 - Modularização da resposta conforme a solicitação do usuário
 - Arquitetura em pacote
+
+**Sistema em Funcionamento**
+
+No link abaixo, é possível ver como funciona a interação do usuário com o chatbot. Um detalhe importante é que, nesta sprint, não foi possível realizar a conexão dos nós com o robô. Dessa forma, apenas o chatbot está funcionando.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aWsOsiPD0m8?si=GJ-1G5MNajlRRN3l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
