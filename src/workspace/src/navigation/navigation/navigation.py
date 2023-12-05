@@ -9,8 +9,9 @@ import json
 from rclpy.node import Node
 from tf2_ros import TransformListener, Buffer
 from tf2_geometry_msgs import do_transform_pose
-from geometry_msgs.msg import PoseStamped, String
+from geometry_msgs.msg import PoseStamped
 from nav2_simple_commander.robot_navigator import BasicNavigator
+from std_msgs.msg import String
 
 class Navigation(Node):
 
@@ -22,7 +23,8 @@ class Navigation(Node):
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
-        self.create_initial_pose()
+        # self.create_initial_pose()
+        # self.create_default_waypoints()
 
         self.nav.waitUntilNav2Active()
         self.nav.setInitialPose(self.initial_pose)
@@ -34,8 +36,8 @@ class Navigation(Node):
             10)
         self.subscription
 
-    def create_initial_pose(self):
-        pass
+    # def create_initial_pose(self):
+    #     pass
 
     def create_pose_stamped(self, navigator, pos_x, pos_y, rot_z):
         q_x, q_y, q_z, q_w = tf_transformations.quaternion_from_euler(0.0, 0.0, rot_z)
@@ -55,15 +57,16 @@ class Navigation(Node):
         return (x - in_min) * (out_max - out_min) // (in_max - in_min) + out_min
 
     def listener_callback(self, msg):
-        command = json.load(msg.data)
+        self.get_logger().info('I heard: "%s"' % msg.data)
+        command = json.loads(msg.data)
         
         # Lendo os valores de x e y do comando
         x = command['x']
         y = command['y']
 
         # Mapeando os valores de x e y para o intervalo desejado
-        x_mapped = self.map_range(x, 0, 1000, 0.0, 1.8)  # Supondo que o intervalo original de x seja de 0 a 1000
-        y_mapped = self.map_range(y, 0, 1000, 0.0, 1.8)  # Supondo que o intervalo original de y seja de 0 a 1000
+        x_mapped = self.map_range(x, 0, 350, 0.0, 1.8)  # Supondo que o intervalo original de x seja de 0 a 1000
+        y_mapped = self.map_range(y, 0, 350, 0.0, 1.8)  # Supondo que o intervalo original de y seja de 0 a 1000
 
         # Criando o ponto dentro dos limites desejados
         new_waypoint = self.create_pose_stamped(self.nav, x_mapped, y_mapped, 0.0)
