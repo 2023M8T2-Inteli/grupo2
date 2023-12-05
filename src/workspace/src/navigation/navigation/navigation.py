@@ -23,7 +23,6 @@ class Navigation(Node):
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
         self.create_initial_pose()
-        self.create_default_waypoints()
 
         self.nav.waitUntilNav2Active()
         self.nav.setInitialPose(self.initial_pose)
