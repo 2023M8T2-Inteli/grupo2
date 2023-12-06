@@ -1,75 +1,74 @@
-Engrenagem: [(x:220), (y:180)],
-Bomba de líquido: [(x:150), (y:250)],
-Válvula de pressão: [(x:300), (y:50)],
-Motor elétrico: [(x:100), (y:100)],
-Correia transportadora: [(x:180), (y:300)],
-Sensor de Temperatura: [(x:250), (y:200)],
-Rolamento: [(x:50), (y:350)],
-Tubo para Fluidos: [(x:300), (y:300)],
-Filtro para Líquidos: [(x:200), (y:150)],
-Bico para Gases: [(x:50), (y:200)],
-Cilindro Hidráulico: [(x:350), (y:100)],
-Tela: [(x:100), (y:50)],
-Controlador PLC: [(x:200), (y:250)],
-Interruptor de Segurança: [(x:250), (y:150)],
-Caixa de Engrenagens: [(x:150), (y:100)],
-Ventilador Axial: [(x:350), (y:300)],
-Bomba Diafragma: [(x:200), (y:350)],
-Válvula de Controle de Fluxo: [(x:300), (y:200)],
-Motor Servo: [(x:50), (y:350)],
-Correia Sincronizada: [(x:150), (y:300)],
-Sensor de Pressão: [(x:300), (y:50)],
-Rolamento de Rolos: [(x:100), (y:200)],
-Válvula de Controle de Vazão: [(x:350), (y:150)],
-Motor de Passo: [(x:180), (y:250)],
-Sensor de Luz: [(x:250), (y:350)],
-Rolamento Radial: [(x:50), (y:100)],
-Tubo para Gases: [(x:300), (y:200)],
-Filtro de Ar Comprimido: [(x:200), (y:100)],
-Bico de Ar: [(x:350), (y:300)],
-Cilindro Pneumático: [(x:100), (y:50)],
-Tela LED: [(x:250), (y:250)],
-Controlador de Temperatura: [(x:180), (y:150)],
-Interruptor de Proximidade: [(x:50), (y:350)],
-Caixa de Engrenagens Helicoidais: [(x:300), (y:300)],
-Ventilador Axial: [(x:150), (y:200)],
-Bomba Peristáltica: [(x:200), (y:100)],
-Válvula Solenoide: [(x:350), (y:150)],
-Motor de Indução Monofásico: [(x:250), (y:250)],
-Correia em V: [(x:100), (y:50)],
-Válvula de Controle de Vazão: [(x:180), (y:250)],
-Chave de Fenda Phillips: [(x:220), (y:180)],
-Parafuso Phillips 5x20: [(x:150), (y:274)],
-Prego 10x2: [(x:300), (y:50)],
-Chave de Fenda de Precisão: [(x:100), (y:100)],
-Porca M8: [(x:180), (y:300)],
-Broca para Metal 6mm: [(x:250), (y:200)],
-Arruela de Pressão: [(x:50), (y:350)],
-Parafuso Allen M6x25: [(x:300), (y:300)],
-Bucha de Nylon 8mm: [(x:200), (y:150)],
-Chave Inglesa 10": [(x:50), (y:200)],
-Parafuso Autoatarraxante: [(x:350), (y:100)],
-Trena 5m: [(x:100), (y:50)],
-Furadeira de Impacto 600W: [(x:200), (y:250)],
-Serra Circular 1200W: [(x:250), (y:150)],
-Bucha de Expansão 12mm: [(x:300), (y:200)],
-Estilete Retrátil: [(x:150), (y:100)],
-Parafuso de Fixação M10x50: [(x:350), (y:300)],
-Martelo de Unha 500g: [(x:200), (y:350)],
-Chave de Boca Ajustável: [(x:300), (y:200)],
-Lixa para Madeira 80 grit: [(x:50), (y:350)],
-Nível a Laser: [(x:300), (y:50)],
-Alicate de Corte Diagonal: [(x:100), (y:200)],
-Parafuso Sextavado 1/4x1: [(x:350), (y:150)],
-Esquadro de Carpinteiro: [(x:180), (y:250)],
-Serra Tico-Tico 600W: [(x:250), (y:350)],
-Parafuso de Fixação M6x30: [(x:50), (y:100)],
-Chave de Fenda Isolada: [(x:300), (y:200)],
-Prego 8x1: [(x:200), (y:100)],
-Serra Copo 3": [(x:350), (y:300)],
-Chave de Fenda Torx T25: [(x:100), (y:50)],
-Fita Métrica 3m: [(x:250), (y:250)],
-Nível de Bolha 12": [(x:180), (y:150)],
-Marreta de Borracha 1kg: [(x:50), (y:350)],
-Parafuso de Fixação M12x70: [(x:300), (y:300)]
-
+Engrenagem: [(x:1.0), (y:1.9)]
+Bomba de líquido: [(x:0.6), (y:0.8)]
+Válvula de pressão: [(x:1.5), (y:0.5)]
+Motor elétrico: [(x:0.0), (y:0.0)]
+Correia transportadora: [(x:-0.3), (y:1.4)]
+Sensor de Temperatura: [(x:1.5), (y:0.5)]
+Rolamento: [(x:0.6), (y:0.8)]
+Tubo para Fluidos: [(x:1.5), (y:0.5)]
+Filtro para Líquidos: [(x:1.0), (y:1.9)]
+Bico para Gases: [(x:0.6), (y:0.8)]
+Cilindro Hidráulico: [(x:1.0), (y:1.9)]
+Tela: [(x:0.0), (y:0.0)]
+Controlador PLC: [(x:-0.3), (y:1.4)]
+Interruptor de Segurança: [(x:1.5), (y:0.5)]
+Caixa de Engrenagens: [(x:0.6), (y:0.8)]
+Ventilador Axial: [(x:1.0), (y:1.9)]
+Bomba Diafragma: [(x:1.0), (y:1.9)]
+Válvula de Controle de Fluxo: [(x:1.5), (y:0.5)]
+Motor Servo: [(x:0.6), (y:0.8)]
+Correia Sincronizada: [(x:0.0), (y:0.0)]
+Sensor de Pressão: [(x:1.5), (y:0.5)]
+Rolamento de Rolos: [(x:0.6), (y:0.8)]
+Válvula de Controle de Vazão: [(x:1.0), (y:1.9)]
+Motor de Passo: [(x:-0.3), (y:1.4)]
+Sensor de Luz: [(x:1.5), (y:0.5)]
+Rolamento Radial: [(x:0.6), (y:0.8)]
+Tubo para Gases: [(x:1.5), (y:0.5)]
+Filtro de Ar Comprimido: [(x:1.0), (y:1.9)]
+Bico de Ar: [(x:0.6), (y:0.8)]
+Cilindro Pneumático: [(x:-0.3), (y:1.4)]
+Tela LED: [(x:1.5), (y:0.5)]
+Controlador de Temperatura: [(x:0.6), (y:0.8)]
+Interruptor de Proximidade: [(x:0.0), (y:0.0)]
+Caixa de Engrenagens Helicoidais: [(x:1.5), (y:0.5)]
+Ventilador Axial: [(x:1.0), (y:1.9)]
+Bomba Peristáltica: [(x:0.6), (y:0.8)]
+Válvula Solenoide: [(x:1.0), (y:1.9)]
+Motor de Indução Monofásico: [(x:-0.3), (y:1.4)]
+Correia em V: [(x:0.0), (y:0.0)]
+Válvula de Controle de Vazão: [(x:0.6), (y:0.8)]
+Chave de Fenda Phillips: [(x:1.0), (y:1.9)]
+Parafuso Phillips 5x20: [(x:0.6), (y:0.8)]
+Prego 10x2: [(x:1.5), (y:0.5)]
+Chave de Fenda de Precisão: [(x:0.0), (y:0.0)]
+Porca M8: [(x:0.6), (y:0.8)]
+Broca para Metal 6mm: [(x:1.5), (y:0.5)]
+Arruela de Pressão: [(x:0.0), (y:0.0)]
+Parafuso Allen M6x25: [(x:1.5), (y:0.5)]
+Bucha de Nylon 8mm: [(x:1.0), (y:1.9)]
+Chave Inglesa 10": [(x:0.6), (y:0.8)]
+Parafuso Autoatarraxante: [(x:1.0), (y:1.9)]
+Trena 5m: [(x:-0.3), (y:1.4)]
+Furadeira de Impacto 600W: [(x:0.0), (y:0.0)]
+Serra Circular 1200W: [(x:0.6), (y:0.8)]
+Bucha de Expansão 12mm: [(x:1.5), (y:0.5)]
+Estilete Retrátil: [(x:1.0), (y:1.9)]
+Parafuso de Fixação M10x50: [(x:0.6), (y:0.8)]
+Martelo de Unha 500g: [(x:1.0), (y:1.9)]
+Chave de Boca Ajustável: [(x:-0.3), (y:1.4)]
+Lixa para Madeira 80 grit: [(x:1.5), (y:0.5)]
+Nível a Laser: [(x:0.6), (y:0.8)]
+Alicate de Corte Diagonal: [(x:0.0), (y:0.0)]
+Parafuso Sextavado 1/4x1: [(x:1.5), (y:0.5)]
+Esquadro de Carpinteiro: [(x:0.6), (y:0.8)]
+Serra Tico-Tico 600W: [(x:1.0), (y:1.9)]
+Parafuso de Fixação M6x30: [(x:-0.3), (y:1.4)]
+Chave de Fenda Isolada: [(x:0.6), (y:0.8)]
+Prego 8x1: [(x:1.0), (y:1.9)]
+Serra Copo 3": [(x:1.5), (y:0.5)]
+Chave de Fenda Torx T25: [(x:0.0), (y:0.0)]
+Fita Métrica 3m: [(x:0.6), (y:0.8)]
+Nível de Bolha 12": [(x:1.0), (y:1.9)]
+Marreta de Borracha 1kg: [(x:-0.3), (y:1.4)]
+Parafuso de Fixação M12x70: [(x:1.5), (y:0.5)]
