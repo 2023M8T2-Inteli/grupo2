@@ -37,8 +37,8 @@ class RegexNode(Node):
         for pattern in self.intents['tool_request']:
             match = re.search(pattern, command)
             if match:
-                x = int(match.group(1))
-                y = int(match.group(2))
+                x = float(match.group(1))
+                y = float(match.group(2))
                 tool_intention = True
                 break
         
@@ -56,7 +56,10 @@ def main(args=None):
 
     intents = {
         "tool_request": [
-            r"\(x:(\d+)\), \(y:(\d+)\)",
+            # r"\(x:(\d+)\), \(y:(\d+)\)",
+            r"\(x:(\d+\.\d+)\), \(y:(\d+\.\d+)\)",
+            r"\(x:(\d+\.\d*)\), \(y:(\d+\.\d*)\)",
+            r"\[\(x:(\d+\.\d*)\), \(y:(\d+\.\d*)\)\]"
             # Outras variações podem ser adicionadas aqui
         ],
     }
