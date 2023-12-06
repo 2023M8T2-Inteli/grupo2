@@ -16,4 +16,7 @@ O objetivo desta etapa da documentação é elencar as funcionalidas que são po
 | A LLM é capaz de lidar com muitas requisições por minuto     |        | ❌     |
 | O administrador tem um banco de dados com todas peças disponíveis    |       | ❌     |
 | É possível criar relatórios customizados com base nas requisições feitas     |        | ❌     |
+| O sistema é capaz de receber um documento com todas localizações de peças     | ✅       |      |
+| O robô é capaz de responder perguntas sobre os mais variados assuntos    |        | ❌     |
+| O robô é capaz de explicar como usar determinada ferramenta    | ✅       |      |
 | *exemplo*    | ✅       | ❌     |
