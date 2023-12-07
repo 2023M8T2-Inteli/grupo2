@@ -30,6 +30,7 @@ setup(
             "llm= central.llm_node:main",
             "telegram= central.telegram_node:main",
             "voice_processing= central.voice_processing_node:main",
+            "tts= central.tts_node:main",
         ],
     },
 )
