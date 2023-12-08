@@ -4,7 +4,6 @@ from openai import OpenAI
 from std_msgs.msg import String
 from io import BytesIO
 from playsound import playsound
-import time
 from ament_index_python.packages import get_package_share_directory
 import os
 
@@ -17,8 +16,10 @@ class TTSNode(Node):
             'move_robot',
             self.listener_callback,
             10)
+        self.get_logger().info('TTS Node está rodando e esperando por comandos...')
 
     def generate_speech(self):
+        try:
      #   response = self.client.audio.speech.create(
       #      model="tts-1",
        #     voice="alloy",
@@ -26,19 +27,23 @@ class TTSNode(Node):
         #)
         
 
-        package_name = 'central'
+            package_name = 'central'
 
-    # Construa o caminho para o diretório de compartilhamento do pacote
-        package_share_directory = get_package_share_directory(package_name)
+        # Construa o caminho para o diretório de compartilhamento do pacote
+            package_share_directory = get_package_share_directory(package_name)
 
-    # Construa o caminho para o seu arquivo de dados dentro do diretório de recursos
-        data_file_path = os.path.join(package_share_directory, 'resource', 'audio.mp3')
+        # Construa o caminho para o seu arquivo de dados dentro do diretório de recursos
+            data_file_path = os.path.join(package_share_directory, 'resource', 'audio.mp3')
+            self.get_logger().info(data_file_path)
+            playsound(data_file_path)
+            self.get_logger().info("Audio reproduzido com sucesso!")
+        except Exception as e:
+            print(e, flush=True)
+            self.get_logger().error(f"Error: {e}")
 
-        playsound(data_file_path)
-        time.sleep(5)
 
     def listener_callback(self, msg):
-        self.generate_speech(msg.data)
+        self.generate_speech()
         self.get_logger().info(f"Received command: {msg.data}")
 
 def main(args=None):
