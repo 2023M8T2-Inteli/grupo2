@@ -1,0 +1,51 @@
+[2.511s] Invoking command in '/home/amanda/Documents/M8/grupo2/src/workspace/src/central': PYTHONPATH=/home/amanda/Documents/M8/grupo2/build/central/prefix_override:/home/amanda/Documents/M8/grupo2/install/central/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/central build --build-base /home/amanda/Documents/M8/grupo2/build/central/build install --record /home/amanda/Documents/M8/grupo2/build/central/install.log --single-version-externally-managed
+[3.133s] running egg_info
+[3.166s] writing ../../../../build/central/central.egg-info/PKG-INFO
+[3.166s] writing dependency_links to ../../../../build/central/central.egg-info/dependency_links.txt
+[3.167s] writing entry points to ../../../../build/central/central.egg-info/entry_points.txt
+[3.167s] writing requirements to ../../../../build/central/central.egg-info/requires.txt
+[3.167s] writing top-level names to ../../../../build/central/central.egg-info/top_level.txt
+[3.235s] reading manifest file '../../../../build/central/central.egg-info/SOURCES.txt'
+[3.236s] writing manifest file '../../../../build/central/central.egg-info/SOURCES.txt'
+[3.236s] running build
+[3.237s] running build_py
+[3.237s] copying central/input_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central
+[3.237s] copying central/regex_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central
+[3.237s] copying central/voice_processing_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central
+[3.238s] copying central/telegram_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central
+[3.238s] copying central/logger_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central
+[3.238s] copying central/__init__.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central
+[3.238s] copying central/llm_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central
+[3.239s] running install
+[3.239s] /home/amanda/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.240s] !!
+[3.240s] 
+[3.240s]         ********************************************************************************
+[3.240s]         Please avoid running ``setup.py`` directly.
+[3.241s]         Instead, use pypa/build, pypa/installer or other
+[3.241s]         standards-based tools.
+[3.241s] 
+[3.241s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.241s]         ********************************************************************************
+[3.241s] 
+[3.241s] !!
+[3.241s]   self.initialize_options()
+[3.248s] running install_lib
+[3.278s] running install_data
+[3.307s] copying package.xml -> /home/amanda/Documents/M8/grupo2/install/central/share/central
+[3.308s] copying resource/Modelfile -> /home/amanda/Documents/M8/grupo2/install/central/share/central/resource
+[3.308s] copying resource/inventario_simulado_almoxarifado.pdf -> /home/amanda/Documents/M8/grupo2/install/central/share/central/resource
+[3.308s] copying resource/data.txt -> /home/amanda/Documents/M8/grupo2/install/central/share/central/resource
+[3.308s] copying resource/central -> /home/amanda/Documents/M8/grupo2/install/central/share/central/resource
+[3.309s] running install_egg_info
+[3.346s] removing '/home/amanda/Documents/M8/grupo2/install/central/lib/python3.10/site-packages/central-0.0.0-py3.10.egg-info' (and everything under it)
+[3.347s] Copying ../../../../build/central/central.egg-info to /home/amanda/Documents/M8/grupo2/install/central/lib/python3.10/site-packages/central-0.0.0-py3.10.egg-info
+[3.349s] running install_scripts
+[3.434s] Installing input script to /home/amanda/Documents/M8/grupo2/install/central/lib/central
+[3.434s] Installing llm script to /home/amanda/Documents/M8/grupo2/install/central/lib/central
+[3.434s] Installing logs script to /home/amanda/Documents/M8/grupo2/install/central/lib/central
+[3.434s] Installing regex script to /home/amanda/Documents/M8/grupo2/install/central/lib/central
+[3.434s] Installing telegram script to /home/amanda/Documents/M8/grupo2/install/central/lib/central
+[3.435s] Installing voice_processing script to /home/amanda/Documents/M8/grupo2/install/central/lib/central
+[3.436s] writing list of installed files to '/home/amanda/Documents/M8/grupo2/build/central/install.log'
+[3.599s] Invoked command in '/home/amanda/Documents/M8/grupo2/src/workspace/src/central' returned '0': PYTHONPATH=/home/amanda/Documents/M8/grupo2/build/central/prefix_override:/home/amanda/Documents/M8/grupo2/install/central/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/central build --build-base /home/amanda/Documents/M8/grupo2/build/central/build install --record /home/amanda/Documents/M8/grupo2/build/central/install.log --single-version-externally-managed

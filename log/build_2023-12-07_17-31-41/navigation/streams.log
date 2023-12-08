@@ -1,0 +1,38 @@
+[2.462s] Invoking command in '/home/amanda/Documents/M8/grupo2/src/workspace/src/navigation': PYTHONPATH=/home/amanda/Documents/M8/grupo2/build/navigation/prefix_override:/home/amanda/Documents/M8/grupo2/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/navigation build --build-base /home/amanda/Documents/M8/grupo2/build/navigation/build install --record /home/amanda/Documents/M8/grupo2/build/navigation/install.log --single-version-externally-managed
+[3.091s] running egg_info
+[3.123s] writing ../../../../build/navigation/navigation.egg-info/PKG-INFO
+[3.125s] writing dependency_links to ../../../../build/navigation/navigation.egg-info/dependency_links.txt
+[3.126s] writing entry points to ../../../../build/navigation/navigation.egg-info/entry_points.txt
+[3.126s] writing requirements to ../../../../build/navigation/navigation.egg-info/requires.txt
+[3.126s] writing top-level names to ../../../../build/navigation/navigation.egg-info/top_level.txt
+[3.196s] reading manifest file '../../../../build/navigation/navigation.egg-info/SOURCES.txt'
+[3.197s] writing manifest file '../../../../build/navigation/navigation.egg-info/SOURCES.txt'
+[3.197s] running build
+[3.198s] running build_py
+[3.198s] copying navigation/navigation.py -> /home/amanda/Documents/M8/grupo2/build/navigation/build/lib/navigation
+[3.199s] copying navigation/__init__.py -> /home/amanda/Documents/M8/grupo2/build/navigation/build/lib/navigation
+[3.199s] running install
+[3.199s] /home/amanda/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.199s] !!
+[3.200s] 
+[3.200s]         ********************************************************************************
+[3.200s]         Please avoid running ``setup.py`` directly.
+[3.200s]         Instead, use pypa/build, pypa/installer or other
+[3.200s]         standards-based tools.
+[3.200s] 
+[3.200s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.201s]         ********************************************************************************
+[3.201s] 
+[3.201s] !!
+[3.201s]   self.initialize_options()
+[3.209s] running install_lib
+[3.244s] running install_data
+[3.277s] copying resource/navigation -> /home/amanda/Documents/M8/grupo2/install/navigation/share/ament_index/resource_index/packages
+[3.278s] copying package.xml -> /home/amanda/Documents/M8/grupo2/install/navigation/share/navigation
+[3.278s] running install_egg_info
+[3.311s] removing '/home/amanda/Documents/M8/grupo2/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[3.312s] Copying ../../../../build/navigation/navigation.egg-info to /home/amanda/Documents/M8/grupo2/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[3.313s] running install_scripts
+[3.401s] Installing navigation script to /home/amanda/Documents/M8/grupo2/install/navigation/lib/navigation
+[3.401s] writing list of installed files to '/home/amanda/Documents/M8/grupo2/build/navigation/install.log'
+[3.464s] Invoked command in '/home/amanda/Documents/M8/grupo2/src/workspace/src/navigation' returned '0': PYTHONPATH=/home/amanda/Documents/M8/grupo2/build/navigation/prefix_override:/home/amanda/Documents/M8/grupo2/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/navigation build --build-base /home/amanda/Documents/M8/grupo2/build/navigation/build install --record /home/amanda/Documents/M8/grupo2/build/navigation/install.log --single-version-externally-managed

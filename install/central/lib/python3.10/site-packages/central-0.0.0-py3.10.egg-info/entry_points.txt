@@ -1,0 +1,7 @@
+[console_scripts]
+input = central.input_node:main
+llm = central.llm_node:main
+logs = central.logger_node:main
+regex = central.regex_node:main
+telegram = central.telegram_node:main
+voice_processing = central.voice_processing_node:main

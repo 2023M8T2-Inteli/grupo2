@@ -33,9 +33,9 @@ class TelegramNode(Node):
                 intro_text = """
                 Olá, eu sou o Bot do grupo BBB, no que posso te ajudar hoje?
 
-    - Fazer a requisicao de uma peça
-    - Perguntar sobre alguma peça
-    - Perguntar sobre alguma norma de segurança
+                - Para pedir uma peça, digite ou mande áudio: "Quero um [...]", "Preciso de um [...]", etc. \n
+                - Para saber mais informações sobre como usar uma peça, digite ou mande áudio: "Como eu uso [...]?", "Pra que serve [...]?", etc. \n
+                - Para ter informações de segurança sobre uma peça, digite ou mande áudio: "Quais são os cuidados que eu tenho que ter usando [...]?", "É perigoso usar [...]?", etc. \n
                 """
                 self.bot.register_next_step_handler(message, self.process_response)
                 self.bot.reply_to(message, intro_text)

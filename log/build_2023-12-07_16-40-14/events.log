@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000501] (central) JobQueued: {'identifier': 'central', 'dependencies': OrderedDict()}
+[0.000551] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.000578] (central) JobStarted: {'identifier': 'central'}
+[0.101291] (-) TimerEvent: {}
+[0.144681] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.201393] (-) TimerEvent: {}
+[0.301747] (-) TimerEvent: {}
+[0.402084] (-) TimerEvent: {}
+[0.502442] (-) TimerEvent: {}
+[0.602802] (-) TimerEvent: {}
+[0.703188] (-) TimerEvent: {}
+[0.804558] (-) TimerEvent: {}
+[0.905339] (-) TimerEvent: {}
+[1.005680] (-) TimerEvent: {}
+[1.106051] (-) TimerEvent: {}
+[1.206487] (-) TimerEvent: {}
+[1.306854] (-) TimerEvent: {}
+[1.407308] (-) TimerEvent: {}
+[1.507661] (-) TimerEvent: {}
+[1.608072] (-) TimerEvent: {}
+[1.708533] (-) TimerEvent: {}
+[1.808920] (-) TimerEvent: {}
+[1.909300] (-) TimerEvent: {}
+[2.009763] (-) TimerEvent: {}
+[2.110280] (-) TimerEvent: {}
+[2.210784] (-) TimerEvent: {}
+[2.311284] (-) TimerEvent: {}
+[2.411806] (-) TimerEvent: {}
+[2.512364] (-) TimerEvent: {}
+[2.612890] (-) TimerEvent: {}
+[2.713406] (-) TimerEvent: {}
+[2.813847] (-) TimerEvent: {}
+[2.914183] (-) TimerEvent: {}
+[3.014426] (-) TimerEvent: {}
+[3.114678] (-) TimerEvent: {}
+[3.214928] (-) TimerEvent: {}
+[3.315274] (-) TimerEvent: {}
+[3.465764] (-) TimerEvent: {}
+[3.566227] (-) TimerEvent: {}
+[3.669768] (-) TimerEvent: {}
+[3.773755] (-) TimerEvent: {}
+[3.877802] (-) TimerEvent: {}
+[3.981764] (-) TimerEvent: {}
+[4.082796] (-) TimerEvent: {}
+[4.185757] (-) TimerEvent: {}
+[4.289770] (-) TimerEvent: {}
+[4.390140] (-) TimerEvent: {}
+[4.490514] (-) TimerEvent: {}
+[4.590868] (-) TimerEvent: {}
+[4.691216] (-) TimerEvent: {}
+[4.791661] (-) TimerEvent: {}
+[4.892035] (-) TimerEvent: {}
+[4.992384] (-) TimerEvent: {}
+[5.092743] (-) TimerEvent: {}
+[5.193141] (-) TimerEvent: {}
+[5.293509] (-) TimerEvent: {}
+[5.393938] (-) TimerEvent: {}
+[5.494590] (-) TimerEvent: {}
+[5.594958] (-) TimerEvent: {}
+[5.696300] (-) TimerEvent: {}
+[5.796799] (-) TimerEvent: {}
+[5.897214] (-) TimerEvent: {}
+[5.997643] (-) TimerEvent: {}
+[6.098108] (-) TimerEvent: {}
+[6.171599] (central) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/central', 'build', '--build-base', '/home/amanda/Documents/M8/grupo2/build/central/build', 'install', '--record', '/home/amanda/Documents/M8/grupo2/build/central/install.log', '--single-version-externally-managed'], 'cwd': '/home/amanda/Documents/M8/grupo2/src/workspace/src/central', 'env': {'USER': 'amanda', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CMAKE_CXX_COMPILER': 'g++', 'TELEGRAM_API_KEY': '6789925207:AAGWEl8dbtY3-C-EO3-g9gJQURvYQozIuaI', 'BROWSER': 'firefox', 'XDG_CACHE_HOME': '/home/amanda/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/amanda', 'FIREFOX_BACKUP_DIR': '/home/amanda/Documents/.backup/Mozilla', 'OLDPWD': '/home/amanda/Documents/M8/grupo2', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'XDG_DOCUMENTS_DIR': '/home/amanda/Documents', 'ZSH': '/home/amanda/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'less', 'OPENAI_API_KEY': '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', 'LC_MONETARY': 'pt_BR.UTF-8', 'FNM_ARCH': 'x64', 'XDG_STATE_HOME': '/home/amanda/.local/state', 'VISUAL': 'nvim', 'SYSTEMD_EXEC_PID': '14531', 'GOROOT': '/home/amanda/go', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'FNM_VERSION_FILE_STRATEGY': 'local', 'FNM_LOGLEVEL': 'info', 'LOGNAME': 'amanda', '_': '/usr/bin/colcon', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'amanda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/run/user/1000/fnm_multishells/28689_1701977935066/bin:/home/rmnicola/.local/share/fnm:/home/amanda/.cargo/bin:/opt/ros/humble/bin:/home/amanda/bin:/home/amanda/.local/bin:/home/amanda/bin:/home/amanda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amanda/go/bin:/home/amanda/go/packages/bin:/home/amanda/go/bin:/home/amanda/go/packages/bin', 'SESSION_MANAGER': 'local/amanda-latitude-5420:@/tmp/.ICE-unix/1994,unix/amanda-latitude-5420:/tmp/.ICE-unix/1994', 'GNOME_BACKUP_DIR': '/home/amanda/Documents/.backup/Gnome', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/67849fee_a203_4c3e_9554_b3b265a0c2ea', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'CMAKE_C_COMPILER': 'gcc', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'HISTSIZE': '50000', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YGBJF2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_DATA_HOME': '/home/amanda/.local/share', 'GNOME_TERMINAL_SERVICE': ':1.266', 'XDG_CONFIG_HOME': '/home/amanda/.config', 'XMODIFIERS': '@im=ibus', 'FNM_DIR': '/home/amanda/.local/share/fnm', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '121', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'FNM_RESOLVE_ENGINES': 'false', 'LC_NAME': 'pt_BR.UTF-8', 'SHELL': '/usr/bin/zsh', 'GOPATH': '/home/amanda/go/packages', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'OPENAI_ORGANIZATION_ID': 'org-SppTyDM6UaHXwn44xxi1zRHO', 'QT_IM_MODULE': 'ibus', 'SAVEHIST': '10000', 'PWD': '/home/amanda/Documents/M8/grupo2/build/central', 'TURTLEBOT3_MODEL': 'burger', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/28689_1701977935066', 'QT_QPA_PLATFORM': 'xcb', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'KEYTIMEOUT': '1', 'LC_NUMERIC': 'pt_BR.UTF-8', 'PYTHONPATH': '/home/amanda/Documents/M8/grupo2/build/central/prefix_override:/home/amanda/Documents/M8/grupo2/install/central/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HISTFILE': '/home/amanda/.config/zsh/.zhistory', 'LC_PAPER': 'pt_BR.UTF-8', 'FNM_COREPACK_ENABLED': 'false', 'COLCON': '1', 'VTE_VERSION': '6800', 'EDITOR': 'nvim'}, 'shell': False}
+[6.201284] (-) TimerEvent: {}
+[6.278017] (navigation) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/navigation', 'build', '--build-base', '/home/amanda/Documents/M8/grupo2/build/navigation/build', 'install', '--record', '/home/amanda/Documents/M8/grupo2/build/navigation/install.log', '--single-version-externally-managed'], 'cwd': '/home/amanda/Documents/M8/grupo2/src/workspace/src/navigation', 'env': {'USER': 'amanda', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CMAKE_CXX_COMPILER': 'g++', 'TELEGRAM_API_KEY': '6789925207:AAGWEl8dbtY3-C-EO3-g9gJQURvYQozIuaI', 'BROWSER': 'firefox', 'XDG_CACHE_HOME': '/home/amanda/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/amanda', 'FIREFOX_BACKUP_DIR': '/home/amanda/Documents/.backup/Mozilla', 'OLDPWD': '/home/amanda/Documents/M8/grupo2', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'XDG_DOCUMENTS_DIR': '/home/amanda/Documents', 'ZSH': '/home/amanda/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'less', 'OPENAI_API_KEY': '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', 'LC_MONETARY': 'pt_BR.UTF-8', 'FNM_ARCH': 'x64', 'XDG_STATE_HOME': '/home/amanda/.local/state', 'VISUAL': 'nvim', 'SYSTEMD_EXEC_PID': '14531', 'GOROOT': '/home/amanda/go', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'FNM_VERSION_FILE_STRATEGY': 'local', 'FNM_LOGLEVEL': 'info', 'LOGNAME': 'amanda', '_': '/usr/bin/colcon', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'amanda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/run/user/1000/fnm_multishells/28689_1701977935066/bin:/home/rmnicola/.local/share/fnm:/home/amanda/.cargo/bin:/opt/ros/humble/bin:/home/amanda/bin:/home/amanda/.local/bin:/home/amanda/bin:/home/amanda/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amanda/go/bin:/home/amanda/go/packages/bin:/home/amanda/go/bin:/home/amanda/go/packages/bin', 'SESSION_MANAGER': 'local/amanda-latitude-5420:@/tmp/.ICE-unix/1994,unix/amanda-latitude-5420:/tmp/.ICE-unix/1994', 'GNOME_BACKUP_DIR': '/home/amanda/Documents/.backup/Gnome', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/67849fee_a203_4c3e_9554_b3b265a0c2ea', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'CMAKE_C_COMPILER': 'gcc', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'HISTSIZE': '50000', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YGBJF2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_DATA_HOME': '/home/amanda/.local/share', 'GNOME_TERMINAL_SERVICE': ':1.266', 'XDG_CONFIG_HOME': '/home/amanda/.config', 'XMODIFIERS': '@im=ibus', 'FNM_DIR': '/home/amanda/.local/share/fnm', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '121', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'FNM_RESOLVE_ENGINES': 'false', 'LC_NAME': 'pt_BR.UTF-8', 'SHELL': '/usr/bin/zsh', 'GOPATH': '/home/amanda/go/packages', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'OPENAI_ORGANIZATION_ID': 'org-SppTyDM6UaHXwn44xxi1zRHO', 'QT_IM_MODULE': 'ibus', 'SAVEHIST': '10000', 'PWD': '/home/amanda/Documents/M8/grupo2/build/navigation', 'TURTLEBOT3_MODEL': 'burger', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/28689_1701977935066', 'QT_QPA_PLATFORM': 'xcb', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'KEYTIMEOUT': '1', 'LC_NUMERIC': 'pt_BR.UTF-8', 'PYTHONPATH': '/home/amanda/Documents/M8/grupo2/build/navigation/prefix_override:/home/amanda/Documents/M8/grupo2/install/navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HISTFILE': '/home/amanda/.config/zsh/.zhistory', 'LC_PAPER': 'pt_BR.UTF-8', 'FNM_COREPACK_ENABLED': 'false', 'COLCON': '1', 'VTE_VERSION': '6800', 'EDITOR': 'nvim'}, 'shell': False}
+[6.301772] (-) TimerEvent: {}
+[6.405767] (-) TimerEvent: {}
+[6.509768] (-) TimerEvent: {}
+[6.613784] (-) TimerEvent: {}
+[6.721758] (-) TimerEvent: {}
+[6.825759] (-) TimerEvent: {}
+[6.929759] (-) TimerEvent: {}
+[7.030183] (-) TimerEvent: {}
+[7.130662] (-) TimerEvent: {}
+[7.233757] (-) TimerEvent: {}
+[7.337764] (-) TimerEvent: {}
+[7.406958] (central) StdoutLine: {'line': b'running egg_info\n'}
+[7.437757] (navigation) StdoutLine: {'line': b'running egg_info\n'}
+[7.438051] (-) TimerEvent: {}
+[7.465253] (central) StdoutLine: {'line': b'writing ../../../../build/central/central.egg-info/PKG-INFO\n'}
+[7.466509] (central) StdoutLine: {'line': b'writing dependency_links to ../../../../build/central/central.egg-info/dependency_links.txt\n'}
+[7.467227] (central) StdoutLine: {'line': b'writing entry points to ../../../../build/central/central.egg-info/entry_points.txt\n'}
+[7.467755] (central) StdoutLine: {'line': b'writing requirements to ../../../../build/central/central.egg-info/requires.txt\n'}
+[7.468227] (central) StdoutLine: {'line': b'writing top-level names to ../../../../build/central/central.egg-info/top_level.txt\n'}
+[7.489745] (navigation) StdoutLine: {'line': b'writing ../../../../build/navigation/navigation.egg-info/PKG-INFO\n'}
+[7.490013] (navigation) StdoutLine: {'line': b'writing dependency_links to ../../../../build/navigation/navigation.egg-info/dependency_links.txt\n'}
+[7.490158] (navigation) StdoutLine: {'line': b'writing entry points to ../../../../build/navigation/navigation.egg-info/entry_points.txt\n'}
+[7.490295] (navigation) StdoutLine: {'line': b'writing requirements to ../../../../build/navigation/navigation.egg-info/requires.txt\n'}
+[7.490426] (navigation) StdoutLine: {'line': b'writing top-level names to ../../../../build/navigation/navigation.egg-info/top_level.txt\n'}
+[7.541756] (-) TimerEvent: {}
+[7.589505] (navigation) StdoutLine: {'line': b"reading manifest file '../../../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[7.591974] (navigation) StdoutLine: {'line': b"writing manifest file '../../../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[7.592607] (navigation) StdoutLine: {'line': b'running build\n'}
+[7.593069] (navigation) StdoutLine: {'line': b'running build_py\n'}
+[7.593760] (navigation) StdoutLine: {'line': b'copying navigation/navigation.py -> /home/amanda/Documents/M8/grupo2/build/navigation/build/lib/navigation\n'}
+[7.593956] (central) StdoutLine: {'line': b"reading manifest file '../../../../build/central/central.egg-info/SOURCES.txt'\n"}
+[7.594176] (navigation) StdoutLine: {'line': b'copying navigation/__init__.py -> /home/amanda/Documents/M8/grupo2/build/navigation/build/lib/navigation\n'}
+[7.597736] (navigation) StdoutLine: {'line': b'running install\n'}
+[7.597967] (central) StdoutLine: {'line': b"writing manifest file '../../../../build/central/central.egg-info/SOURCES.txt'\n"}
+[7.598119] (navigation) StderrLine: {'line': b'/home/amanda/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[7.598282] (navigation) StderrLine: {'line': b'!!\n'}
+[7.598415] (navigation) StderrLine: {'line': b'\n'}
+[7.598542] (navigation) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.598673] (central) StdoutLine: {'line': b'running build\n'}
+[7.598805] (central) StdoutLine: {'line': b'running build_py\n'}
+[7.598936] (central) StdoutLine: {'line': b'copying central/input_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central\n'}
+[7.599069] (navigation) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[7.599197] (navigation) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[7.599329] (navigation) StderrLine: {'line': b'        standards-based tools.\n'}
+[7.599457] (navigation) StderrLine: {'line': b'\n'}
+[7.599578] (navigation) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[7.599706] (navigation) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.599832] (navigation) StderrLine: {'line': b'\n'}
+[7.599957] (navigation) StderrLine: {'line': b'!!\n'}
+[7.600083] (navigation) StderrLine: {'line': b'  self.initialize_options()\n'}
+[7.600209] (central) StdoutLine: {'line': b'copying central/regex_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central\n'}
+[7.600339] (central) StdoutLine: {'line': b'copying central/voice_processing_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central\n'}
+[7.600472] (central) StdoutLine: {'line': b'copying central/telegram_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central\n'}
+[7.600600] (central) StdoutLine: {'line': b'copying central/logger_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central\n'}
+[7.600728] (central) StdoutLine: {'line': b'copying central/__init__.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central\n'}
+[7.600941] (central) StdoutLine: {'line': b'copying central/llm_node.py -> /home/amanda/Documents/M8/grupo2/build/central/build/lib/central\n'}
+[7.601136] (central) StdoutLine: {'line': b'running install\n'}
+[7.617755] (central) StderrLine: {'line': b'/home/amanda/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[7.618045] (central) StderrLine: {'line': b'!!\n'}
+[7.618190] (central) StderrLine: {'line': b'\n'}
+[7.618323] (central) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.618454] (central) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[7.618582] (central) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[7.618712] (central) StderrLine: {'line': b'        standards-based tools.\n'}
+[7.618834] (central) StderrLine: {'line': b'\n'}
+[7.618960] (central) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[7.619100] (central) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.619230] (central) StderrLine: {'line': b'\n'}
+[7.619351] (central) StderrLine: {'line': b'!!\n'}
+[7.619478] (central) StderrLine: {'line': b'  self.initialize_options()\n'}
+[7.619603] (central) StdoutLine: {'line': b'running install_lib\n'}
+[7.628557] (navigation) StdoutLine: {'line': b'running install_lib\n'}
+[7.642611] (-) TimerEvent: {}
+[7.689260] (navigation) StdoutLine: {'line': b'running install_data\n'}
+[7.721760] (central) StdoutLine: {'line': b'running install_data\n'}
+[7.737827] (navigation) StdoutLine: {'line': b'copying resource/navigation -> /home/amanda/Documents/M8/grupo2/install/navigation/share/ament_index/resource_index/packages\n'}
+[7.738101] (navigation) StdoutLine: {'line': b'copying package.xml -> /home/amanda/Documents/M8/grupo2/install/navigation/share/navigation\n'}
+[7.738315] (navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.745755] (-) TimerEvent: {}
+[7.781749] (central) StdoutLine: {'line': b'copying package.xml -> /home/amanda/Documents/M8/grupo2/install/central/share/central\n'}
+[7.782022] (central) StdoutLine: {'line': b'copying resource/Modelfile -> /home/amanda/Documents/M8/grupo2/install/central/share/central/resource\n'}
+[7.782173] (central) StdoutLine: {'line': b'copying resource/inventario_simulado_almoxarifado.pdf -> /home/amanda/Documents/M8/grupo2/install/central/share/central/resource\n'}
+[7.782311] (central) StdoutLine: {'line': b'copying resource/data.txt -> /home/amanda/Documents/M8/grupo2/install/central/share/central/resource\n'}
+[7.782443] (central) StdoutLine: {'line': b'copying resource/central -> /home/amanda/Documents/M8/grupo2/install/central/share/central/resource\n'}
+[7.782574] (central) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.805750] (navigation) StdoutLine: {'line': b"removing '/home/amanda/Documents/M8/grupo2/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.806011] (navigation) StdoutLine: {'line': b'Copying ../../../../build/navigation/navigation.egg-info to /home/amanda/Documents/M8/grupo2/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info\n'}
+[7.806147] (navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[7.849763] (-) TimerEvent: {}
+[7.862719] (central) StdoutLine: {'line': b"removing '/home/amanda/Documents/M8/grupo2/install/central/lib/python3.10/site-packages/central-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.863333] (central) StdoutLine: {'line': b'Copying ../../../../build/central/central.egg-info to /home/amanda/Documents/M8/grupo2/install/central/lib/python3.10/site-packages/central-0.0.0-py3.10.egg-info\n'}
+[7.866993] (central) StdoutLine: {'line': b'running install_scripts\n'}
+[7.937821] (navigation) StdoutLine: {'line': b'Installing navigation script to /home/amanda/Documents/M8/grupo2/install/navigation/lib/navigation\n'}
+[7.938601] (navigation) StdoutLine: {'line': b"writing list of installed files to '/home/amanda/Documents/M8/grupo2/build/navigation/install.log'\n"}
+[7.949872] (-) TimerEvent: {}
+[8.022118] (central) StdoutLine: {'line': b'Installing input script to /home/amanda/Documents/M8/grupo2/install/central/lib/central\n'}
+[8.023142] (central) StdoutLine: {'line': b'Installing llm script to /home/amanda/Documents/M8/grupo2/install/central/lib/central\n'}
+[8.024080] (central) StdoutLine: {'line': b'Installing logs script to /home/amanda/Documents/M8/grupo2/install/central/lib/central\n'}
+[8.024915] (central) StdoutLine: {'line': b'Installing regex script to /home/amanda/Documents/M8/grupo2/install/central/lib/central\n'}
+[8.025545] (central) StdoutLine: {'line': b'Installing telegram script to /home/amanda/Documents/M8/grupo2/install/central/lib/central\n'}
+[8.026158] (central) StdoutLine: {'line': b'Installing voice_processing script to /home/amanda/Documents/M8/grupo2/install/central/lib/central\n'}
+[8.027193] (central) StdoutLine: {'line': b"writing list of installed files to '/home/amanda/Documents/M8/grupo2/build/central/install.log'\n"}
+[8.049990] (-) TimerEvent: {}
+[8.094752] (navigation) CommandEnded: {'returncode': 0}
+[8.150095] (-) TimerEvent: {}
+[8.250690] (-) TimerEvent: {}
+[8.273487] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 0}
+[8.397936] (-) TimerEvent: {}
+[8.398253] (central) CommandEnded: {'returncode': 0}
+[8.498114] (-) TimerEvent: {}
+[8.528483] (central) JobEnded: {'identifier': 'central', 'rc': 0}
+[8.529626] (-) EventReactorShutdown: {}
