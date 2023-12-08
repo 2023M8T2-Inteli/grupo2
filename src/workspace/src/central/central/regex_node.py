@@ -59,7 +59,14 @@ def main(args=None):
             # r"\(x:(\d+)\), \(y:(\d+)\)",
             r"\(x:(\d+\.\d+)\), \(y:(\d+\.\d+)\)",
             r"\(x:(\d+\.\d*)\), \(y:(\d+\.\d*)\)",
-            r"\[\(x:(\d+\.\d*)\), \(y:(\d+\.\d*)\)\]"
+            r"\[\(x:(\d+\.\d*)\), \(y:(\d+\.\d*)\)\]",
+
+            # Captura coordenadas com formato padrão e espaços opcionais
+            r"\(x:\s*(-?\d+\.\d+)\),\s*\(y:\s*(-?\d+\.\d+)\)",
+
+            # Captura coordenadas com espaços adicionais em torno dos colchetes e parênteses
+            r"\s*\(\s*x:\s*(-?\d+\.\d+)\s*\),\s*\(\s*y:\s*(-?\d+\.\d+)\s*\)\s*",
+            
             # Outras variações podem ser adicionadas aqui
         ],
     }
