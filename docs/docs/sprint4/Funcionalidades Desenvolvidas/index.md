@@ -1,9 +1,34 @@
 ---
-title: Funcionalidades Desenvolvidas 
+title: Demonstração de Funcionalidades Desenvolvidas 
 sidebar_position: 2
 ---
 
-O objetivo desta etapa da documentação é elencar as funcionalidas que são possíveis ou não para o sistema realizar. Neste caso, foi pensando em definir uma tabela em o que é possível fazer no sistema e o que é impossível nas condições atuais. 
+# Demonstração de funcionalidades desenvolvidas
+
+O objetivo desta etapa da documentação é elencar as funcionalidas que foram desenvolvidas até a sprint 4, explicitando o que o sistema é ou não capaz de fazer. 
+
+## Demonstração de navegação até peça desejada com interação de texto via Chatbot Telegram
+
+O vídeo abaixo mostra a interação do usuário com o chatbot via texto, onde o usuário informa a ação e o nome da peça que deseja e o LLM retorna suas coordenadas, que são processadas com regex e publicadas para o Nó de navegação, responsável por conduzir o robô até a peça desejada.
+
+
+[![Contexto](../../assets/demo_texto.png)](https://drive.google.com/file/d/1KLOUVLUdJwECTekdTZDUmgny6wpbL_ay/view?usp=sharing)
+
+## Demonstração de navegação até peça desejada com interação de voz via Chatbot Telegram
+
+O vídeo abaixo mostra a interação do usuário com o chatbot via voz, onde o usuário verbaliza a ação e o nome da peça que deseja, sendo esse áudio transmitido para um script STT que o decodifica para formato de texto. Esse texto, por sua vez, alimenta o LLM, que retorna as coordenadas da peça requisitada, que são processadas com regex e publicadas para o Nó de navegação, responsável por conduzir o robô até a peça desejada.
+
+[![Contexto](../../assets/demo_voz.png)](https://drive.google.com/file/d/1XMHjLzwHuuOXixDUvYFcf8zVyPVeu0ah/view?usp=sharing)
+
+## Demonstração da execução dos Nós ROS de chatbot, navegação, reconhecimento de voz e geração de voz e mapeamento de ambiente
+
+O vídeo abaico mostra a execução dos nós ROS que compõem o sistema, sendo eles: chatbot, navegação, reconhecimento de voz e geração de voz, bem como o mapeamento de ambiente. 
+
+[![Contexto](../../assets/demo_nos.png)](https://drive.google.com/file/d/13Tc0M26Q8TrH9ogdbSGgF7l7A3W8n6Cg/view?usp=sharing)
+
+## Balanço de funcionalidades
+
+As funcionalidades implementadas foram organizadas em uma tabela onde é possível verificar o que o sistema é capaz de fazer e o que ele ainda não faz.
 
 
 | **Funcionalidade** | **Faz** | **Não faz** |
