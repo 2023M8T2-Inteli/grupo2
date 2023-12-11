@@ -1,5 +1,5 @@
 ---
-title: Como executar o projeto V1
+title: Como executar o projeto V2
 sidebar_position: 5
 ---
 import Admonition from '@theme/Admonition';
@@ -19,6 +19,8 @@ Para começar a executar o projeto, é necessário ter entendimento sobre a estr
     - workspace
         -  src
             - central
+                - launch
+                    - central_launch.py
                 - central
                     - input_node.py
                     - llm_node.py
@@ -28,9 +30,10 @@ Para começar a executar o projeto, é necessário ter entendimento sobre a estr
                     - voice_processing_node.py             
             - llm
             - navigation
+                - launch
+                    - navigation_launch.py
                 - navigation
-                    - navigation_publisher.py
-                    - navigation_subscriber.py
+                    - navigation.py
 
 ```
 
@@ -103,60 +106,43 @@ ros2 launch nav2_bringup tb3_simulation_launch.py slam:=False
 ```
 **IMPORTANTE: Certifique-se de executar este comando no robô. Caso precise de ajuda para fazer isso, podemos criar um tópico explicando como proceder.**
 
-Agora que o robô está em execução, vamos aos comandos de navegação. Abra um novo terminal e digite:
+Agora que o robô está em execução, vamos aos comandos de navegação. Na ultima sprint, nosso sistema precisava ser rodado manualente, Nó por Nó, mas agora, com o uso dos `launchs`, podemos executar tudo de uma vez só.
 
 ```bash
-ros2 run [nome do pacote][node do nó]
+ros2 launch central central_launch.py
 ```
 
-Esta é a estrutura do comando para rodar todos os nós. Mas, executar tudo de uma vez não seria tão interessante, concorda? Portanto, vamos executar cada comando separadamente.
+e em outro terminal:
 
 ```bash
-ros2 run central input_node
+ros2 launch navigation navigation_launch.py
 ```
-Este comando é responsável por executar o nó que é usado para ... (explicar o que o nó faz)
+
+O primeiro comando roda o pacote `central`, enquanto o segundo roda o pacote `navigation`.
+
+Com o uso do launch, podemos executar todos os nós de uma vez só, mas, caso queira executar os nós separadamente, você pode executar os seguintes comandos:
 
 ```bash
-ros2 run central llm_node
+ros2 run [nome_do_pacote][node_do_nó]
 ```
+Faça isso para cada nó para os pacotes `central` e `navigation`.
 
-Este comando é responsável por executar o nó que é usado para ... (explicar o que o nó faz)
+**IMPORTANTE**
+Ao criar o launch navegation.launch.py, um problema que não conseguimos resolver ainda pode ser encontrado. O mapa não é carregado corretamente, sendo necessário rodar esses 2 comandos:
 
 ```bash
-ros2 run central logger_node
+cd src\workspace\src\navigation\navigation\launch
 ```
-
-Este comando é responsável por executar o nó que é usado para ... (explicar o que o nó faz)
 
 ```bash
-ros2 run central regex_node
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=False map:=maps/circuito.yaml
 ```
-
-Este comando é responsável por executar o nó que é usado para ... (explicar o que o nó faz)
+e por ultimo:
 
 ```bash
-ros2 run central telegram_node
+ros2 run navigation navigation
 ```
-Neste comando, executamos a API do Telegram que servirá como servidor para o chatbot.
-
-```bash
-ros2 run central voice_processing_node
-```
-
-Este nó é responsável por receber o áudio do usuário e transformá-lo em texto para ser enviado para o chatbot.
-
-Agora, para a parte de navegação, execute os seguintes comandos:
-
-```bash
-ros2 run navigation navigation_publisher
-```
-
-e
-```bash
-ros2 run navigation navigation_subscriber
-```
-
-Estes comandos são necessários para o funcionamento da navegação do robô.
+Estes comandos são necessários para o funcionamento da navegação do robô caso o launch não funcione corretamente.
 
 **Lembre-se, é necessário executar o comando de inicialização do robô (caso ainda não tenha feito, é o primeiro comando mencionado).**
 
