@@ -38,10 +38,11 @@ As funcionalidades implementadas foram organizadas em uma tabela onde é possív
 | O robô recebe os comandos de buscar uma peça atráves do telegram      | ✅       |      |
 | Existe um dashboard de quantas peças estão disponíveis     |        | ❌     |
 | É possível se comunicar com o robô por outros meios além do telegram     |        | ❌     |
-| A LLM é capaz de lidar com muitas requisições por minuto     |        | ❌     |
+| A LLM é capaz de lidar com múltiplas requisições por minuto     |        | ❌     |
 | O administrador tem um banco de dados com todas peças disponíveis    |       | ❌     |
 | É possível criar relatórios customizados com base nas requisições feitas     |        | ❌     |
 | O sistema é capaz de receber um documento com todas localizações de peças     | ✅       |      |
 | O robô é capaz de responder perguntas sobre os mais variados assuntos    |        | ❌     |
 | O robô é capaz de explicar como usar determinada ferramenta    | ✅       |      |
-| *exemplo*    | ✅       | ❌     |
+
+Essas são algumas das principais funcionalidades desenvolvidas ao longo das semanas. Além disso, demandas em relação ao front-end e visualização de dados não puderam ser implementadas, visto a falta de tempo. Em versões mais completas do projeto tais pontos são primordiais para uma solução mais robusta.
