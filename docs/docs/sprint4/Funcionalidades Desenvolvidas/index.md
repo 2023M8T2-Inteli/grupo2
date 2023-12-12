@@ -1,6 +1,6 @@
 ---
 title: Demonstração de Funcionalidades Desenvolvidas 
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 # Demonstração de funcionalidades desenvolvidas

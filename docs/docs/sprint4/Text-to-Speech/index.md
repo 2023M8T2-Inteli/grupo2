@@ -1,6 +1,6 @@
 ---
 title: Text-to-Speech
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ## Text-to-Speech

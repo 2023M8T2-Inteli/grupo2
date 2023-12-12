@@ -1,6 +1,6 @@
 ---
 title: Testes de usabilidade
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Registro do teste de usabilidade
