@@ -38,11 +38,16 @@ A terceira sprint do projeto foi dedicada à concretização do sistema de naveg
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1A3Qbi34&#x2F;view?embed" >
 </iframe>
 
-### Sprint 4
+### [Sprint 4](sprint4/Interface%20Speech-to-Text/index.md)
 
-:::info
-Em construção. Volte mais tarde =D
-:::
+Ao longo da quarta sprint, a equipe de projeto se dedicou a concretizar a integração entre os dois principais componentes da solução: o robô e o chatbot. Dessa forma, foi possível colocar em prática o objetivo do projeto: buscar uma peça com a ajuda do robô, o qual se movimenta até uma coordenada específica de acordo com o comando enviado pelo usuário. Além disso, foram desenvolvidos os sistemas Speech-to-Text (STT) e Text-to-Speech (TTS) do chatbot, que permitem maior flexibilidade de interação com o usuário. Desse modo, o usuário decide se irá se comunicar com o chatbot por meio de texto ou por meio de voz. Por fim, testes de integração dos componentes foram criados, a fim de realizar as validações necessárias para a sprint.
+
+[Link da apresentação](https://www.canva.com/design/DAF2WRukch0/view)
+
+<iframe loading="lazy"
+    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.3vh' }}
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF2WRukch0&#x2F;view?embed" >
+</iframe>
 
 ### Sprint 5
 
