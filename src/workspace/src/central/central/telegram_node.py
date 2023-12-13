@@ -6,6 +6,7 @@ import threading
 import os
 from ament_index_python.packages import get_package_share_directory
 import json
+from openai import OpenAI
 
 class TelegramNode(Node):
     def __init__(self, api_key):
@@ -106,6 +107,15 @@ class TelegramNode(Node):
             String(data=f'Voice file path sent to voice processing node: "{file_path}"')
         )
 
+    def audio_message_handler(self, message):
+        client = OpenAI()
+        response = client.audio.speech.create(
+            model="tts-1",
+            voice="echo",
+            input= message,
+        )
+        return response
+
     def listener_callback(self, msg):
         self.log_publisher.publish(
             String(data=f'Telegram recebeu da LLM: "{msg.data}"')
@@ -116,8 +126,12 @@ class TelegramNode(Node):
         self.log_publisher.publish(
             String(data=f'Mensagem enviada via bot do telegram: "{response}"')
         )
-        self.bot.send_message(telegram_message_after_llm['chat_id'], response)
 
+        self.bot.send_audio(
+            chat_id=telegram_message_after_llm['chat_id'],
+            audio=self.audio_message_handler(response),
+        )
+        self.bot.send_message(telegram_message_after_llm['chat_id'], response)
 
 def main(args=None):
     api_key = os.getenv('TELEGRAM_API_KEY')
