@@ -25,5 +25,3 @@ Caso deseje entender mais como funciona cada processo específico do mapeamento 
 [Sistema de mapeamento](https://2023m8t2-inteli.github.io/grupo2/sprint2/Mapeamento/)
 
 [Sistema de navegação](https://2023m8t2-inteli.github.io/grupo2/sprint3/Sistema%20de%20navega%C3%A7%C3%A3o/)
-
-[]
