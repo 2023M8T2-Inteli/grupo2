@@ -10,22 +10,26 @@ def generate_launch_description():
        
         ExecuteProcess(
           cmd=['ros2', 'run', 'central', 'telegram'],
-        output='screen',
+          output='screen',
         ),
 
         ExecuteProcess(
           cmd=['ros2', 'run', 'central', 'llm'],
-        output='screen',
+          output='screen',
         ),
         
         ExecuteProcess(
           cmd=['ros2', 'run', 'central', 'voice_processing'],
-        output='screen',
+          output='screen',
         ),
 
         ExecuteProcess(
           cmd=['ros2', 'run', 'central', 'regex'],
-        output='screen',
+          output='screen',
+        ),
+
+        ExecuteProcess(
+          cmd=['ros2', 'run', 'central', 'logs'],
+          output='screen',
         )
-       
     ])

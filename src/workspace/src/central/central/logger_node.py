@@ -39,7 +39,7 @@ def main(args=None):
     package_share_directory = get_package_share_directory(package_name)
 
     # Construa o caminho para o seu arquivo de dados dentro do diretório de recursos
-    data_file_path = os.path.join(package_share_directory, 'resource', 'logs.txt')
+    data_file_path = os.path.join(package_share_directory, 'logs.txt')
 
     logger_node = LoggerNode(data_file_path=data_file_path)
     try:
