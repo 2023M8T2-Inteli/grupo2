@@ -49,8 +49,13 @@ Ao longo da quarta sprint, a equipe de projeto se dedicou a concretizar a integr
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF2WRukch0&#x2F;view?embed" >
 </iframe>
 
-### Sprint 5
+### [Sprint 5](sprint5/Sistema%20de%20Chatbot/index.md)
 
-:::info
-Em construção. Volte mais tarde =D
-:::
+A última sprint do projeto foi dedicada ao refinamento da solução, à finalização do manual do usuário e à construção de um roadmap para próximos passos. Considerando que a integração entre o chatbot e o sistema de navegação do robô foi concretizada ao longo da quarta sprint, poucos ajustes de caráter técnicos se fizeram necessários. A equipe de projeto concentrou seus esforços no desenvolvimento de uma documentação robusta e na confecção de orientações sólidas para o parceiro, relacionadas à futura implementação de um dashboard destinado ao controle das informações do almoxarifado, por exemplo.
+
+[Link da apresentação](https://www.canva.com/design/DAF3boPf1p0/Y6wW7IbWdtyLeHctZJJwHA/view?utm_content=DAF3boPf1p0&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+<iframe loading="lazy"
+    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.3vh' }}
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF3boPf1p0&#x2F;view?embed" >
+</iframe>

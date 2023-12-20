@@ -22,5 +22,3 @@ Se a peça que o usuário fez a requisição está disponível o robô já vai e
 Caso deseje entender mais como funciona cada processo específico do chatbot é válido olhar os seguintes pontos que são cruciais para o entendimento completo do projeto. 
 
 [Sistema de navegação](https://2023m8t2-inteli.github.io/grupo2/sprint3/Sistema%20de%20navega%C3%A7%C3%A3o/)
-
-[]
