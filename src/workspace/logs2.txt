@@ -1,7 +1,0 @@
-Telegram recebeu mensagem do tipo: "text" | 2023-12-20 18:28:10.268915
-Telegram recebeu mensagem: "como eu uso um martelo ?" | 2023-12-20 18:28:10.270552
-Telegram enviou para a LLM: "como eu uso um martelo ?" | 2023-12-20 18:28:10.271919
-LLM recebeu: "{"chat_id": 6101579470, "text": "como eu uso um martelo ?"}" | 2023-12-20 18:28:10.356313
-LLM retornou: "Você pode usar um martelo para bater em pregos ou outros objetos que precisam ser fixados ou removidos. Segure o cabo do martelo firmemente e use a cabeça para golpear o objeto desejado. Certifique-se de usar óculos de proteção e tomar cuidado para não se machucar durante o uso." | 2023-12-20 18:28:13.853250
-Telegram recebeu da LLM: "{"chat_id": 6101579470, "text": "como eu uso um martelo ?", "llm_response": "Voc\u00ea pode usar um martelo para bater em pregos ou outros objetos que precisam ser fixados ou removidos. Segure o cabo do martelo firmemente e use a cabe\u00e7a para golpear o objeto desejado. Certifique-se de usar \u00f3culos de prote\u00e7\u00e3o e tomar cuidado para n\u00e3o se machucar durante o uso."}" | 2023-12-20 18:28:13.854734
-Mensagem enviada via bot do telegram: "Você pode usar um martelo para bater em pregos ou outros objetos que precisam ser fixados ou removidos. Segure o cabo do martelo firmemente e use a cabeça para golpear o objeto desejado. Certifique-se de usar óculos de proteção e tomar cuidado para não se machucar durante o uso." | 2023-12-20 18:28:13.855201
