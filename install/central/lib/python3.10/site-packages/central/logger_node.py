@@ -32,9 +32,14 @@ class LoggerNode(Node):
 def main(args=None):
     rclpy.init(args=args)
 
+    # Nome do seu pacote
+    package_name = 'central'
+
+    # Construa o caminho para o diretório de compartilhamento do pacote
+    package_share_directory = get_package_share_directory(package_name)
 
     # Construa o caminho para o seu arquivo de dados dentro do diretório de recursos
-    data_file_path = os.path.join('src/central/resource/','logs.txt')
+    data_file_path = os.path.join(package_share_directory, 'resource', 'logs.txt')
 
     logger_node = LoggerNode(data_file_path=data_file_path)
     try:
