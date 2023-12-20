@@ -10,7 +10,9 @@ O chatbot é onde ocorre toda interação do usuário com a LLM. É a partir de 
 Durante o desenvolvimento da solução o grupo optou por desenvolver o sistema de chatbot tendo em mente a interação com o sistema apartir do Telegram. O motivo do Telegram é que além da API para integração ser totalmente gratuita. Após uma pesquisa de campo com funcionários do almoxerifado da Ambev os mesmos já estavam habituados a utilizarem bots no Telegram. Assim, além do bônus financeiro o usuário final já tem conhecimento com a solução utilizada.
 
 ## Funcionamento do chatbot
+
 No diagrama abaixo é possível entender com detalhes como funciona todo o processo de interações e respostas do chatbot.
+
 ![Contexto](../../assets/fluxo_chatbot-2.png)
 
 Após o usuário entrar na conversa com o bot é possível fazer uma requisição tanto por texto ou por voz. Caso, o que esteja sido pedido pelo usuário esteja na lista de peças disponíveis ( <code>src/workspace/src/central/resource/data.txt</code>).

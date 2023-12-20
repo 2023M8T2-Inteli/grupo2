@@ -9,14 +9,12 @@ def generate_launch_description():
     return LaunchDescription([
        
         ExecuteProcess(
-          cmd=['ros2', 'launch' ,'turtlebot3_navigation2', 'navigation2.launch.py', 'use_sim_time:=False', 'map:=maps/circuito.yaml'],
-        output='screen',
+          cmd=['ros2', 'launch' ,'turtlebot3_navigation2', 'navigation2.launch.py', 'use_sim_time:=False', 'map:=src/navigation/navigation/maps/circuito.yaml'],
+          output='screen',
         ),
 
        ExecuteProcess(
           cmd=['ros2', 'run' ,'navigation', 'navigation'],
-        output='screen',
+          output='screen',
         )
-
-
     ])
