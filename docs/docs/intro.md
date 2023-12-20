@@ -12,7 +12,7 @@ Na Sprint 1 desse projeto, o foco das atividades do grupo foi na compreensão do
 
 
 <iframe loading="lazy"
-    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.3vh' }}
+    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.7vh' }}
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFz_tqXXjk&#x2F;view?embed" >
 </iframe>
 
@@ -23,7 +23,7 @@ Durante a Sprint 2, a equipe dedicou esforços significativos para realizar uma 
 [Link da Apresentação](https://www.canva.com/design/DAFya4iIWqk/_jpFrEo42OIFbSBXrga2jQ/view?utm_content=DAFya4iIWqk&utm_campaign=designshare&utm_medium=link&utm_source=viewer)
 
 <iframe loading="lazy"
-    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.3vh' }}
+    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.7vh' }}
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFya4iIWqk&#x2F;view?embed" >
 </iframe>
 
@@ -34,7 +34,7 @@ A terceira sprint do projeto foi dedicada à concretização do sistema de naveg
 [Link da Apresentação](https://www.canva.com/design/DAF1A3Qbi34/view)
 
 <iframe loading="lazy"
-    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.3vh' }}
+    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.7vh' }}
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1A3Qbi34&#x2F;view?embed" >
 </iframe>
 
@@ -45,12 +45,17 @@ Ao longo da quarta sprint, a equipe de projeto se dedicou a concretizar a integr
 [Link da apresentação](https://www.canva.com/design/DAF2WRukch0/view)
 
 <iframe loading="lazy"
-    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.3vh' }}
+    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.7vh' }}
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF2WRukch0&#x2F;view?embed" >
 </iframe>
 
-### Sprint 5
+### [Sprint 5](sprint5/Sistema%20de%20Chatbot/index.md)
 
-:::info
-Em construção. Volte mais tarde =D
-:::
+A última sprint do projeto foi dedicada ao refinamento da solução, à finalização do manual do usuário e à construção de um roadmap para próximos passos. Considerando que a integração entre o chatbot e o sistema de navegação do robô foi concretizada ao longo da quarta sprint, poucos ajustes de caráter técnicos se fizeram necessários. A equipe de projeto concentrou seus esforços no desenvolvimento de uma documentação robusta e na confecção de orientações sólidas para o parceiro, relacionadas à futura implementação de um dashboard destinado ao controle das informações do almoxarifado, por exemplo.
+
+[Link da apresentação](https://www.canva.com/design/DAF3boPf1p0/Y6wW7IbWdtyLeHctZJJwHA/view?utm_content=DAF3boPf1p0&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+<iframe loading="lazy"
+    style={{ display: 'block', margin: 'auto', width: '100%', height: '55.7vh' }}
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF3boPf1p0&#x2F;view?embed" >
+</iframe>
