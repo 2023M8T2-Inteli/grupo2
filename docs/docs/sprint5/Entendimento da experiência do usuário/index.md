@@ -5,8 +5,6 @@ sidebar_position: 10
 
 # Entendimento da experiência do usuário
 
-
-
 ## Acessibilidade 
 
 Este foi um projeto onde a preocupação com acessibilidade já estava prevista no primeiro backlog oferido ao grupo. Durante as aulas de UX, foi possível aprofundar os conceitos de acessibilidade como um todo e entender como diferentes pessoas com possíveis diferentes tipo de deficência, sejam elas temporárias ou definitivas. No caso do projeto, foi requisitado que uma das formas de interagir com o sistema robótico de localização de itens em um almoxarifado fosse por meio de um chatbot. Os chatbots, apesar de populares nos dias atuais, já figuraram on passado como sistemas mais rudimentares. No contexto do projeto de localização de itens no almoxarifado, a escolha de incorporar um chatbot como meio de interação representou não apenas uma tendência contemporânea, mas uma decisão estratégica em prol da acessibilidade.
