@@ -1,4 +1,4 @@
-# Conclusão de TAM, SAM e SOM - Sprint 5
+# Conclusão de TAM, SAM e SOM
 
 A análise de TAM, SAM e SOM é essencial para entender o potencial de mercado de um projeto e suas possibilidades reais de alcance. A análise inicial foi fundamental para estabelecer metas realistas e fornecer um norte para estratégias de penetração de mercado.
 

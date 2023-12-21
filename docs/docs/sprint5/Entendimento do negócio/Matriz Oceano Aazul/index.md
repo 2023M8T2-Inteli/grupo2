@@ -1,4 +1,4 @@
-# Conclusão da Matriz Oceano Azul - Sprint 5
+# Conclusão da Matriz Oceano Azul
 
 Ao final do projeto, revisitamos a Matriz Oceano Azul elaborada na Sprint 1 e confirmamos que as estratégias adotadas foram bem-sucedidas em diferenciar nossa solução no mercado. A matriz foi uma ferramenta fundamental para identificar onde poderíamos inovar e como poderíamos adicionar valor único ao nosso produto, criando um novo espaço de mercado.
 
