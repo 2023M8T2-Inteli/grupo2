@@ -4,5 +4,3 @@ sidebar_position: 10
 ---
 
 # Sistema de cartografia
-
-Este documento representa ...
