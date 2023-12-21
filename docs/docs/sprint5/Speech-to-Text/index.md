@@ -1,3 +1,8 @@
+---
+title: Sistema de Speech-to-Text
+sidebar_position: 4
+---
+
 # Documentação Avançada do Sistema de Speech to Text do Bot Telegram
 
 ## Introdução
