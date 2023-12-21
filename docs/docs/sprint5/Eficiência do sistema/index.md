@@ -1,6 +1,6 @@
 ---
 title: Validação da Eficiência do Sistema
-sidebar_position: 3
+sidebar_position: 8
 ---
 
 Para assegurar a eficácia do nosso sistema, conduzimos uma série de testes abrangendo as funcionalidades de text-to-speech (TTS) e speech-to-text (STT). Diversas requisições foram feitas utilizando diferentes ferramentas, proporcionando uma validação abrangente do TTS. Além disso, todas as mensagens geradas foram sintetizadas através da API de TTS da OpenAI, reforçando a confiabilidade e qualidade da saída do sistema.

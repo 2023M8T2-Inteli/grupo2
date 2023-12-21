@@ -1,6 +1,6 @@
 ---
 title: Sistema de Navegação e Mapeamento Simultâneo
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Introdução 

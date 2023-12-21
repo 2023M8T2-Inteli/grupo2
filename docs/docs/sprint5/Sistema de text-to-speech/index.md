@@ -1,6 +1,6 @@
 ---
 title: Sistema de Text-to-Speech
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Documentação referente ao Text to Speech do Bot Telegram

@@ -1,6 +1,6 @@
 ---
 title: Conclusão da Arquitetura do Sistema
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Conclusão da Arquitetura do Sistema
