@@ -55,8 +55,8 @@ Esta tabela representa as categorias das ferramentas.
 
 ## Relacionamentos:
 
-1. **User <-> Checkouts**: Um usuario pode ter múltiplos checkouts, mas cada checkout está associado a um único usuário. Representado pela chave estrangeira `user_id` na tabela `Checkouts`.
+1. **User - Checkouts**: Um usuario pode ter múltiplos checkouts, mas cada checkout está associado a um único usuário. Representado pela chave estrangeira `user_id` na tabela `Checkouts`.
 
-2. **Tool <-> Checkouts**: Uma ferramenta pode ter múltiplos checkouts, mas cada checkout está associado a uma única ferramenta. Representado pela chave estrangeira `tool_id` na tabela `Checkouts`.
+2. **Tool - Checkouts**: Uma ferramenta pode ter múltiplos checkouts, mas cada checkout está associado a uma única ferramenta. Representado pela chave estrangeira `tool_id` na tabela `Checkouts`.
 
-3. **Tool <-> Category**: Uma ferramenta pertence a uma única categoria, mas cada categoria pode ter múltiplas ferramentas. Representado pela chave estrangeira `category_id` na tabela `Tool`.
+3. **Tool - Category**: Uma ferramenta pertence a uma única categoria, mas cada categoria pode ter múltiplas ferramentas. Representado pela chave estrangeira `category_id` na tabela `Tool`.

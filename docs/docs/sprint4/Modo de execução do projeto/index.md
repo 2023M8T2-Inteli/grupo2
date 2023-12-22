@@ -146,10 +146,5 @@ Estes comandos são necessários para o funcionamento da navegação do robô ca
 
 **Lembre-se, é necessário executar o comando de inicialização do robô (caso ainda não tenha feito, é o primeiro comando mencionado).**
 
-<Admonition 
-    type="info" 
-    icon=<img src={require('/gifs/loading.gif').default} width='20vw' />
-    title="Work in progress">
-</Admonition>
 
 Para facilitar a execução do projeto, vamos criar um mecanismo para executar todos os comandos de uma vez só. Para isso, crie um arquivo chamado 'launch' dentro da pasta 'src/workspace/src/[nome do pacote]>'. Estamos trabalhando nisso e em breve traremos mais informações.

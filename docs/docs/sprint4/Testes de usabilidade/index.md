@@ -47,7 +47,7 @@ Demonstrar o robô se deslocando para determinado ponto."
 
 - Input que ela colocaria caso quisesse solicitar um rolamento: “rolamento”, tendo dúvidas no início sobre qual comando escrever para obter o componente.
 
-- O output recebido foi “Seu pedido de rolamento está sendo processado. A localização da peça é: {(x:50);(y:350)}”
+- O output recebido foi “Seu pedido de rolamento está sendo processado. A localização da peça é: (x:50)(y:350)”
 
 - “Quais são as instruções de uso do rolamento?”
 
