@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint1/Entendimento do negócio/Análise Financeira/index",
+  "id": "sprint1/Entendimento do negócio/Análise Financeira/index",
+  "title": "Análise Financeira",
+  "description": "Construir uma análise financeira para o projeto é de fundamental importância para que o cliente possa avaliar a viabilidade de sua implementação. Desse modo, os componentes do projeto foram segmentados em hardware, software, equipe de desenvolvimeto e equipe de manutenção, e foram precificados de acordo com referências do mercado atual.",
+  "source": "@site/docs/sprint1/Entendimento do negócio/Análise Financeira/index.md",
+  "sourceDirName": "sprint1/Entendimento do negócio/Análise Financeira",
+  "slug": "/sprint1/Entendimento do negócio/Análise Financeira/",
+  "permalink": "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Análise Financeira/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Análise Financeira",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Matriz de Riscos",
+    "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/"
+  },
+  "next": {
+    "title": "Documentação do Banco de Dados",
+    "permalink": "/grupo2/sprint1/Banco de dados/"
+  }
+}

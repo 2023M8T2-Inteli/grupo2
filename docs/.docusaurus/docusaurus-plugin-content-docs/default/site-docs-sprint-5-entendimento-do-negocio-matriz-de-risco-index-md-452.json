@@ -1,0 +1,24 @@
+{
+  "unversionedId": "sprint5/Entendimento do negócio/Matriz de Risco/index",
+  "id": "sprint5/Entendimento do negócio/Matriz de Risco/index",
+  "title": "Conclusão da Matriz de Riscos",
+  "description": "Ao concluirmos a análise da Matriz de Riscos, é evidente que os riscos identificados na Sprint 1 foram cuidadosamente gerenciados ao longo do desenvolvimento do projeto. O processo de mitigação de riscos e a exploração de oportunidades foram centrais para a entrega de um sistema robusto e eficiente.",
+  "source": "@site/docs/sprint5/Entendimento do negócio/Matriz de Risco/index.md",
+  "sourceDirName": "sprint5/Entendimento do negócio/Matriz de Risco",
+  "slug": "/sprint5/Entendimento do negócio/Matriz de Risco/",
+  "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Matriz de Risco/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conclusão da Matriz Oceano Azul",
+    "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/"
+  },
+  "next": {
+    "title": "Conclusão de TAM, SAM e SOM",
+    "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/"
+  }
+}

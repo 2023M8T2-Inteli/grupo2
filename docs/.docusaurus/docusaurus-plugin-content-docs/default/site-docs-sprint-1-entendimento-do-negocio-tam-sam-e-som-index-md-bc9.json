@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint1/Entendimento do negócio/TAM, SAM e SOM/index",
+  "id": "sprint1/Entendimento do negócio/TAM, SAM e SOM/index",
+  "title": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+  "description": "1. TAM (Mercado Total Endereçável)",
+  "source": "@site/docs/sprint1/Entendimento do negócio/TAM, SAM e SOM/index.md",
+  "sourceDirName": "sprint1/Entendimento do negócio/TAM, SAM e SOM",
+  "slug": "/sprint1/Entendimento do negócio/TAM, SAM e SOM/",
+  "permalink": "/grupo2/sprint1/Entendimento do negócio/TAM, SAM e SOM/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/TAM, SAM e SOM/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Canvas Proposta de Valor",
+    "permalink": "/grupo2/sprint1/Entendimento do negócio/Canvas Proposta de Valor/"
+  },
+  "next": {
+    "title": "Matriz Oceano Azul",
+    "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/"
+  }
+}

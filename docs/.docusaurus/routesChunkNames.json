@@ -1,0 +1,424 @@
+{
+  "/grupo2/__docusaurus/debug-78b": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---grupo-2-docusaurus-debug-6-d-3-be6"
+    }
+  },
+  "/grupo2/__docusaurus/debug/config-939": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---grupo-2-docusaurus-debug-6-d-3-be6"
+    }
+  },
+  "/grupo2/__docusaurus/debug/content-b67": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---grupo-2-docusaurus-debug-6-d-3-be6"
+    },
+    "allContent": "allContent---grupo-2-docusaurus-debug-content-246-30d"
+  },
+  "/grupo2/__docusaurus/debug/globalData-30b": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---grupo-2-docusaurus-debug-6-d-3-be6"
+    }
+  },
+  "/grupo2/__docusaurus/debug/metadata-d83": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---grupo-2-docusaurus-debug-6-d-3-be6"
+    }
+  },
+  "/grupo2/__docusaurus/debug/registry-3b3": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---grupo-2-docusaurus-debug-6-d-3-be6"
+    }
+  },
+  "/grupo2/__docusaurus/debug/routes-888": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---grupo-2-docusaurus-debug-6-d-3-be6"
+    }
+  },
+  "/grupo2/blog-2c8": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "items": [
+      {
+        "content": "content---grupo-2-blog-766-084"
+      },
+      {
+        "content": "content---grupo-2-blogf-4-f-d90"
+      },
+      {
+        "content": "content---grupo-2-blog-871-c14"
+      },
+      {
+        "content": "content---grupo-2-blog-925-dce"
+      }
+    ],
+    "metadata": "metadata---grupo-2-blog-657-651"
+  },
+  "/grupo2/blog/archive-251": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "archive": "archive---grupo-2-blog-archive-5-cc-a75"
+  },
+  "/grupo2/blog/first-blog-post-427": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "content": "content---grupo-2-blog-first-blog-poste-27-609"
+  },
+  "/grupo2/blog/long-blog-post-124": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "content": "content---grupo-2-blog-long-blog-post-736-bcf"
+  },
+  "/grupo2/blog/mdx-blog-post-4d8": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "content": "content---grupo-2-blog-mdx-blog-post-593-c09"
+  },
+  "/grupo2/blog/tags-151": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "tags": "tags---grupo-2-blog-tagsf-8-e-e92"
+  },
+  "/grupo2/blog/tags/docusaurus-bea": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "items": [
+      {
+        "content": "content---grupo-2-blog-766-084"
+      },
+      {
+        "content": "content---grupo-2-blogf-4-f-d90"
+      },
+      {
+        "content": "content---grupo-2-blog-871-c14"
+      },
+      {
+        "content": "content---grupo-2-blog-925-dce"
+      }
+    ],
+    "tag": "tag---grupo-2-blog-tags-docusaurusffe-928",
+    "listMetadata": "listMetadata---grupo-2-blog-tags-docusaurus-46-c-40f"
+  },
+  "/grupo2/blog/tags/facebook-3a6": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "items": [
+      {
+        "content": "content---grupo-2-blog-766-084"
+      }
+    ],
+    "tag": "tag---grupo-2-blog-tags-facebookbfd-3f7",
+    "listMetadata": "listMetadata---grupo-2-blog-tags-facebookeb-9-e89"
+  },
+  "/grupo2/blog/tags/hello-2c5": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "items": [
+      {
+        "content": "content---grupo-2-blog-766-084"
+      },
+      {
+        "content": "content---grupo-2-blog-871-c14"
+      }
+    ],
+    "tag": "tag---grupo-2-blog-tags-helloa-3-d-578",
+    "listMetadata": "listMetadata---grupo-2-blog-tags-hello-02-f-41e"
+  },
+  "/grupo2/blog/tags/hola-207": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "items": [
+      {
+        "content": "content---grupo-2-blog-925-dce"
+      }
+    ],
+    "tag": "tag---grupo-2-blog-tags-hola-4-a-8-3cd",
+    "listMetadata": "listMetadata---grupo-2-blog-tags-holaea-5-6b4"
+  },
+  "/grupo2/blog/welcome-077": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---grupo-2-blogcc-6-bd6"
+    },
+    "sidebar": "sidebar---grupo-2-blog-814-577",
+    "content": "content---grupo-2-blog-welcomed-9-f-dbf"
+  },
+  "/grupo2/markdown-page-a89": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---grupo-2-markdown-page-354-575"
+    },
+    "content": "content---grupo-2-markdown-page-393-faa"
+  },
+  "/grupo2/-3ee": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---grupo-2-88-e-ae1"
+    },
+    "versionMetadata": "versionMetadata---grupo-2-935-ea7"
+  },
+  "/grupo2/-d2c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-0-e-3-845"
+  },
+  "/grupo2/category/entendimento-do-negócio-9bd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---grupo-2-category-entendimento-do-negociof-3-b-21c"
+  },
+  "/grupo2/category/entendimento-do-negócio-1-3a7": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---grupo-2-category-entendimento-do-negocio-1380-442"
+  },
+  "/grupo2/category/sprint-1-622": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---grupo-2-category-sprint-1-b-81-ce1"
+  },
+  "/grupo2/category/sprint-2-aed": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---grupo-2-category-sprint-2829-532"
+  },
+  "/grupo2/category/sprint-3-6b3": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---grupo-2-category-sprint-3-b-00-263"
+  },
+  "/grupo2/category/sprint-4-c72": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---grupo-2-category-sprint-4934-962"
+  },
+  "/grupo2/category/sprint-5-c7c": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---grupo-2-category-sprint-5841-5f6"
+  },
+  "/grupo2/sprint1/Análise de impacto ético/-c4c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-analise-de-impacto-etico-a-87-ab1"
+  },
+  "/grupo2/sprint1/Arquitetura do sistema/-738": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-arquitetura-do-sistema-9-b-1-c25"
+  },
+  "/grupo2/sprint1/Banco de dados/-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-banco-de-dados-448-906"
+  },
+  "/grupo2/sprint1/Design Patterns/-0d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-design-patterns-bb-0-f91"
+  },
+  "/grupo2/sprint1/Entendimento da experiência do usuário/-d13": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-da-experiencia-do-usuario-475-181"
+  },
+  "/grupo2/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/-ea8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-da-experiencia-do-usuario-jornada-do-usuario-d-1-e-044"
+  },
+  "/grupo2/sprint1/Entendimento da experiência do usuário/Personas/-fcc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-da-experiencia-do-usuario-personas-a-5-d-493"
+  },
+  "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/-bf3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-da-experiencia-do-usuario-user-stories-d-94-d43"
+  },
+  "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/-b41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-do-negocio-analise-financeira-251-79a"
+  },
+  "/grupo2/sprint1/Entendimento do negócio/Canvas Proposta de Valor/-76b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-do-negocio-canvas-proposta-de-valor-22-a-27a"
+  },
+  "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/-a35": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-do-negocio-matriz-de-risco-091-32a"
+  },
+  "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/-49d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-do-negocio-matriz-oceano-aazul-98-e-e3f"
+  },
+  "/grupo2/sprint1/Entendimento do negócio/TAM, SAM e SOM/-088": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-entendimento-do-negocio-tam-sam-e-som-bc-9-230"
+  },
+  "/grupo2/sprint1/Processamento de requisições de peças/-599": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-processamento-de-requisicoes-de-pecas-d-76-9f0"
+  },
+  "/grupo2/sprint1/Requisitos funcionais e não funcionais/-6a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-1-requisitos-funcionais-e-nao-funcionais-920-d8a"
+  },
+  "/grupo2/sprint2/Frontend/-bcf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-2-frontend-b-90-8a6"
+  },
+  "/grupo2/sprint2/Funcionalidades do sistema/-e07": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-2-funcionalidades-do-sistema-fbf-16c"
+  },
+  "/grupo2/sprint2/Mapeamento/-925": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-2-mapeamento-e-94-47e"
+  },
+  "/grupo2/sprint2/Setup do robô/-ca9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-2-setup-do-robo-338-c13"
+  },
+  "/grupo2/sprint2/Testes do robô/-1f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-2-testes-do-robo-732-96d"
+  },
+  "/grupo2/sprint3/Acompanhamento de requisitos/-71d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-3-acompanhamento-de-requisitos-212-505"
+  },
+  "/grupo2/sprint3/Descrição de testes/-f3c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-3-descricao-de-testes-99-c-b9d"
+  },
+  "/grupo2/sprint3/Fluxo do chatbot/-f38": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-3-fluxo-do-chatbot-dd-7-09d"
+  },
+  "/grupo2/sprint3/Funcionalidades do sistema/-9d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-3-funcionalidades-do-sistema-787-278"
+  },
+  "/grupo2/sprint3/LLM/-390": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-3-llm-39-b-191"
+  },
+  "/grupo2/sprint3/Modo de execução do projeto/-da6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-3-modo-de-execucao-do-projeto-066-f61"
+  },
+  "/grupo2/sprint3/Sistema de logs/-456": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-3-sistema-de-logs-53-e-9f3"
+  },
+  "/grupo2/sprint3/Sistema de navegação/-9d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-3-sistema-de-navegacao-803-fd6"
+  },
+  "/grupo2/sprint4/Acompanhamento de requisitos/-223": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-4-acompanhamento-de-requisitos-be-6-c01"
+  },
+  "/grupo2/sprint4/Funcionalidades Desenvolvidas/-3a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-4-funcionalidades-desenvolvidas-d-7-a-10f"
+  },
+  "/grupo2/sprint4/Modo de execução do projeto/-39f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-4-modo-de-execucao-do-projeto-9-ae-03b"
+  },
+  "/grupo2/sprint4/Speech-to-Text/-20e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-4-speech-to-text-a-87-e72"
+  },
+  "/grupo2/sprint4/Testes de usabilidade/-577": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-4-testes-de-usabilidade-ac-7-bc9"
+  },
+  "/grupo2/sprint4/Text-to-Speech/-b23": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-4-text-to-speech-c-0-f-5cf"
+  },
+  "/grupo2/sprint5/Arquitetura da solução/-7aa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-arquitetura-da-solucao-e-9-b-a97"
+  },
+  "/grupo2/sprint5/Eficiência do sistema/-f85": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-eficiencia-do-sistema-1-e-6-625"
+  },
+  "/grupo2/sprint5/Entendimento da experiência do usuário/-8d4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-entendimento-da-experiencia-do-usuario-eef-a8d"
+  },
+  "/grupo2/sprint5/Entendimento do negócio/Análise Financeira/-fc5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-entendimento-do-negocio-analise-financeira-46-f-1b1"
+  },
+  "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/-2d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-entendimento-do-negocio-canvas-proposta-de-valor-49-e-eef"
+  },
+  "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/-567": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-entendimento-do-negocio-matriz-de-risco-452-57c"
+  },
+  "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/-1b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-entendimento-do-negocio-matriz-oceano-aazul-2-d-2-576"
+  },
+  "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/-46f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-entendimento-do-negocio-tam-sam-e-som-ff-3-e3c"
+  },
+  "/grupo2/sprint5/Interface do Usuário/-617": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-interface-do-usuario-ca-7-49d"
+  },
+  "/grupo2/sprint5/Roadmap/-aff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-roadmap-5-e-5-bd4"
+  },
+  "/grupo2/sprint5/Sistema de cartografia/-27a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-sistema-de-cartografia-9-db-d73"
+  },
+  "/grupo2/sprint5/Sistema de Chatbot/-572": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-sistema-de-chatbot-947-4ad"
+  },
+  "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/-3aa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-sistema-de-localizacao-e-mapeamento-simultaneo-25-f-4c7"
+  },
+  "/grupo2/sprint5/Sistema de text-to-speech/-0c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-sistema-de-text-to-speech-938-1a5"
+  },
+  "/grupo2/sprint5/Speech-to-Text/-869": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---grupo-2-sprint-5-speech-to-text-ec-5-246"
+  }
+}

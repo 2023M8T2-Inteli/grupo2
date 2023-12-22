@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint3/Sistema de logs/index",
+  "id": "sprint3/Sistema de logs/index",
+  "title": "Sistema de Logs",
+  "description": "Um dos requisitos da sprint foi a  criação de um sistema de logs, ou seja registrar as mais diversas interações que o usúario tem com o sistema e respostas do sistema. O objetivo dos logs é ter um histórico das interações e a hora em que tais inputs e outputs foram recebidos.",
+  "source": "@site/docs/sprint3/Sistema de logs/index.md",
+  "sourceDirName": "sprint3/Sistema de logs",
+  "slug": "/sprint3/Sistema de logs/",
+  "permalink": "/grupo2/sprint3/Sistema de logs/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Sistema de logs/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Sistema de Logs",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fluxo do chatbot",
+    "permalink": "/grupo2/sprint3/Fluxo do chatbot/"
+  },
+  "next": {
+    "title": "Como executar o projeto V1",
+    "permalink": "/grupo2/sprint3/Modo de execução do projeto/"
+  }
+}

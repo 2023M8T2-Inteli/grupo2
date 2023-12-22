@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint3/Fluxo do chatbot/index",
+  "id": "sprint3/Fluxo do chatbot/index",
+  "title": "Fluxo do chatbot",
+  "description": "No diagrama de estados abaixo é possível observar o fluxo das intereações pretendidas para a interface Telegram com o chatbot.",
+  "source": "@site/docs/sprint3/Fluxo do chatbot/index.md",
+  "sourceDirName": "sprint3/Fluxo do chatbot",
+  "slug": "/sprint3/Fluxo do chatbot/",
+  "permalink": "/grupo2/sprint3/Fluxo do chatbot/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Fluxo do chatbot/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Fluxo do chatbot",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Large Language Model",
+    "permalink": "/grupo2/sprint3/LLM/"
+  },
+  "next": {
+    "title": "Sistema de Logs",
+    "permalink": "/grupo2/sprint3/Sistema de logs/"
+  }
+}

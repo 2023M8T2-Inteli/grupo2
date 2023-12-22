@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint4/Testes de usabilidade/index",
+  "id": "sprint4/Testes de usabilidade/index",
+  "title": "Testes de usabilidade",
+  "description": "Com o objetivo de testar as principais funcionalidades da interação do usuário do sistema com a interface do Telegram para chatbot, foi realizado um teste de usabilidade com a colaboradora responsável pelo almoxarifado da Planta Guarulhos da Ambev. O teste foi realizado com o intuito de verificar a facilidade de uso do sistema, nível de assertividade de suas instruções, bem como familiaridade com a interface do Telegram e interações com chatbots.",
+  "source": "@site/docs/sprint4/Testes de usabilidade/index.md",
+  "sourceDirName": "sprint4/Testes de usabilidade",
+  "slug": "/sprint4/Testes de usabilidade/",
+  "permalink": "/grupo2/sprint4/Testes de usabilidade/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Testes de usabilidade/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Testes de usabilidade",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Text-to-Speech",
+    "permalink": "/grupo2/sprint4/Text-to-Speech/"
+  },
+  "next": {
+    "title": "Como executar o projeto V2",
+    "permalink": "/grupo2/sprint4/Modo de execução do projeto/"
+  }
+}

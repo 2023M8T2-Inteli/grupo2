@@ -1,0 +1,24 @@
+{
+  "unversionedId": "sprint1/Processamento de requisições de peças/index",
+  "id": "sprint1/Processamento de requisições de peças/index",
+  "title": "Processamento de Requisições de Peças",
+  "description": "A arquitetura foi projetada para otimizar a entrega de peças por meio de um robô, levando em consideração a singularidade do robô em ação. Para evitar conflitos e garantir a eficiência no atendimento das requisições, adotamos um sistema baseado em fila. Aqui está uma visão detalhada de como as requisições de peças são processadas:",
+  "source": "@site/docs/sprint1/Processamento de requisições de peças/index.md",
+  "sourceDirName": "sprint1/Processamento de requisições de peças",
+  "slug": "/sprint1/Processamento de requisições de peças/",
+  "permalink": "/grupo2/sprint1/Processamento de requisições de peças/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Processamento de requisições de peças/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Design Patterns",
+    "permalink": "/grupo2/sprint1/Design Patterns/"
+  },
+  "next": {
+    "title": "Requisitos funcionais e não funcionais",
+    "permalink": "/grupo2/sprint1/Requisitos funcionais e não funcionais/"
+  }
+}

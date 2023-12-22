@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint3/Funcionalidades do sistema/index",
+  "id": "sprint3/Funcionalidades do sistema/index",
+  "title": "Funcionalidades do sistema",
+  "description": "Nas três primeiras iterações do projeto, a equipe concentrou seus esforços no desenvolvimento de três componentes-chave: o LLM, o robô autônomo e o chatbot.",
+  "source": "@site/docs/sprint3/Funcionalidades do sistema/index.md",
+  "sourceDirName": "sprint3/Funcionalidades do sistema",
+  "slug": "/sprint3/Funcionalidades do sistema/",
+  "permalink": "/grupo2/sprint3/Funcionalidades do sistema/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Funcionalidades do sistema/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Funcionalidades do sistema",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Descrição de Testes (LLM)",
+    "permalink": "/grupo2/sprint3/Descrição de testes/"
+  },
+  "next": {
+    "title": "Acompanhamento de requisitos",
+    "permalink": "/grupo2/sprint3/Acompanhamento de requisitos/"
+  }
+}

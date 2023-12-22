@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint5/Sistema de localização e mapeamento simultâneo/index",
+  "id": "sprint5/Sistema de localização e mapeamento simultâneo/index",
+  "title": "Sistema de Navegação e Mapeamento Simultâneo",
+  "description": "Introdução",
+  "source": "@site/docs/sprint5/Sistema de localização e mapeamento simultâneo/index.md",
+  "sourceDirName": "sprint5/Sistema de localização e mapeamento simultâneo",
+  "slug": "/sprint5/Sistema de localização e mapeamento simultâneo/",
+  "permalink": "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de localização e mapeamento simultâneo/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Sistema de Navegação e Mapeamento Simultâneo",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sistema de Text-to-Speech",
+    "permalink": "/grupo2/sprint5/Sistema de text-to-speech/"
+  },
+  "next": {
+    "title": "Sistema de Chatbot",
+    "permalink": "/grupo2/sprint5/Sistema de Chatbot/"
+  }
+}

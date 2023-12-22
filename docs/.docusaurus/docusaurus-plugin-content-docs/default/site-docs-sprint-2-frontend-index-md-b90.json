@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint2/Frontend/index",
+  "id": "sprint2/Frontend/index",
+  "title": "Frontend",
+  "description": "Durante a fase atual de desenvolvimento do projeto de Robô de Autoatendimento do Almoxarifado da AMBEV, nossa equipe focou em criar uma experiência de usuário eficiente e adaptável. Compreendendo a diversidade de cenários de uso e a importância de uma interação intuitiva, desenvolvemos dois frontends distintos: um para fins de demonstração e outro como uma solução completa de interação com o usuário.",
+  "source": "@site/docs/sprint2/Frontend/index.md",
+  "sourceDirName": "sprint2/Frontend",
+  "slug": "/sprint2/Frontend/",
+  "permalink": "/grupo2/sprint2/Frontend/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Frontend/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Frontend",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mapeamento do ambiente",
+    "permalink": "/grupo2/sprint2/Mapeamento/"
+  },
+  "next": {
+    "title": "Funcionalidades do sistema",
+    "permalink": "/grupo2/sprint2/Funcionalidades do sistema/"
+  }
+}

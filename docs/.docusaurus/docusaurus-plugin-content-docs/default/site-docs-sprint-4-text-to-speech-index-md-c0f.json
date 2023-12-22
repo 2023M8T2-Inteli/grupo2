@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint4/Text-to-Speech/index",
+  "id": "sprint4/Text-to-Speech/index",
+  "title": "Text-to-Speech",
+  "description": "Text-to-Speech",
+  "source": "@site/docs/sprint4/Text-to-Speech/index.md",
+  "sourceDirName": "sprint4/Text-to-Speech",
+  "slug": "/sprint4/Text-to-Speech/",
+  "permalink": "/grupo2/sprint4/Text-to-Speech/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Text-to-Speech/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Text-to-Speech",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Speech-to-Text",
+    "permalink": "/grupo2/sprint4/Speech-to-Text/"
+  },
+  "next": {
+    "title": "Testes de usabilidade",
+    "permalink": "/grupo2/sprint4/Testes de usabilidade/"
+  }
+}

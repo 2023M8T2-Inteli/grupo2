@@ -1,0 +1,16 @@
+{
+  "title": "Sprint 3",
+  "description": "Implementação de LLM, refinamento da interface de comunicação entre usuário e solução, e estruturação do sistema de navegação do robô.",
+  "slug": "/category/sprint-3",
+  "permalink": "/grupo2/category/sprint-3",
+  "navigation": {
+    "previous": {
+      "title": "Funcionalidades do sistema",
+      "permalink": "/grupo2/sprint2/Funcionalidades do sistema/"
+    },
+    "next": {
+      "title": "Sistema de Navegação",
+      "permalink": "/grupo2/sprint3/Sistema de navegação/"
+    }
+  }
+}

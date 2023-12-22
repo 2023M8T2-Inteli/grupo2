@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint5/Sistema de text-to-speech/index",
+  "id": "sprint5/Sistema de text-to-speech/index",
+  "title": "Sistema de Text-to-Speech",
+  "description": "Introdução",
+  "source": "@site/docs/sprint5/Sistema de text-to-speech/index.md",
+  "sourceDirName": "sprint5/Sistema de text-to-speech",
+  "slug": "/sprint5/Sistema de text-to-speech/",
+  "permalink": "/grupo2/sprint5/Sistema de text-to-speech/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de text-to-speech/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Sistema de Text-to-Speech",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sistema de Speech-to-Text",
+    "permalink": "/grupo2/sprint5/Speech-to-Text/"
+  },
+  "next": {
+    "title": "Sistema de Navegação e Mapeamento Simultâneo",
+    "permalink": "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/"
+  }
+}

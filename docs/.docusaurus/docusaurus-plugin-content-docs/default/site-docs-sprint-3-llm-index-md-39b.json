@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint3/LLM/index",
+  "id": "sprint3/LLM/index",
+  "title": "Large Language Model",
+  "description": "Visão Geral",
+  "source": "@site/docs/sprint3/LLM/index.md",
+  "sourceDirName": "sprint3/LLM",
+  "slug": "/sprint3/LLM/",
+  "permalink": "/grupo2/sprint3/LLM/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/LLM/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Large Language Model",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sistema de Navegação",
+    "permalink": "/grupo2/sprint3/Sistema de navegação/"
+  },
+  "next": {
+    "title": "Fluxo do chatbot",
+    "permalink": "/grupo2/sprint3/Fluxo do chatbot/"
+  }
+}

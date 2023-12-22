@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint3/Acompanhamento de requisitos/index",
+  "id": "sprint3/Acompanhamento de requisitos/index",
+  "title": "Acompanhamento de requisitos",
+  "description": "Requisitos funcionais de software",
+  "source": "@site/docs/sprint3/Acompanhamento de requisitos/index.md",
+  "sourceDirName": "sprint3/Acompanhamento de requisitos",
+  "slug": "/sprint3/Acompanhamento de requisitos/",
+  "permalink": "/grupo2/sprint3/Acompanhamento de requisitos/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Acompanhamento de requisitos/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Acompanhamento de requisitos",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Funcionalidades do sistema",
+    "permalink": "/grupo2/sprint3/Funcionalidades do sistema/"
+  },
+  "next": {
+    "title": "Sprint 4",
+    "permalink": "/grupo2/category/sprint-4"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index",
+  "id": "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index",
+  "title": "Conclusão do Canvas Proposta de Valor",
+  "description": "Ao revisitar o Canvas Proposta de Valor elaborado na Sprint 1, é evidente que a visão central da proposta manteve-se inalterada: aprimorar a eficiência e a precisão nos processos de busca e requisição de itens em almoxarifados. A execução do projeto até a Sprint 5 ampliou e refinou as características do robô autônomo e do chatbot integrado, garantindo que os benefícios previstos inicialmente fossem não só atingidos, mas também superados.",
+  "source": "@site/docs/sprint5/Entendimento do negócio/Canvas Proposta de Valor/index.md",
+  "sourceDirName": "sprint5/Entendimento do negócio/Canvas Proposta de Valor",
+  "slug": "/sprint5/Entendimento do negócio/Canvas Proposta de Valor/",
+  "permalink": "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Canvas Proposta de Valor/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conclusão da Análise Financeira",
+    "permalink": "/grupo2/sprint5/Entendimento do negócio/Análise Financeira/"
+  },
+  "next": {
+    "title": "Conclusão da Matriz Oceano Azul",
+    "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/"
+  }
+}

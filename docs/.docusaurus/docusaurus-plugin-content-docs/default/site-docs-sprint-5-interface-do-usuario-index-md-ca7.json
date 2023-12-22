@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint5/Interface do Usuário/index",
+  "id": "sprint5/Interface do Usuário/index",
+  "title": "Interface do usuário",
+  "description": "Introdução",
+  "source": "@site/docs/sprint5/Interface do Usuário/index.md",
+  "sourceDirName": "sprint5/Interface do Usuário",
+  "slug": "/sprint5/Interface do Usuário/",
+  "permalink": "/grupo2/sprint5/Interface do Usuário/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Interface do Usuário/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Interface do usuário",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conclusão de TAM, SAM e SOM",
+    "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/"
+  },
+  "next": {
+    "title": "Validação da Eficiência do Sistema",
+    "permalink": "/grupo2/sprint5/Eficiência do sistema/"
+  }
+}

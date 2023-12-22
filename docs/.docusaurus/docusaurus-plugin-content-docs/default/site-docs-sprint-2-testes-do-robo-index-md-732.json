@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint2/Testes do robô/index",
+  "id": "sprint2/Testes do robô/index",
+  "title": "Testes e Avaliação dos Requisitos",
+  "description": "Durante o sprint corrente, a equipe se dedicou a testar componentes essenciais do sistema de autoatendimento robótico para o Almoxarifado da AMBEV. Os testes realizados foram desenhados para avaliar a comunicação, mapeamento de ambiente e movimentação simples do robô, além de diferentes formatos de frontend. A seguir, apresentaremos uma análise detalhada desses testes, considerando os requisitos do projeto e discutindo a adequação dos sistemas desenvolvidos.",
+  "source": "@site/docs/sprint2/Testes do robô/index.md",
+  "sourceDirName": "sprint2/Testes do robô",
+  "slug": "/sprint2/Testes do robô/",
+  "permalink": "/grupo2/sprint2/Testes do robô/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Testes do robô/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Testes e Avaliação dos Requisitos",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup do robô",
+    "permalink": "/grupo2/sprint2/Setup do robô/"
+  },
+  "next": {
+    "title": "Mapeamento do ambiente",
+    "permalink": "/grupo2/sprint2/Mapeamento/"
+  }
+}

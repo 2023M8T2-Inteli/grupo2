@@ -1,0 +1,2104 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/grupo2/",
+          "tagsPath": "/grupo2/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\sidebars.js",
+          "contentPath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\docs",
+          "contentPathLocalized": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Introdução",
+              "description": "Sprint 1",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/grupo2/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Introdução",
+                "sidebar_position": 1,
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Sprint 1",
+                "permalink": "/grupo2/category/sprint-1"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Análise de impacto ético/index",
+              "id": "sprint1/Análise de impacto ético/index",
+              "title": "Análise do Impacto Ético",
+              "description": "Ao passo que a automação, robótica e inteligência artificial ficam mais presentes em ambientes diversos, é importante levantar discussões quanto à privacidade e proteção dos dados que essas aplicações gerenciam. Este tópico explora a interseção entre tecnologia e diversos pontos de preocupação ética no cenário de um artefato robótico com capacidade de navegação autônoma, capaz de receber ordens de busca de itens em um almoxarifado. No contexto desse projeto, a preocupação central é a segurança dos dados utilizados pelo robô, que podem variar desde informações sensíveis sobre ativos valiosos até dados relacionados à saúde e configuração de produção em uma fábrica. Para mitigar esses riscos, a implementação de estratégias robustas de criptografia e tokenização são discutidas, no contexto de armazenamento em nuvem. Além disso, questões de equidade e justiça, destacando desafios potenciais para usuários com diferentes habilidades linguísticas, deficiências físicas ou idades avançadas também foi discutido.",
+              "source": "@site/docs/sprint1/Análise de impacto ético/index.md",
+              "sourceDirName": "sprint1/Análise de impacto ético",
+              "slug": "/sprint1/Análise de impacto ético/",
+              "permalink": "/grupo2/sprint1/Análise de impacto ético/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Análise de impacto ético/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Análise do Impacto Ético",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sprint 1",
+                "permalink": "/grupo2/category/sprint-1"
+              },
+              "next": {
+                "title": "Arquitetura do sistema",
+                "permalink": "/grupo2/sprint1/Arquitetura do sistema/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Arquitetura do sistema/index",
+              "id": "sprint1/Arquitetura do sistema/index",
+              "title": "Arquitetura do sistema",
+              "description": "Arquitetura do sistema",
+              "source": "@site/docs/sprint1/Arquitetura do sistema/index.md",
+              "sourceDirName": "sprint1/Arquitetura do sistema",
+              "slug": "/sprint1/Arquitetura do sistema/",
+              "permalink": "/grupo2/sprint1/Arquitetura do sistema/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Arquitetura do sistema/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Arquitetura do sistema",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Análise do Impacto Ético",
+                "permalink": "/grupo2/sprint1/Análise de impacto ético/"
+              },
+              "next": {
+                "title": "Entendimento da experiência do usuário",
+                "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Banco de dados/index",
+              "id": "sprint1/Banco de dados/index",
+              "title": "Documentação do Banco de Dados",
+              "description": "Banco de dados",
+              "source": "@site/docs/sprint1/Banco de dados/index.md",
+              "sourceDirName": "sprint1/Banco de dados",
+              "slug": "/sprint1/Banco de dados/",
+              "permalink": "/grupo2/sprint1/Banco de dados/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Banco de dados/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Análise Financeira",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/"
+              },
+              "next": {
+                "title": "Design Patterns",
+                "permalink": "/grupo2/sprint1/Design Patterns/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Design Patterns/index",
+              "id": "sprint1/Design Patterns/index",
+              "title": "Design Patterns",
+              "description": "Para a operacionalização do robô autônomo que localizará itens em um almoxarifado será utilizado o Sistema Operacional de Robôs, ou ROS (Robot Operating System). No ROS, o padrão de design publicador-inscrito (publisher-subscriber) é utilizado para a comunicação de abstrações chamadas de Nós. Esses Nós em ROS podem publicar mensagem para tópicos específicos, assim como outros Nós podem se inscrever nesses mesmos tópicos para receber as mesmas mensagens. Esse padrão de design permite a construção de sistemas de robótica modulares e distribuídos, ideal para o cenário de aplicação do projeto e sua futura escalabilidade.",
+              "source": "@site/docs/sprint1/Design Patterns/index.md",
+              "sourceDirName": "sprint1/Design Patterns",
+              "slug": "/sprint1/Design Patterns/",
+              "permalink": "/grupo2/sprint1/Design Patterns/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Design Patterns/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documentação do Banco de Dados",
+                "permalink": "/grupo2/sprint1/Banco de dados/"
+              },
+              "next": {
+                "title": "Processamento de Requisições de Peças",
+                "permalink": "/grupo2/sprint1/Processamento de requisições de peças/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento da experiência do usuário/index",
+              "id": "sprint1/Entendimento da experiência do usuário/index",
+              "title": "Entendimento da experiência do usuário",
+              "description": "O objetivo do artefato é entender melhor como o usuário vai interagir com o projeto.",
+              "source": "@site/docs/sprint1/Entendimento da experiência do usuário/index.md",
+              "sourceDirName": "sprint1/Entendimento da experiência do usuário",
+              "slug": "/sprint1/Entendimento da experiência do usuário/",
+              "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Entendimento da experiência do usuário",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Arquitetura do sistema",
+                "permalink": "/grupo2/sprint1/Arquitetura do sistema/"
+              },
+              "next": {
+                "title": "Personas",
+                "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Personas/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index",
+              "id": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index",
+              "title": "Jornada do Usuário",
+              "description": "Análise do fluxo da solução e mapeamento de pontos de fragilidade",
+              "source": "@site/docs/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index.md",
+              "sourceDirName": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario",
+              "slug": "/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/",
+              "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Jornada do Usuário",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "User Stories",
+                "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/"
+              },
+              "next": {
+                "title": "Entendimento do negócio",
+                "permalink": "/grupo2/category/entendimento-do-negócio"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento da experiência do usuário/Personas/index",
+              "id": "sprint1/Entendimento da experiência do usuário/Personas/index",
+              "title": "Personas",
+              "description": "Personas são retratos fictícios de indivíduos reais, construídos a partir de dados e informações adquiridas através de entrevistas com os stakeholders e pesquisas relacionadas à área de interesse. O propósito das personas é auxiliar a equipe do projeto na aprofundada compreensão das metas, obstáculos e padrões de comportamento dos usuários finais do produto ou serviço. Isso, por sua vez, possibilita o desenvolvimento de soluções mais adequadas e personalizadas, direcionadas para atender às necessidades específicas dos usuários.",
+              "source": "@site/docs/sprint1/Entendimento da experiência do usuário/Personas/index.md",
+              "sourceDirName": "sprint1/Entendimento da experiência do usuário/Personas",
+              "slug": "/sprint1/Entendimento da experiência do usuário/Personas/",
+              "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Personas/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/Personas/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Personas",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Entendimento da experiência do usuário",
+                "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/"
+              },
+              "next": {
+                "title": "User Stories",
+                "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento da experiência do usuário/User Stories/index",
+              "id": "sprint1/Entendimento da experiência do usuário/User Stories/index",
+              "title": "User Stories",
+              "description": "As User Stories apresentadas aqui refletem as necessidades e expectativas de um técnico de almoxarifado em relação a um sistema robótico de assistência no ambiente de armazenamento. Cada história descreve um aspecto essencial da funcionalidade desejada, destacando a importância da eficiência, precisão e segurança no gerenciamento do estoque. A busca por produtos ágil e eficiente, a disponibilidade de informações atualizadas, a navegação segura, a identificação de itens, a orientação de novos funcionários, a sugestão de rotas eficientes, a integração com sistemas de gerenciamento de estoque e a capacidade de relatar problemas são todos elementos cruciais para otimizar as operações de almoxarifado. Essas User Stories definem a base para o desenvolvimento de um sistema robótico que atenda às necessidades dos técnicos de almoxarifado, contribuindo para uma gestão de estoque mais eficaz e livre de erros.",
+              "source": "@site/docs/sprint1/Entendimento da experiência do usuário/User Stories/index.md",
+              "sourceDirName": "sprint1/Entendimento da experiência do usuário/User Stories",
+              "slug": "/sprint1/Entendimento da experiência do usuário/User Stories/",
+              "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/User Stories/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "User Stories",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Personas",
+                "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Personas/"
+              },
+              "next": {
+                "title": "Jornada do Usuário",
+                "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento do negócio/Análise Financeira/index",
+              "id": "sprint1/Entendimento do negócio/Análise Financeira/index",
+              "title": "Análise Financeira",
+              "description": "Construir uma análise financeira para o projeto é de fundamental importância para que o cliente possa avaliar a viabilidade de sua implementação. Desse modo, os componentes do projeto foram segmentados em hardware, software, equipe de desenvolvimeto e equipe de manutenção, e foram precificados de acordo com referências do mercado atual.",
+              "source": "@site/docs/sprint1/Entendimento do negócio/Análise Financeira/index.md",
+              "sourceDirName": "sprint1/Entendimento do negócio/Análise Financeira",
+              "slug": "/sprint1/Entendimento do negócio/Análise Financeira/",
+              "permalink": "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Análise Financeira/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Análise Financeira",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Matriz de Riscos",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/"
+              },
+              "next": {
+                "title": "Documentação do Banco de Dados",
+                "permalink": "/grupo2/sprint1/Banco de dados/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento do negócio/Canvas Proposta de Valor/index",
+              "id": "sprint1/Entendimento do negócio/Canvas Proposta de Valor/index",
+              "title": "Canvas Proposta de Valor",
+              "description": "Canvas Proposta de Valor",
+              "source": "@site/docs/sprint1/Entendimento do negócio/Canvas Proposta de Valor/index.md",
+              "sourceDirName": "sprint1/Entendimento do negócio/Canvas Proposta de Valor",
+              "slug": "/sprint1/Entendimento do negócio/Canvas Proposta de Valor/",
+              "permalink": "/grupo2/sprint1/Entendimento do negócio/Canvas Proposta de Valor/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Canvas Proposta de Valor/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Canvas Proposta de Valor",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Entendimento do negócio",
+                "permalink": "/grupo2/category/entendimento-do-negócio"
+              },
+              "next": {
+                "title": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/TAM, SAM e SOM/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento do negócio/Matriz de Risco/index",
+              "id": "sprint1/Entendimento do negócio/Matriz de Risco/index",
+              "title": "Matriz de Riscos",
+              "description": "A matriz de riscos é primordial para elencar os pontos que merecem mais atenção no projeto e sua probabilidade de acontecer.",
+              "source": "@site/docs/sprint1/Entendimento do negócio/Matriz de Risco/index.md",
+              "sourceDirName": "sprint1/Entendimento do negócio/Matriz de Risco",
+              "slug": "/sprint1/Entendimento do negócio/Matriz de Risco/",
+              "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Matriz de Risco/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Matriz de Riscos",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Matriz Oceano Azul",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/"
+              },
+              "next": {
+                "title": "Análise Financeira",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento do negócio/Matriz Oceano Aazul/index",
+              "id": "sprint1/Entendimento do negócio/Matriz Oceano Aazul/index",
+              "title": "Matriz Oceano Azul",
+              "description": "A matriz Oceano Azul é uma ferramenta de estratégia de negócios que visa criar novos espaços de mercado, livres da concorrência direta, ao invés de competir em mercados existentes. Ela se concentra em identificar e explorar oportunidades de mercado não atendidas, redefinindo as regras do jogo e criando novas demandas. Isso é feito por meio da análise de diferentes atributos que podem diferenciar um produto ou serviço no mercado.",
+              "source": "@site/docs/sprint1/Entendimento do negócio/Matriz Oceano Aazul/index.md",
+              "sourceDirName": "sprint1/Entendimento do negócio/Matriz Oceano Aazul",
+              "slug": "/sprint1/Entendimento do negócio/Matriz Oceano Aazul/",
+              "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Matriz Oceano Aazul/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Matriz Oceano Azul",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/TAM, SAM e SOM/"
+              },
+              "next": {
+                "title": "Matriz de Riscos",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Entendimento do negócio/TAM, SAM e SOM/index",
+              "id": "sprint1/Entendimento do negócio/TAM, SAM e SOM/index",
+              "title": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+              "description": "1. TAM (Mercado Total Endereçável)",
+              "source": "@site/docs/sprint1/Entendimento do negócio/TAM, SAM e SOM/index.md",
+              "sourceDirName": "sprint1/Entendimento do negócio/TAM, SAM e SOM",
+              "slug": "/sprint1/Entendimento do negócio/TAM, SAM e SOM/",
+              "permalink": "/grupo2/sprint1/Entendimento do negócio/TAM, SAM e SOM/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/TAM, SAM e SOM/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Canvas Proposta de Valor",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/Canvas Proposta de Valor/"
+              },
+              "next": {
+                "title": "Matriz Oceano Azul",
+                "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Processamento de requisições de peças/index",
+              "id": "sprint1/Processamento de requisições de peças/index",
+              "title": "Processamento de Requisições de Peças",
+              "description": "A arquitetura foi projetada para otimizar a entrega de peças por meio de um robô, levando em consideração a singularidade do robô em ação. Para evitar conflitos e garantir a eficiência no atendimento das requisições, adotamos um sistema baseado em fila. Aqui está uma visão detalhada de como as requisições de peças são processadas:",
+              "source": "@site/docs/sprint1/Processamento de requisições de peças/index.md",
+              "sourceDirName": "sprint1/Processamento de requisições de peças",
+              "slug": "/sprint1/Processamento de requisições de peças/",
+              "permalink": "/grupo2/sprint1/Processamento de requisições de peças/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Processamento de requisições de peças/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Design Patterns",
+                "permalink": "/grupo2/sprint1/Design Patterns/"
+              },
+              "next": {
+                "title": "Requisitos funcionais e não funcionais",
+                "permalink": "/grupo2/sprint1/Requisitos funcionais e não funcionais/"
+              }
+            },
+            {
+              "unversionedId": "sprint1/Requisitos funcionais e não funcionais/index",
+              "id": "sprint1/Requisitos funcionais e não funcionais/index",
+              "title": "Requisitos funcionais e não funcionais",
+              "description": "Para garantir que o projeto atende às necessidades do cliente especificada em entrevista de levantamento de requisitos em sala de aula, os requisitos foram divisidos em requisitos de hardware e software. Tal divisão se deu pela característica multitécnica do projeto, que envolve componentes de software e hardware, na figura de um artefato robótico. Dentre os requisitos de hardware e software, esses foram classificados entre funcionais (descrição do requisito) e não funcionais (qual é métrica de desempenho que cada requisito funcional deve atingir). Além disso, cada um dos requisitos foi classificado como \"obrigatório\" ou \"desejável\", o que auxiliará a equipe de desenvolvimento a estabelecer uma hierarquia de prioridades para sua implementação.",
+              "source": "@site/docs/sprint1/Requisitos funcionais e não funcionais/index.md",
+              "sourceDirName": "sprint1/Requisitos funcionais e não funcionais",
+              "slug": "/sprint1/Requisitos funcionais e não funcionais/",
+              "permalink": "/grupo2/sprint1/Requisitos funcionais e não funcionais/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Requisitos funcionais e não funcionais/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Processamento de Requisições de Peças",
+                "permalink": "/grupo2/sprint1/Processamento de requisições de peças/"
+              },
+              "next": {
+                "title": "Sprint 2",
+                "permalink": "/grupo2/category/sprint-2"
+              }
+            },
+            {
+              "unversionedId": "sprint2/Frontend/index",
+              "id": "sprint2/Frontend/index",
+              "title": "Frontend",
+              "description": "Durante a fase atual de desenvolvimento do projeto de Robô de Autoatendimento do Almoxarifado da AMBEV, nossa equipe focou em criar uma experiência de usuário eficiente e adaptável. Compreendendo a diversidade de cenários de uso e a importância de uma interação intuitiva, desenvolvemos dois frontends distintos: um para fins de demonstração e outro como uma solução completa de interação com o usuário.",
+              "source": "@site/docs/sprint2/Frontend/index.md",
+              "sourceDirName": "sprint2/Frontend",
+              "slug": "/sprint2/Frontend/",
+              "permalink": "/grupo2/sprint2/Frontend/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Frontend/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Frontend",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Mapeamento do ambiente",
+                "permalink": "/grupo2/sprint2/Mapeamento/"
+              },
+              "next": {
+                "title": "Funcionalidades do sistema",
+                "permalink": "/grupo2/sprint2/Funcionalidades do sistema/"
+              }
+            },
+            {
+              "unversionedId": "sprint2/Funcionalidades do sistema/index",
+              "id": "sprint2/Funcionalidades do sistema/index",
+              "title": "Funcionalidades do sistema",
+              "description": "Durante as duas primeiras sprints do projeto, a equipe se dedicou a desenvolver os dois principais componentes da solução proposta.",
+              "source": "@site/docs/sprint2/Funcionalidades do sistema/index.md",
+              "sourceDirName": "sprint2/Funcionalidades do sistema",
+              "slug": "/sprint2/Funcionalidades do sistema/",
+              "permalink": "/grupo2/sprint2/Funcionalidades do sistema/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Funcionalidades do sistema/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Funcionalidades do sistema",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Frontend",
+                "permalink": "/grupo2/sprint2/Frontend/"
+              },
+              "next": {
+                "title": "Sprint 3",
+                "permalink": "/grupo2/category/sprint-3"
+              }
+            },
+            {
+              "unversionedId": "sprint2/Mapeamento/index",
+              "id": "sprint2/Mapeamento/index",
+              "title": "Mapeamento do ambiente",
+              "description": "Introdução",
+              "source": "@site/docs/sprint2/Mapeamento/index.md",
+              "sourceDirName": "sprint2/Mapeamento",
+              "slug": "/sprint2/Mapeamento/",
+              "permalink": "/grupo2/sprint2/Mapeamento/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Mapeamento/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Mapeamento do ambiente",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Testes e Avaliação dos Requisitos",
+                "permalink": "/grupo2/sprint2/Testes do robô/"
+              },
+              "next": {
+                "title": "Frontend",
+                "permalink": "/grupo2/sprint2/Frontend/"
+              }
+            },
+            {
+              "unversionedId": "sprint2/Setup do robô/index",
+              "id": "sprint2/Setup do robô/index",
+              "title": "Setup do robô",
+              "description": "Introdução",
+              "source": "@site/docs/sprint2/Setup do robô/index.md",
+              "sourceDirName": "sprint2/Setup do robô",
+              "slug": "/sprint2/Setup do robô/",
+              "permalink": "/grupo2/sprint2/Setup do robô/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Setup do robô/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Setup do robô",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sprint 2",
+                "permalink": "/grupo2/category/sprint-2"
+              },
+              "next": {
+                "title": "Testes e Avaliação dos Requisitos",
+                "permalink": "/grupo2/sprint2/Testes do robô/"
+              }
+            },
+            {
+              "unversionedId": "sprint2/Testes do robô/index",
+              "id": "sprint2/Testes do robô/index",
+              "title": "Testes e Avaliação dos Requisitos",
+              "description": "Durante o sprint corrente, a equipe se dedicou a testar componentes essenciais do sistema de autoatendimento robótico para o Almoxarifado da AMBEV. Os testes realizados foram desenhados para avaliar a comunicação, mapeamento de ambiente e movimentação simples do robô, além de diferentes formatos de frontend. A seguir, apresentaremos uma análise detalhada desses testes, considerando os requisitos do projeto e discutindo a adequação dos sistemas desenvolvidos.",
+              "source": "@site/docs/sprint2/Testes do robô/index.md",
+              "sourceDirName": "sprint2/Testes do robô",
+              "slug": "/sprint2/Testes do robô/",
+              "permalink": "/grupo2/sprint2/Testes do robô/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Testes do robô/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Testes e Avaliação dos Requisitos",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setup do robô",
+                "permalink": "/grupo2/sprint2/Setup do robô/"
+              },
+              "next": {
+                "title": "Mapeamento do ambiente",
+                "permalink": "/grupo2/sprint2/Mapeamento/"
+              }
+            },
+            {
+              "unversionedId": "sprint3/Acompanhamento de requisitos/index",
+              "id": "sprint3/Acompanhamento de requisitos/index",
+              "title": "Acompanhamento de requisitos",
+              "description": "Requisitos funcionais de software",
+              "source": "@site/docs/sprint3/Acompanhamento de requisitos/index.md",
+              "sourceDirName": "sprint3/Acompanhamento de requisitos",
+              "slug": "/sprint3/Acompanhamento de requisitos/",
+              "permalink": "/grupo2/sprint3/Acompanhamento de requisitos/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Acompanhamento de requisitos/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "title": "Acompanhamento de requisitos",
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Funcionalidades do sistema",
+                "permalink": "/grupo2/sprint3/Funcionalidades do sistema/"
+              },
+              "next": {
+                "title": "Sprint 4",
+                "permalink": "/grupo2/category/sprint-4"
+              }
+            },
+            {
+              "unversionedId": "sprint3/Descrição de testes/index",
+              "id": "sprint3/Descrição de testes/index",
+              "title": "Descrição de Testes (LLM)",
+              "description": "Um dos requisitos da sprint foi a testagem do chatbot construído, uma vez que um Large Language Model (LLM) foi implementado para compor a solução. Embora a integração entre o chatbot e o sistema de navegação do robô esteja prevista para a quarta sprint, é possível testar as funcionalidades do chatbot de forma isolada, a fim de verificar a eficácia do modelo de linguagem adotado pela equipe de projeto.",
+              "source": "@site/docs/sprint3/Descrição de testes/index.md",
+              "sourceDirName": "sprint3/Descrição de testes",
+              "slug": "/sprint3/Descrição de testes/",
+              "permalink": "/grupo2/sprint3/Descrição de testes/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Descrição de testes/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "title": "Descrição de Testes (LLM)",
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Como executar o projeto V1",
+                "permalink": "/grupo2/sprint3/Modo de execução do projeto/"
+              },
+              "next": {
+                "title": "Funcionalidades do sistema",
+                "permalink": "/grupo2/sprint3/Funcionalidades do sistema/"
+              }
+            },
+            {
+              "unversionedId": "sprint3/Fluxo do chatbot/index",
+              "id": "sprint3/Fluxo do chatbot/index",
+              "title": "Fluxo do chatbot",
+              "description": "No diagrama de estados abaixo é possível observar o fluxo das intereações pretendidas para a interface Telegram com o chatbot.",
+              "source": "@site/docs/sprint3/Fluxo do chatbot/index.md",
+              "sourceDirName": "sprint3/Fluxo do chatbot",
+              "slug": "/sprint3/Fluxo do chatbot/",
+              "permalink": "/grupo2/sprint3/Fluxo do chatbot/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Fluxo do chatbot/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Fluxo do chatbot",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Large Language Model",
+                "permalink": "/grupo2/sprint3/LLM/"
+              },
+              "next": {
+                "title": "Sistema de Logs",
+                "permalink": "/grupo2/sprint3/Sistema de logs/"
+              }
+            },
+            {
+              "unversionedId": "sprint3/Funcionalidades do sistema/index",
+              "id": "sprint3/Funcionalidades do sistema/index",
+              "title": "Funcionalidades do sistema",
+              "description": "Nas três primeiras iterações do projeto, a equipe concentrou seus esforços no desenvolvimento de três componentes-chave: o LLM, o robô autônomo e o chatbot.",
+              "source": "@site/docs/sprint3/Funcionalidades do sistema/index.md",
+              "sourceDirName": "sprint3/Funcionalidades do sistema",
+              "slug": "/sprint3/Funcionalidades do sistema/",
+              "permalink": "/grupo2/sprint3/Funcionalidades do sistema/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Funcionalidades do sistema/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "title": "Funcionalidades do sistema",
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Descrição de Testes (LLM)",
+                "permalink": "/grupo2/sprint3/Descrição de testes/"
+              },
+              "next": {
+                "title": "Acompanhamento de requisitos",
+                "permalink": "/grupo2/sprint3/Acompanhamento de requisitos/"
+              }
+            },
+            {
+              "unversionedId": "sprint3/LLM/index",
+              "id": "sprint3/LLM/index",
+              "title": "Large Language Model",
+              "description": "Visão Geral",
+              "source": "@site/docs/sprint3/LLM/index.md",
+              "sourceDirName": "sprint3/LLM",
+              "slug": "/sprint3/LLM/",
+              "permalink": "/grupo2/sprint3/LLM/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/LLM/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Large Language Model",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sistema de Navegação",
+                "permalink": "/grupo2/sprint3/Sistema de navegação/"
+              },
+              "next": {
+                "title": "Fluxo do chatbot",
+                "permalink": "/grupo2/sprint3/Fluxo do chatbot/"
+              }
+            },
+            {
+              "unversionedId": "sprint3/Modo de execução do projeto/index",
+              "id": "sprint3/Modo de execução do projeto/index",
+              "title": "Como executar o projeto V1",
+              "description": "Para começar a executar o projeto, é necessário ter entendimento sobre a estrutura de pastas.",
+              "source": "@site/docs/sprint3/Modo de execução do projeto/index.md",
+              "sourceDirName": "sprint3/Modo de execução do projeto",
+              "slug": "/sprint3/Modo de execução do projeto/",
+              "permalink": "/grupo2/sprint3/Modo de execução do projeto/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Modo de execução do projeto/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Como executar o projeto V1",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sistema de Logs",
+                "permalink": "/grupo2/sprint3/Sistema de logs/"
+              },
+              "next": {
+                "title": "Descrição de Testes (LLM)",
+                "permalink": "/grupo2/sprint3/Descrição de testes/"
+              }
+            },
+            {
+              "unversionedId": "sprint3/Sistema de logs/index",
+              "id": "sprint3/Sistema de logs/index",
+              "title": "Sistema de Logs",
+              "description": "Um dos requisitos da sprint foi a  criação de um sistema de logs, ou seja registrar as mais diversas interações que o usúario tem com o sistema e respostas do sistema. O objetivo dos logs é ter um histórico das interações e a hora em que tais inputs e outputs foram recebidos.",
+              "source": "@site/docs/sprint3/Sistema de logs/index.md",
+              "sourceDirName": "sprint3/Sistema de logs",
+              "slug": "/sprint3/Sistema de logs/",
+              "permalink": "/grupo2/sprint3/Sistema de logs/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Sistema de logs/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Sistema de Logs",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Fluxo do chatbot",
+                "permalink": "/grupo2/sprint3/Fluxo do chatbot/"
+              },
+              "next": {
+                "title": "Como executar o projeto V1",
+                "permalink": "/grupo2/sprint3/Modo de execução do projeto/"
+              }
+            },
+            {
+              "unversionedId": "sprint3/Sistema de navegação/index",
+              "id": "sprint3/Sistema de navegação/index",
+              "title": "Sistema de Navegação",
+              "description": "Na segunda sprint do projeto, o grupo concretizou o mapeamento do circuito físico construído para simular o almoxarifado da Ambev. Além disso, foi possível fazer o robô se movimentar de forma autônoma através de um script simples de navegação, que definia uma série de waypoints para o Turtlebot percorrer. No entanto, a terceira sprint foi marcada pela implementação de um sistema de navegação mais robusto, cuja estrutura de código se caracteriza pela implementação do sistema publisher-subscriber.",
+              "source": "@site/docs/sprint3/Sistema de navegação/index.md",
+              "sourceDirName": "sprint3/Sistema de navegação",
+              "slug": "/sprint3/Sistema de navegação/",
+              "permalink": "/grupo2/sprint3/Sistema de navegação/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Sistema de navegação/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Sistema de Navegação",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sprint 3",
+                "permalink": "/grupo2/category/sprint-3"
+              },
+              "next": {
+                "title": "Large Language Model",
+                "permalink": "/grupo2/sprint3/LLM/"
+              }
+            },
+            {
+              "unversionedId": "sprint4/Acompanhamento de requisitos/index",
+              "id": "sprint4/Acompanhamento de requisitos/index",
+              "title": "Acompanhamento de requisitos",
+              "description": "Requisitos funcionais de software",
+              "source": "@site/docs/sprint4/Acompanhamento de requisitos/index.md",
+              "sourceDirName": "sprint4/Acompanhamento de requisitos",
+              "slug": "/sprint4/Acompanhamento de requisitos/",
+              "permalink": "/grupo2/sprint4/Acompanhamento de requisitos/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Acompanhamento de requisitos/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "title": "Acompanhamento de requisitos",
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Demonstração de Funcionalidades Desenvolvidas",
+                "permalink": "/grupo2/sprint4/Funcionalidades Desenvolvidas/"
+              },
+              "next": {
+                "title": "Sprint 5",
+                "permalink": "/grupo2/category/sprint-5"
+              }
+            },
+            {
+              "unversionedId": "sprint4/Funcionalidades Desenvolvidas/index",
+              "id": "sprint4/Funcionalidades Desenvolvidas/index",
+              "title": "Demonstração de Funcionalidades Desenvolvidas",
+              "description": "O objetivo desta etapa da documentação é elencar as funcionalidas que foram desenvolvidas até a sprint 4, explicitando o que o sistema é ou não capaz de fazer.",
+              "source": "@site/docs/sprint4/Funcionalidades Desenvolvidas/index.md",
+              "sourceDirName": "sprint4/Funcionalidades Desenvolvidas",
+              "slug": "/sprint4/Funcionalidades Desenvolvidas/",
+              "permalink": "/grupo2/sprint4/Funcionalidades Desenvolvidas/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Funcionalidades Desenvolvidas/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "title": "Demonstração de Funcionalidades Desenvolvidas",
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Como executar o projeto V2",
+                "permalink": "/grupo2/sprint4/Modo de execução do projeto/"
+              },
+              "next": {
+                "title": "Acompanhamento de requisitos",
+                "permalink": "/grupo2/sprint4/Acompanhamento de requisitos/"
+              }
+            },
+            {
+              "unversionedId": "sprint4/Modo de execução do projeto/index",
+              "id": "sprint4/Modo de execução do projeto/index",
+              "title": "Como executar o projeto V2",
+              "description": "Para começar a executar o projeto, é necessário ter entendimento sobre a estrutura de pastas.",
+              "source": "@site/docs/sprint4/Modo de execução do projeto/index.md",
+              "sourceDirName": "sprint4/Modo de execução do projeto",
+              "slug": "/sprint4/Modo de execução do projeto/",
+              "permalink": "/grupo2/sprint4/Modo de execução do projeto/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Modo de execução do projeto/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Como executar o projeto V2",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Testes de usabilidade",
+                "permalink": "/grupo2/sprint4/Testes de usabilidade/"
+              },
+              "next": {
+                "title": "Demonstração de Funcionalidades Desenvolvidas",
+                "permalink": "/grupo2/sprint4/Funcionalidades Desenvolvidas/"
+              }
+            },
+            {
+              "unversionedId": "sprint4/Speech-to-Text/index",
+              "id": "sprint4/Speech-to-Text/index",
+              "title": "Speech-to-Text",
+              "description": "Interface de interação com o chatbot",
+              "source": "@site/docs/sprint4/Speech-to-Text/index.md",
+              "sourceDirName": "sprint4/Speech-to-Text",
+              "slug": "/sprint4/Speech-to-Text/",
+              "permalink": "/grupo2/sprint4/Speech-to-Text/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Speech-to-Text/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Speech-to-Text",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sprint 4",
+                "permalink": "/grupo2/category/sprint-4"
+              },
+              "next": {
+                "title": "Text-to-Speech",
+                "permalink": "/grupo2/sprint4/Text-to-Speech/"
+              }
+            },
+            {
+              "unversionedId": "sprint4/Testes de usabilidade/index",
+              "id": "sprint4/Testes de usabilidade/index",
+              "title": "Testes de usabilidade",
+              "description": "Com o objetivo de testar as principais funcionalidades da interação do usuário do sistema com a interface do Telegram para chatbot, foi realizado um teste de usabilidade com a colaboradora responsável pelo almoxarifado da Planta Guarulhos da Ambev. O teste foi realizado com o intuito de verificar a facilidade de uso do sistema, nível de assertividade de suas instruções, bem como familiaridade com a interface do Telegram e interações com chatbots.",
+              "source": "@site/docs/sprint4/Testes de usabilidade/index.md",
+              "sourceDirName": "sprint4/Testes de usabilidade",
+              "slug": "/sprint4/Testes de usabilidade/",
+              "permalink": "/grupo2/sprint4/Testes de usabilidade/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Testes de usabilidade/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Testes de usabilidade",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Text-to-Speech",
+                "permalink": "/grupo2/sprint4/Text-to-Speech/"
+              },
+              "next": {
+                "title": "Como executar o projeto V2",
+                "permalink": "/grupo2/sprint4/Modo de execução do projeto/"
+              }
+            },
+            {
+              "unversionedId": "sprint4/Text-to-Speech/index",
+              "id": "sprint4/Text-to-Speech/index",
+              "title": "Text-to-Speech",
+              "description": "Text-to-Speech",
+              "source": "@site/docs/sprint4/Text-to-Speech/index.md",
+              "sourceDirName": "sprint4/Text-to-Speech",
+              "slug": "/sprint4/Text-to-Speech/",
+              "permalink": "/grupo2/sprint4/Text-to-Speech/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Text-to-Speech/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Text-to-Speech",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Speech-to-Text",
+                "permalink": "/grupo2/sprint4/Speech-to-Text/"
+              },
+              "next": {
+                "title": "Testes de usabilidade",
+                "permalink": "/grupo2/sprint4/Testes de usabilidade/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Arquitetura da solução/index",
+              "id": "sprint5/Arquitetura da solução/index",
+              "title": "Conclusão da Arquitetura do Sistema",
+              "description": "Este documento representa a conclusão e reflexão sobre a arquitetura do sistema que foi desenvolvido e aprimorado ao longo de cinco sprints.",
+              "source": "@site/docs/sprint5/Arquitetura da solução/index.md",
+              "sourceDirName": "sprint5/Arquitetura da solução",
+              "slug": "/sprint5/Arquitetura da solução/",
+              "permalink": "/grupo2/sprint5/Arquitetura da solução/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Arquitetura da solução/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "title": "Conclusão da Arquitetura do Sistema",
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Validação da Eficiência do Sistema",
+                "permalink": "/grupo2/sprint5/Eficiência do sistema/"
+              },
+              "next": {
+                "title": "Entendimento da experiência do usuário",
+                "permalink": "/grupo2/sprint5/Entendimento da experiência do usuário/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Eficiência do sistema/index",
+              "id": "sprint5/Eficiência do sistema/index",
+              "title": "Validação da Eficiência do Sistema",
+              "description": "Para assegurar a eficácia do nosso sistema, conduzimos uma série de testes abrangendo as funcionalidades de text-to-speech (TTS) e speech-to-text (STT). Diversas requisições foram feitas utilizando diferentes ferramentas, proporcionando uma validação abrangente do TTS. Além disso, todas as mensagens geradas foram sintetizadas através da API de TTS da OpenAI, reforçando a confiabilidade e qualidade da saída do sistema.",
+              "source": "@site/docs/sprint5/Eficiência do sistema/index.md",
+              "sourceDirName": "sprint5/Eficiência do sistema",
+              "slug": "/sprint5/Eficiência do sistema/",
+              "permalink": "/grupo2/sprint5/Eficiência do sistema/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Eficiência do sistema/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "title": "Validação da Eficiência do Sistema",
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Interface do usuário",
+                "permalink": "/grupo2/sprint5/Interface do Usuário/"
+              },
+              "next": {
+                "title": "Conclusão da Arquitetura do Sistema",
+                "permalink": "/grupo2/sprint5/Arquitetura da solução/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Entendimento da experiência do usuário/index",
+              "id": "sprint5/Entendimento da experiência do usuário/index",
+              "title": "Entendimento da experiência do usuário",
+              "description": "Acessibilidade",
+              "source": "@site/docs/sprint5/Entendimento da experiência do usuário/index.md",
+              "sourceDirName": "sprint5/Entendimento da experiência do usuário",
+              "slug": "/sprint5/Entendimento da experiência do usuário/",
+              "permalink": "/grupo2/sprint5/Entendimento da experiência do usuário/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento da experiência do usuário/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "title": "Entendimento da experiência do usuário",
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conclusão da Arquitetura do Sistema",
+                "permalink": "/grupo2/sprint5/Arquitetura da solução/"
+              },
+              "next": {
+                "title": "Sistema de cartografia",
+                "permalink": "/grupo2/sprint5/Sistema de cartografia/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Entendimento do negócio/Análise Financeira/index",
+              "id": "sprint5/Entendimento do negócio/Análise Financeira/index",
+              "title": "Conclusão da Análise Financeira",
+              "description": "Retomando a Análise Financeira inicial da Sprint 1, observamos um alinhamento consistente com o planejamento orçamentário proposto no início do projeto. A conclusão financeira aqui apresentada reflete a evolução e adaptações necessárias que foram identificadas ao longo do desenvolvimento do sistema.",
+              "source": "@site/docs/sprint5/Entendimento do negócio/Análise Financeira/index.md",
+              "sourceDirName": "sprint5/Entendimento do negócio/Análise Financeira",
+              "slug": "/sprint5/Entendimento do negócio/Análise Financeira/",
+              "permalink": "/grupo2/sprint5/Entendimento do negócio/Análise Financeira/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Análise Financeira/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Entendimento do negócio",
+                "permalink": "/grupo2/category/entendimento-do-negócio-1"
+              },
+              "next": {
+                "title": "Conclusão do Canvas Proposta de Valor",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index",
+              "id": "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index",
+              "title": "Conclusão do Canvas Proposta de Valor",
+              "description": "Ao revisitar o Canvas Proposta de Valor elaborado na Sprint 1, é evidente que a visão central da proposta manteve-se inalterada: aprimorar a eficiência e a precisão nos processos de busca e requisição de itens em almoxarifados. A execução do projeto até a Sprint 5 ampliou e refinou as características do robô autônomo e do chatbot integrado, garantindo que os benefícios previstos inicialmente fossem não só atingidos, mas também superados.",
+              "source": "@site/docs/sprint5/Entendimento do negócio/Canvas Proposta de Valor/index.md",
+              "sourceDirName": "sprint5/Entendimento do negócio/Canvas Proposta de Valor",
+              "slug": "/sprint5/Entendimento do negócio/Canvas Proposta de Valor/",
+              "permalink": "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Canvas Proposta de Valor/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conclusão da Análise Financeira",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/Análise Financeira/"
+              },
+              "next": {
+                "title": "Conclusão da Matriz Oceano Azul",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Entendimento do negócio/Matriz de Risco/index",
+              "id": "sprint5/Entendimento do negócio/Matriz de Risco/index",
+              "title": "Conclusão da Matriz de Riscos",
+              "description": "Ao concluirmos a análise da Matriz de Riscos, é evidente que os riscos identificados na Sprint 1 foram cuidadosamente gerenciados ao longo do desenvolvimento do projeto. O processo de mitigação de riscos e a exploração de oportunidades foram centrais para a entrega de um sistema robusto e eficiente.",
+              "source": "@site/docs/sprint5/Entendimento do negócio/Matriz de Risco/index.md",
+              "sourceDirName": "sprint5/Entendimento do negócio/Matriz de Risco",
+              "slug": "/sprint5/Entendimento do negócio/Matriz de Risco/",
+              "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Matriz de Risco/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conclusão da Matriz Oceano Azul",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/"
+              },
+              "next": {
+                "title": "Conclusão de TAM, SAM e SOM",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Entendimento do negócio/Matriz Oceano Aazul/index",
+              "id": "sprint5/Entendimento do negócio/Matriz Oceano Aazul/index",
+              "title": "Conclusão da Matriz Oceano Azul",
+              "description": "Ao final do projeto, revisitamos a Matriz Oceano Azul elaborada na Sprint 1 e confirmamos que as estratégias adotadas foram bem-sucedidas em diferenciar nossa solução no mercado. A matriz foi uma ferramenta fundamental para identificar onde poderíamos inovar e como poderíamos adicionar valor único ao nosso produto, criando um novo espaço de mercado.",
+              "source": "@site/docs/sprint5/Entendimento do negócio/Matriz Oceano Aazul/index.md",
+              "sourceDirName": "sprint5/Entendimento do negócio/Matriz Oceano Aazul",
+              "slug": "/sprint5/Entendimento do negócio/Matriz Oceano Aazul/",
+              "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Matriz Oceano Aazul/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conclusão do Canvas Proposta de Valor",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/"
+              },
+              "next": {
+                "title": "Conclusão da Matriz de Riscos",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Entendimento do negócio/TAM, SAM e SOM/index",
+              "id": "sprint5/Entendimento do negócio/TAM, SAM e SOM/index",
+              "title": "Conclusão de TAM, SAM e SOM",
+              "description": "A análise de TAM, SAM e SOM é essencial para entender o potencial de mercado de um projeto e suas possibilidades reais de alcance. A análise inicial foi fundamental para estabelecer metas realistas e fornecer um norte para estratégias de penetração de mercado.",
+              "source": "@site/docs/sprint5/Entendimento do negócio/TAM, SAM e SOM/index.md",
+              "sourceDirName": "sprint5/Entendimento do negócio/TAM, SAM e SOM",
+              "slug": "/sprint5/Entendimento do negócio/TAM, SAM e SOM/",
+              "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/TAM, SAM e SOM/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conclusão da Matriz de Riscos",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/"
+              },
+              "next": {
+                "title": "Interface do usuário",
+                "permalink": "/grupo2/sprint5/Interface do Usuário/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Interface do Usuário/index",
+              "id": "sprint5/Interface do Usuário/index",
+              "title": "Interface do usuário",
+              "description": "Introdução",
+              "source": "@site/docs/sprint5/Interface do Usuário/index.md",
+              "sourceDirName": "sprint5/Interface do Usuário",
+              "slug": "/sprint5/Interface do Usuário/",
+              "permalink": "/grupo2/sprint5/Interface do Usuário/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Interface do Usuário/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "title": "Interface do usuário",
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conclusão de TAM, SAM e SOM",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/"
+              },
+              "next": {
+                "title": "Validação da Eficiência do Sistema",
+                "permalink": "/grupo2/sprint5/Eficiência do sistema/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Roadmap/index",
+              "id": "sprint5/Roadmap/index",
+              "title": "Roadmap para Próximos Passos",
+              "description": "Roadmap para próximos passos",
+              "source": "@site/docs/sprint5/Roadmap/index.md",
+              "sourceDirName": "sprint5/Roadmap",
+              "slug": "/sprint5/Roadmap/",
+              "permalink": "/grupo2/sprint5/Roadmap/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Roadmap/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Roadmap para Próximos Passos",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sistema de Chatbot",
+                "permalink": "/grupo2/sprint5/Sistema de Chatbot/"
+              },
+              "next": {
+                "title": "Entendimento do negócio",
+                "permalink": "/grupo2/category/entendimento-do-negócio-1"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Sistema de cartografia/index",
+              "id": "sprint5/Sistema de cartografia/index",
+              "title": "Sistema de cartografia",
+              "description": "Um dos principais pontos do projeto foi a tecnologias avançadas de navegação robótica, centrando-se em conceitos fundamentais para sistemas cartográficos, como SLAM (Simultaneous Localization and Mapping), LIDAR (Light Detection and Ranging) e NAV 2 (Navigation Stack 2).",
+              "source": "@site/docs/sprint5/Sistema de cartografia/index.md",
+              "sourceDirName": "sprint5/Sistema de cartografia",
+              "slug": "/sprint5/Sistema de cartografia/",
+              "permalink": "/grupo2/sprint5/Sistema de cartografia/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de cartografia/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "title": "Sistema de cartografia",
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Entendimento da experiência do usuário",
+                "permalink": "/grupo2/sprint5/Entendimento da experiência do usuário/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Sistema de Chatbot/index",
+              "id": "sprint5/Sistema de Chatbot/index",
+              "title": "Sistema de Chatbot",
+              "description": "Introdução",
+              "source": "@site/docs/sprint5/Sistema de Chatbot/index.md",
+              "sourceDirName": "sprint5/Sistema de Chatbot",
+              "slug": "/sprint5/Sistema de Chatbot/",
+              "permalink": "/grupo2/sprint5/Sistema de Chatbot/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de Chatbot/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Sistema de Chatbot",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sistema de Navegação e Mapeamento Simultâneo",
+                "permalink": "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/"
+              },
+              "next": {
+                "title": "Roadmap para Próximos Passos",
+                "permalink": "/grupo2/sprint5/Roadmap/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Sistema de localização e mapeamento simultâneo/index",
+              "id": "sprint5/Sistema de localização e mapeamento simultâneo/index",
+              "title": "Sistema de Navegação e Mapeamento Simultâneo",
+              "description": "Introdução",
+              "source": "@site/docs/sprint5/Sistema de localização e mapeamento simultâneo/index.md",
+              "sourceDirName": "sprint5/Sistema de localização e mapeamento simultâneo",
+              "slug": "/sprint5/Sistema de localização e mapeamento simultâneo/",
+              "permalink": "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de localização e mapeamento simultâneo/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Sistema de Navegação e Mapeamento Simultâneo",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sistema de Text-to-Speech",
+                "permalink": "/grupo2/sprint5/Sistema de text-to-speech/"
+              },
+              "next": {
+                "title": "Sistema de Chatbot",
+                "permalink": "/grupo2/sprint5/Sistema de Chatbot/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Sistema de text-to-speech/index",
+              "id": "sprint5/Sistema de text-to-speech/index",
+              "title": "Sistema de Text-to-Speech",
+              "description": "Introdução",
+              "source": "@site/docs/sprint5/Sistema de text-to-speech/index.md",
+              "sourceDirName": "sprint5/Sistema de text-to-speech",
+              "slug": "/sprint5/Sistema de text-to-speech/",
+              "permalink": "/grupo2/sprint5/Sistema de text-to-speech/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de text-to-speech/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Sistema de Text-to-Speech",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sistema de Speech-to-Text",
+                "permalink": "/grupo2/sprint5/Speech-to-Text/"
+              },
+              "next": {
+                "title": "Sistema de Navegação e Mapeamento Simultâneo",
+                "permalink": "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/"
+              }
+            },
+            {
+              "unversionedId": "sprint5/Speech-to-Text/index",
+              "id": "sprint5/Speech-to-Text/index",
+              "title": "Sistema de Speech-to-Text",
+              "description": "Introdução",
+              "source": "@site/docs/sprint5/Speech-to-Text/index.md",
+              "sourceDirName": "sprint5/Speech-to-Text",
+              "slug": "/sprint5/Speech-to-Text/",
+              "permalink": "/grupo2/sprint5/Speech-to-Text/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Speech-to-Text/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Sistema de Speech-to-Text",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sprint 5",
+                "permalink": "/grupo2/category/sprint-5"
+              },
+              "next": {
+                "title": "Sistema de Text-to-Speech",
+                "permalink": "/grupo2/sprint5/Sistema de text-to-speech/"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Sprint 1",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "label": "Análise do Impacto Ético",
+                    "id": "sprint1/Análise de impacto ético/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Arquitetura do sistema",
+                    "id": "sprint1/Arquitetura do sistema/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Entendimento da experiência do usuário",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "label": "Personas",
+                        "id": "sprint1/Entendimento da experiência do usuário/Personas/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "User Stories",
+                        "id": "sprint1/Entendimento da experiência do usuário/User Stories/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Jornada do Usuário",
+                        "id": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "sprint1/Entendimento da experiência do usuário/index"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Entendimento do negócio",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "label": "Canvas Proposta de Valor",
+                        "id": "sprint1/Entendimento do negócio/Canvas Proposta de Valor/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+                        "id": "sprint1/Entendimento do negócio/TAM, SAM e SOM/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Matriz Oceano Azul",
+                        "id": "sprint1/Entendimento do negócio/Matriz Oceano Aazul/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Matriz de Riscos",
+                        "id": "sprint1/Entendimento do negócio/Matriz de Risco/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Análise Financeira",
+                        "id": "sprint1/Entendimento do negócio/Análise Financeira/index"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Esta seção introdutória tem como objetivo estabelecer a importância do entendimento de negócios em um projeto que envolve a criação de um AMR com mapeamento de almoxarifado, integração com ROS2, interação por reconhecimento de fala e tecnologia de Localização e Mapeamento Simultâneo (LLM). O entendimento de negócios não apenas garante a viabilidade financeira, mas também orienta a criação de uma solução que atenda às necessidades reais dos clientes e do mercado, criando valor sustentável a longo prazo. Neste contexto, vamos aprofundar cada uma dessas seções para uma compreensão completa e uma estratégia sólida para o projeto em questão. A documentação que se segue abordará vários aspectos cruciais que compõem essa compreensão, com foco na seguinte estrutura:",
+                      "slug": "/category/entendimento-do-negócio",
+                      "permalink": "/grupo2/category/entendimento-do-negócio"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Documentação do Banco de Dados",
+                    "id": "sprint1/Banco de dados/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Design Patterns",
+                    "id": "sprint1/Design Patterns/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Processamento de Requisições de Peças",
+                    "id": "sprint1/Processamento de requisições de peças/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Requisitos funcionais e não funcionais",
+                    "id": "sprint1/Requisitos funcionais e não funcionais/index"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Entendimento do projeto",
+                  "slug": "/category/sprint-1",
+                  "permalink": "/grupo2/category/sprint-1"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Sprint 2",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "label": "Setup do robô",
+                    "id": "sprint2/Setup do robô/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Testes e Avaliação dos Requisitos",
+                    "id": "sprint2/Testes do robô/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Mapeamento do ambiente",
+                    "id": "sprint2/Mapeamento/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Frontend",
+                    "id": "sprint2/Frontend/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Funcionalidades do sistema",
+                    "id": "sprint2/Funcionalidades do sistema/index"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Localização e mapeamento simultâneo",
+                  "slug": "/category/sprint-2",
+                  "permalink": "/grupo2/category/sprint-2"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Sprint 3",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "label": "Sistema de Navegação",
+                    "id": "sprint3/Sistema de navegação/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Large Language Model",
+                    "id": "sprint3/LLM/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Fluxo do chatbot",
+                    "id": "sprint3/Fluxo do chatbot/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Sistema de Logs",
+                    "id": "sprint3/Sistema de logs/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Como executar o projeto V1",
+                    "id": "sprint3/Modo de execução do projeto/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Descrição de Testes (LLM)",
+                    "id": "sprint3/Descrição de testes/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Funcionalidades do sistema",
+                    "id": "sprint3/Funcionalidades do sistema/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Acompanhamento de requisitos",
+                    "id": "sprint3/Acompanhamento de requisitos/index"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Implementação de LLM, refinamento da interface de comunicação entre usuário e solução, e estruturação do sistema de navegação do robô.",
+                  "slug": "/category/sprint-3",
+                  "permalink": "/grupo2/category/sprint-3"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Sprint 4",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "label": "Speech-to-Text",
+                    "id": "sprint4/Speech-to-Text/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Text-to-Speech",
+                    "id": "sprint4/Text-to-Speech/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Testes de usabilidade",
+                    "id": "sprint4/Testes de usabilidade/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Como executar o projeto V2",
+                    "id": "sprint4/Modo de execução do projeto/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Demonstração de Funcionalidades Desenvolvidas",
+                    "id": "sprint4/Funcionalidades Desenvolvidas/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Acompanhamento de requisitos",
+                    "id": "sprint4/Acompanhamento de requisitos/index"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Criação de interface Speech-to-Text",
+                  "slug": "/category/sprint-4",
+                  "permalink": "/grupo2/category/sprint-4"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Sprint 5",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "label": "Sistema de Speech-to-Text",
+                    "id": "sprint5/Speech-to-Text/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Sistema de Text-to-Speech",
+                    "id": "sprint5/Sistema de text-to-speech/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Sistema de Navegação e Mapeamento Simultâneo",
+                    "id": "sprint5/Sistema de localização e mapeamento simultâneo/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Sistema de Chatbot",
+                    "id": "sprint5/Sistema de Chatbot/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Roadmap para Próximos Passos",
+                    "id": "sprint5/Roadmap/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Entendimento do negócio",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "label": "Conclusão da Análise Financeira",
+                        "id": "sprint5/Entendimento do negócio/Análise Financeira/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Conclusão do Canvas Proposta de Valor",
+                        "id": "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Conclusão da Matriz Oceano Azul",
+                        "id": "sprint5/Entendimento do negócio/Matriz Oceano Aazul/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Conclusão da Matriz de Riscos",
+                        "id": "sprint5/Entendimento do negócio/Matriz de Risco/index"
+                      },
+                      {
+                        "type": "doc",
+                        "label": "Conclusão de TAM, SAM e SOM",
+                        "id": "sprint5/Entendimento do negócio/TAM, SAM e SOM/index"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Esta seção introdutória tem como objetivo estabelecer a importância do entendimento de negócios em um projeto que envolve a criação de um AMR com mapeamento de almoxarifado, integração com ROS2, interação por reconhecimento de fala e tecnologia de Localização e Mapeamento Simultâneo (LLM). O entendimento de negócios não apenas garante a viabilidade financeira, mas também orienta a criação de uma solução que atenda às necessidades reais dos clientes e do mercado, criando valor sustentável a longo prazo. Neste contexto, vamos aprofundar cada uma dessas seções para uma compreensão completa e uma estratégia sólida para o projeto em questão. A documentação que se segue abordará vários aspectos cruciais que compõem essa compreensão, com foco na seguinte estrutura:",
+                      "slug": "/category/entendimento-do-negócio-1",
+                      "permalink": "/grupo2/category/entendimento-do-negócio-1"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Interface do usuário",
+                    "id": "sprint5/Interface do Usuário/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Validação da Eficiência do Sistema",
+                    "id": "sprint5/Eficiência do sistema/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Conclusão da Arquitetura do Sistema",
+                    "id": "sprint5/Arquitetura da solução/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Entendimento da experiência do usuário",
+                    "id": "sprint5/Entendimento da experiência do usuário/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Sistema de cartografia",
+                    "id": "sprint5/Sistema de cartografia/index"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Conclusão do projeto",
+                  "slug": "/category/sprint-5",
+                  "permalink": "/grupo2/category/sprint-5"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/grupo2/blog/welcome",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/grupo2/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/grupo2/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/grupo2/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.405,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/grupo2/blog/mdx-blog-post"
+            }
+          },
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\r\n\r\nSimply add Markdown files (or folders) to the `blog` directory.\r\n\r\nRegular blog authors can be added to `authors.yml`.\r\n\r\nThe blog post date can be extracted from filenames, such as:\r\n\r\n- `2019-05-30-welcome.md`\r\n- `2019-05-30-welcome/index.md`\r\n\r\nA blog post folder can be convenient to co-locate blog post images:\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\nThe blog supports tags as well!\r\n\r\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/grupo2/blog/mdx-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/grupo2/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "frontMatter": {
+              "slug": "mdx-blog-post",
+              "title": "MDX Blog Post",
+              "authors": [
+                "slorber"
+              ],
+              "tags": [
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/grupo2/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/grupo2/blog/long-blog-post"
+            }
+          },
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\r\n\r\n:::tip\r\n\r\nUse the power of React to create interactive blog posts.\r\n\r\n```js\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n```\r\n\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n\r\n:::"
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/grupo2/blog/long-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/grupo2/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/grupo2/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "frontMatter": {
+              "slug": "long-blog-post",
+              "title": "Long Blog Post",
+              "authors": "endi",
+              "tags": [
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/grupo2/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/grupo2/blog/first-blog-post"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/grupo2/blog/first-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/grupo2/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/grupo2/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              },
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/grupo2/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/grupo2/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/grupo2/blog/tags/facebook": {
+          "label": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/grupo2/blog/tags/facebook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/grupo2/blog/tags/facebook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/grupo2/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/grupo2/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/grupo2/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/grupo2/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/grupo2/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/grupo2/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/grupo2/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/grupo2/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/grupo2/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/grupo2/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/grupo2/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint1/Análise de impacto ético/index",
+  "id": "sprint1/Análise de impacto ético/index",
+  "title": "Análise do Impacto Ético",
+  "description": "Ao passo que a automação, robótica e inteligência artificial ficam mais presentes em ambientes diversos, é importante levantar discussões quanto à privacidade e proteção dos dados que essas aplicações gerenciam. Este tópico explora a interseção entre tecnologia e diversos pontos de preocupação ética no cenário de um artefato robótico com capacidade de navegação autônoma, capaz de receber ordens de busca de itens em um almoxarifado. No contexto desse projeto, a preocupação central é a segurança dos dados utilizados pelo robô, que podem variar desde informações sensíveis sobre ativos valiosos até dados relacionados à saúde e configuração de produção em uma fábrica. Para mitigar esses riscos, a implementação de estratégias robustas de criptografia e tokenização são discutidas, no contexto de armazenamento em nuvem. Além disso, questões de equidade e justiça, destacando desafios potenciais para usuários com diferentes habilidades linguísticas, deficiências físicas ou idades avançadas também foi discutido.",
+  "source": "@site/docs/sprint1/Análise de impacto ético/index.md",
+  "sourceDirName": "sprint1/Análise de impacto ético",
+  "slug": "/sprint1/Análise de impacto ético/",
+  "permalink": "/grupo2/sprint1/Análise de impacto ético/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Análise de impacto ético/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Análise do Impacto Ético",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sprint 1",
+    "permalink": "/grupo2/category/sprint-1"
+  },
+  "next": {
+    "title": "Arquitetura do sistema",
+    "permalink": "/grupo2/sprint1/Arquitetura do sistema/"
+  }
+}

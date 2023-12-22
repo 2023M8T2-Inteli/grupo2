@@ -1,0 +1,24 @@
+{
+  "unversionedId": "sprint1/Design Patterns/index",
+  "id": "sprint1/Design Patterns/index",
+  "title": "Design Patterns",
+  "description": "Para a operacionalização do robô autônomo que localizará itens em um almoxarifado será utilizado o Sistema Operacional de Robôs, ou ROS (Robot Operating System). No ROS, o padrão de design publicador-inscrito (publisher-subscriber) é utilizado para a comunicação de abstrações chamadas de Nós. Esses Nós em ROS podem publicar mensagem para tópicos específicos, assim como outros Nós podem se inscrever nesses mesmos tópicos para receber as mesmas mensagens. Esse padrão de design permite a construção de sistemas de robótica modulares e distribuídos, ideal para o cenário de aplicação do projeto e sua futura escalabilidade.",
+  "source": "@site/docs/sprint1/Design Patterns/index.md",
+  "sourceDirName": "sprint1/Design Patterns",
+  "slug": "/sprint1/Design Patterns/",
+  "permalink": "/grupo2/sprint1/Design Patterns/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Design Patterns/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentação do Banco de Dados",
+    "permalink": "/grupo2/sprint1/Banco de dados/"
+  },
+  "next": {
+    "title": "Processamento de Requisições de Peças",
+    "permalink": "/grupo2/sprint1/Processamento de requisições de peças/"
+  }
+}

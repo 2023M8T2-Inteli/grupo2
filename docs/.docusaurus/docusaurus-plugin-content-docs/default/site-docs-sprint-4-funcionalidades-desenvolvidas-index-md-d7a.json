@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint4/Funcionalidades Desenvolvidas/index",
+  "id": "sprint4/Funcionalidades Desenvolvidas/index",
+  "title": "Demonstração de Funcionalidades Desenvolvidas",
+  "description": "O objetivo desta etapa da documentação é elencar as funcionalidas que foram desenvolvidas até a sprint 4, explicitando o que o sistema é ou não capaz de fazer.",
+  "source": "@site/docs/sprint4/Funcionalidades Desenvolvidas/index.md",
+  "sourceDirName": "sprint4/Funcionalidades Desenvolvidas",
+  "slug": "/sprint4/Funcionalidades Desenvolvidas/",
+  "permalink": "/grupo2/sprint4/Funcionalidades Desenvolvidas/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Funcionalidades Desenvolvidas/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Demonstração de Funcionalidades Desenvolvidas",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Como executar o projeto V2",
+    "permalink": "/grupo2/sprint4/Modo de execução do projeto/"
+  },
+  "next": {
+    "title": "Acompanhamento de requisitos",
+    "permalink": "/grupo2/sprint4/Acompanhamento de requisitos/"
+  }
+}

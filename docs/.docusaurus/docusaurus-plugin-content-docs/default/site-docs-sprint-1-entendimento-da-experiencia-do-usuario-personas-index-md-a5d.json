@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint1/Entendimento da experiência do usuário/Personas/index",
+  "id": "sprint1/Entendimento da experiência do usuário/Personas/index",
+  "title": "Personas",
+  "description": "Personas são retratos fictícios de indivíduos reais, construídos a partir de dados e informações adquiridas através de entrevistas com os stakeholders e pesquisas relacionadas à área de interesse. O propósito das personas é auxiliar a equipe do projeto na aprofundada compreensão das metas, obstáculos e padrões de comportamento dos usuários finais do produto ou serviço. Isso, por sua vez, possibilita o desenvolvimento de soluções mais adequadas e personalizadas, direcionadas para atender às necessidades específicas dos usuários.",
+  "source": "@site/docs/sprint1/Entendimento da experiência do usuário/Personas/index.md",
+  "sourceDirName": "sprint1/Entendimento da experiência do usuário/Personas",
+  "slug": "/sprint1/Entendimento da experiência do usuário/Personas/",
+  "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Personas/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/Personas/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Personas",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Entendimento da experiência do usuário",
+    "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/"
+  },
+  "next": {
+    "title": "User Stories",
+    "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/"
+  }
+}

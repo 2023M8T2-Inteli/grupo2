@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint3/Sistema de navegação/index",
+  "id": "sprint3/Sistema de navegação/index",
+  "title": "Sistema de Navegação",
+  "description": "Na segunda sprint do projeto, o grupo concretizou o mapeamento do circuito físico construído para simular o almoxarifado da Ambev. Além disso, foi possível fazer o robô se movimentar de forma autônoma através de um script simples de navegação, que definia uma série de waypoints para o Turtlebot percorrer. No entanto, a terceira sprint foi marcada pela implementação de um sistema de navegação mais robusto, cuja estrutura de código se caracteriza pela implementação do sistema publisher-subscriber.",
+  "source": "@site/docs/sprint3/Sistema de navegação/index.md",
+  "sourceDirName": "sprint3/Sistema de navegação",
+  "slug": "/sprint3/Sistema de navegação/",
+  "permalink": "/grupo2/sprint3/Sistema de navegação/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Sistema de navegação/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Sistema de Navegação",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sprint 3",
+    "permalink": "/grupo2/category/sprint-3"
+  },
+  "next": {
+    "title": "Large Language Model",
+    "permalink": "/grupo2/sprint3/LLM/"
+  }
+}

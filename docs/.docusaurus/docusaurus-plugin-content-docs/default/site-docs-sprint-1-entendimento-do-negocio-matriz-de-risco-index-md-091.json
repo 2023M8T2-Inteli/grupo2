@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint1/Entendimento do negócio/Matriz de Risco/index",
+  "id": "sprint1/Entendimento do negócio/Matriz de Risco/index",
+  "title": "Matriz de Riscos",
+  "description": "A matriz de riscos é primordial para elencar os pontos que merecem mais atenção no projeto e sua probabilidade de acontecer.",
+  "source": "@site/docs/sprint1/Entendimento do negócio/Matriz de Risco/index.md",
+  "sourceDirName": "sprint1/Entendimento do negócio/Matriz de Risco",
+  "slug": "/sprint1/Entendimento do negócio/Matriz de Risco/",
+  "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Matriz de Risco/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Matriz de Riscos",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Matriz Oceano Azul",
+    "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/"
+  },
+  "next": {
+    "title": "Análise Financeira",
+    "permalink": "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/"
+  }
+}

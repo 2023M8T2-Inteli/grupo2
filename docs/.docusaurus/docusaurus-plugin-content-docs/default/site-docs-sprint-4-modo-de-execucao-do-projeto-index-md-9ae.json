@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint4/Modo de execução do projeto/index",
+  "id": "sprint4/Modo de execução do projeto/index",
+  "title": "Como executar o projeto V2",
+  "description": "Para começar a executar o projeto, é necessário ter entendimento sobre a estrutura de pastas.",
+  "source": "@site/docs/sprint4/Modo de execução do projeto/index.md",
+  "sourceDirName": "sprint4/Modo de execução do projeto",
+  "slug": "/sprint4/Modo de execução do projeto/",
+  "permalink": "/grupo2/sprint4/Modo de execução do projeto/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Modo de execução do projeto/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Como executar o projeto V2",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Testes de usabilidade",
+    "permalink": "/grupo2/sprint4/Testes de usabilidade/"
+  },
+  "next": {
+    "title": "Demonstração de Funcionalidades Desenvolvidas",
+    "permalink": "/grupo2/sprint4/Funcionalidades Desenvolvidas/"
+  }
+}

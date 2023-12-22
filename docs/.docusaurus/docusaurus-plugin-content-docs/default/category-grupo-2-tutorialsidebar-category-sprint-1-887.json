@@ -1,0 +1,16 @@
+{
+  "title": "Sprint 1",
+  "description": "Entendimento do projeto",
+  "slug": "/category/sprint-1",
+  "permalink": "/grupo2/category/sprint-1",
+  "navigation": {
+    "previous": {
+      "title": "Introdução",
+      "permalink": "/grupo2/"
+    },
+    "next": {
+      "title": "Análise do Impacto Ético",
+      "permalink": "/grupo2/sprint1/Análise de impacto ético/"
+    }
+  }
+}

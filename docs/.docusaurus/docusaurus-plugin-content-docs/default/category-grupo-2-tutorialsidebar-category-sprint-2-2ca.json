@@ -1,0 +1,16 @@
+{
+  "title": "Sprint 2",
+  "description": "Localização e mapeamento simultâneo",
+  "slug": "/category/sprint-2",
+  "permalink": "/grupo2/category/sprint-2",
+  "navigation": {
+    "previous": {
+      "title": "Requisitos funcionais e não funcionais",
+      "permalink": "/grupo2/sprint1/Requisitos funcionais e não funcionais/"
+    },
+    "next": {
+      "title": "Setup do robô",
+      "permalink": "/grupo2/sprint2/Setup do robô/"
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/grupo2/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/grupo2/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/grupo2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Análise de impacto ético/index",
+              "path": "/grupo2/sprint1/Análise de impacto ético/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Arquitetura do sistema/index",
+              "path": "/grupo2/sprint1/Arquitetura do sistema/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Banco de dados/index",
+              "path": "/grupo2/sprint1/Banco de dados/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Design Patterns/index",
+              "path": "/grupo2/sprint1/Design Patterns/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento da experiência do usuário/index",
+              "path": "/grupo2/sprint1/Entendimento da experiência do usuário/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index",
+              "path": "/grupo2/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento da experiência do usuário/Personas/index",
+              "path": "/grupo2/sprint1/Entendimento da experiência do usuário/Personas/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento da experiência do usuário/User Stories/index",
+              "path": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento do negócio/Análise Financeira/index",
+              "path": "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento do negócio/Canvas Proposta de Valor/index",
+              "path": "/grupo2/sprint1/Entendimento do negócio/Canvas Proposta de Valor/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento do negócio/Matriz de Risco/index",
+              "path": "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento do negócio/Matriz Oceano Aazul/index",
+              "path": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Entendimento do negócio/TAM, SAM e SOM/index",
+              "path": "/grupo2/sprint1/Entendimento do negócio/TAM, SAM e SOM/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Processamento de requisições de peças/index",
+              "path": "/grupo2/sprint1/Processamento de requisições de peças/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint1/Requisitos funcionais e não funcionais/index",
+              "path": "/grupo2/sprint1/Requisitos funcionais e não funcionais/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint2/Frontend/index",
+              "path": "/grupo2/sprint2/Frontend/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint2/Funcionalidades do sistema/index",
+              "path": "/grupo2/sprint2/Funcionalidades do sistema/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint2/Mapeamento/index",
+              "path": "/grupo2/sprint2/Mapeamento/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint2/Setup do robô/index",
+              "path": "/grupo2/sprint2/Setup do robô/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint2/Testes do robô/index",
+              "path": "/grupo2/sprint2/Testes do robô/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint3/Acompanhamento de requisitos/index",
+              "path": "/grupo2/sprint3/Acompanhamento de requisitos/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint3/Descrição de testes/index",
+              "path": "/grupo2/sprint3/Descrição de testes/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint3/Fluxo do chatbot/index",
+              "path": "/grupo2/sprint3/Fluxo do chatbot/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint3/Funcionalidades do sistema/index",
+              "path": "/grupo2/sprint3/Funcionalidades do sistema/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint3/LLM/index",
+              "path": "/grupo2/sprint3/LLM/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint3/Modo de execução do projeto/index",
+              "path": "/grupo2/sprint3/Modo de execução do projeto/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint3/Sistema de logs/index",
+              "path": "/grupo2/sprint3/Sistema de logs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint3/Sistema de navegação/index",
+              "path": "/grupo2/sprint3/Sistema de navegação/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint4/Acompanhamento de requisitos/index",
+              "path": "/grupo2/sprint4/Acompanhamento de requisitos/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint4/Funcionalidades Desenvolvidas/index",
+              "path": "/grupo2/sprint4/Funcionalidades Desenvolvidas/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint4/Modo de execução do projeto/index",
+              "path": "/grupo2/sprint4/Modo de execução do projeto/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint4/Speech-to-Text/index",
+              "path": "/grupo2/sprint4/Speech-to-Text/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint4/Testes de usabilidade/index",
+              "path": "/grupo2/sprint4/Testes de usabilidade/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint4/Text-to-Speech/index",
+              "path": "/grupo2/sprint4/Text-to-Speech/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Arquitetura da solução/index",
+              "path": "/grupo2/sprint5/Arquitetura da solução/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Eficiência do sistema/index",
+              "path": "/grupo2/sprint5/Eficiência do sistema/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Entendimento da experiência do usuário/index",
+              "path": "/grupo2/sprint5/Entendimento da experiência do usuário/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Entendimento do negócio/Análise Financeira/index",
+              "path": "/grupo2/sprint5/Entendimento do negócio/Análise Financeira/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index",
+              "path": "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Entendimento do negócio/Matriz de Risco/index",
+              "path": "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Entendimento do negócio/Matriz Oceano Aazul/index",
+              "path": "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Entendimento do negócio/TAM, SAM e SOM/index",
+              "path": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Interface do Usuário/index",
+              "path": "/grupo2/sprint5/Interface do Usuário/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Roadmap/index",
+              "path": "/grupo2/sprint5/Roadmap/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Sistema de cartografia/index",
+              "path": "/grupo2/sprint5/Sistema de cartografia/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Sistema de Chatbot/index",
+              "path": "/grupo2/sprint5/Sistema de Chatbot/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Sistema de localização e mapeamento simultâneo/index",
+              "path": "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Sistema de text-to-speech/index",
+              "path": "/grupo2/sprint5/Sistema de text-to-speech/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sprint5/Speech-to-Text/index",
+              "path": "/grupo2/sprint5/Speech-to-Text/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/sprint-1",
+              "path": "/grupo2/category/sprint-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/entendimento-do-negócio",
+              "path": "/grupo2/category/entendimento-do-negócio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/sprint-2",
+              "path": "/grupo2/category/sprint-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/sprint-3",
+              "path": "/grupo2/category/sprint-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/sprint-4",
+              "path": "/grupo2/category/sprint-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/sprint-5",
+              "path": "/grupo2/category/sprint-5",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/entendimento-do-negócio-1",
+              "path": "/grupo2/category/entendimento-do-negócio-1",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/grupo2/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

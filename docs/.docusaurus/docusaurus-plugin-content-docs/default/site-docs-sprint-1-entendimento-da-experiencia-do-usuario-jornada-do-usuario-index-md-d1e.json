@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index",
+  "id": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index",
+  "title": "Jornada do Usuário",
+  "description": "Análise do fluxo da solução e mapeamento de pontos de fragilidade",
+  "source": "@site/docs/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index.md",
+  "sourceDirName": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario",
+  "slug": "/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/",
+  "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Jornada do Usuário",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Stories",
+    "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/"
+  },
+  "next": {
+    "title": "Entendimento do negócio",
+    "permalink": "/grupo2/category/entendimento-do-negócio"
+  }
+}

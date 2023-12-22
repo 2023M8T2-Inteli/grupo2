@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint2/Mapeamento/index",
+  "id": "sprint2/Mapeamento/index",
+  "title": "Mapeamento do ambiente",
+  "description": "Introdução",
+  "source": "@site/docs/sprint2/Mapeamento/index.md",
+  "sourceDirName": "sprint2/Mapeamento",
+  "slug": "/sprint2/Mapeamento/",
+  "permalink": "/grupo2/sprint2/Mapeamento/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Mapeamento/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Mapeamento do ambiente",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Testes e Avaliação dos Requisitos",
+    "permalink": "/grupo2/sprint2/Testes do robô/"
+  },
+  "next": {
+    "title": "Frontend",
+    "permalink": "/grupo2/sprint2/Frontend/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "sprint5/Entendimento do negócio/Análise Financeira/index",
+  "id": "sprint5/Entendimento do negócio/Análise Financeira/index",
+  "title": "Conclusão da Análise Financeira",
+  "description": "Retomando a Análise Financeira inicial da Sprint 1, observamos um alinhamento consistente com o planejamento orçamentário proposto no início do projeto. A conclusão financeira aqui apresentada reflete a evolução e adaptações necessárias que foram identificadas ao longo do desenvolvimento do sistema.",
+  "source": "@site/docs/sprint5/Entendimento do negócio/Análise Financeira/index.md",
+  "sourceDirName": "sprint5/Entendimento do negócio/Análise Financeira",
+  "slug": "/sprint5/Entendimento do negócio/Análise Financeira/",
+  "permalink": "/grupo2/sprint5/Entendimento do negócio/Análise Financeira/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Análise Financeira/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Entendimento do negócio",
+    "permalink": "/grupo2/category/entendimento-do-negócio-1"
+  },
+  "next": {
+    "title": "Conclusão do Canvas Proposta de Valor",
+    "permalink": "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "sprint5/Roadmap/index",
+  "id": "sprint5/Roadmap/index",
+  "title": "Roadmap para Próximos Passos",
+  "description": "Roadmap para próximos passos",
+  "source": "@site/docs/sprint5/Roadmap/index.md",
+  "sourceDirName": "sprint5/Roadmap",
+  "slug": "/sprint5/Roadmap/",
+  "permalink": "/grupo2/sprint5/Roadmap/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Roadmap/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Roadmap para Próximos Passos",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sistema de Chatbot",
+    "permalink": "/grupo2/sprint5/Sistema de Chatbot/"
+  },
+  "next": {
+    "title": "Entendimento do negócio",
+    "permalink": "/grupo2/category/entendimento-do-negócio-1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "sprint1/Requisitos funcionais e não funcionais/index",
+  "id": "sprint1/Requisitos funcionais e não funcionais/index",
+  "title": "Requisitos funcionais e não funcionais",
+  "description": "Para garantir que o projeto atende às necessidades do cliente especificada em entrevista de levantamento de requisitos em sala de aula, os requisitos foram divisidos em requisitos de hardware e software. Tal divisão se deu pela característica multitécnica do projeto, que envolve componentes de software e hardware, na figura de um artefato robótico. Dentre os requisitos de hardware e software, esses foram classificados entre funcionais (descrição do requisito) e não funcionais (qual é métrica de desempenho que cada requisito funcional deve atingir). Além disso, cada um dos requisitos foi classificado como \"obrigatório\" ou \"desejável\", o que auxiliará a equipe de desenvolvimento a estabelecer uma hierarquia de prioridades para sua implementação.",
+  "source": "@site/docs/sprint1/Requisitos funcionais e não funcionais/index.md",
+  "sourceDirName": "sprint1/Requisitos funcionais e não funcionais",
+  "slug": "/sprint1/Requisitos funcionais e não funcionais/",
+  "permalink": "/grupo2/sprint1/Requisitos funcionais e não funcionais/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Requisitos funcionais e não funcionais/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Processamento de Requisições de Peças",
+    "permalink": "/grupo2/sprint1/Processamento de requisições de peças/"
+  },
+  "next": {
+    "title": "Sprint 2",
+    "permalink": "/grupo2/category/sprint-2"
+  }
+}

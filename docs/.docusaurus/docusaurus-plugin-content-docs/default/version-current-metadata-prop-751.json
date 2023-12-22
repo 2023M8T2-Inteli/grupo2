@@ -1,0 +1,682 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introdução",
+        "href": "/grupo2/",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Sprint 1",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Análise do Impacto Ético",
+            "href": "/grupo2/sprint1/Análise de impacto ético/",
+            "docId": "sprint1/Análise de impacto ético/index"
+          },
+          {
+            "type": "link",
+            "label": "Arquitetura do sistema",
+            "href": "/grupo2/sprint1/Arquitetura do sistema/",
+            "docId": "sprint1/Arquitetura do sistema/index"
+          },
+          {
+            "type": "category",
+            "label": "Entendimento da experiência do usuário",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Personas",
+                "href": "/grupo2/sprint1/Entendimento da experiência do usuário/Personas/",
+                "docId": "sprint1/Entendimento da experiência do usuário/Personas/index"
+              },
+              {
+                "type": "link",
+                "label": "User Stories",
+                "href": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/",
+                "docId": "sprint1/Entendimento da experiência do usuário/User Stories/index"
+              },
+              {
+                "type": "link",
+                "label": "Jornada do Usuário",
+                "href": "/grupo2/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/",
+                "docId": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index"
+              }
+            ],
+            "href": "/grupo2/sprint1/Entendimento da experiência do usuário/"
+          },
+          {
+            "type": "category",
+            "label": "Entendimento do negócio",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Canvas Proposta de Valor",
+                "href": "/grupo2/sprint1/Entendimento do negócio/Canvas Proposta de Valor/",
+                "docId": "sprint1/Entendimento do negócio/Canvas Proposta de Valor/index"
+              },
+              {
+                "type": "link",
+                "label": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+                "href": "/grupo2/sprint1/Entendimento do negócio/TAM, SAM e SOM/",
+                "docId": "sprint1/Entendimento do negócio/TAM, SAM e SOM/index"
+              },
+              {
+                "type": "link",
+                "label": "Matriz Oceano Azul",
+                "href": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/",
+                "docId": "sprint1/Entendimento do negócio/Matriz Oceano Aazul/index"
+              },
+              {
+                "type": "link",
+                "label": "Matriz de Riscos",
+                "href": "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/",
+                "docId": "sprint1/Entendimento do negócio/Matriz de Risco/index"
+              },
+              {
+                "type": "link",
+                "label": "Análise Financeira",
+                "href": "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/",
+                "docId": "sprint1/Entendimento do negócio/Análise Financeira/index"
+              }
+            ],
+            "href": "/grupo2/category/entendimento-do-negócio"
+          },
+          {
+            "type": "link",
+            "label": "Documentação do Banco de Dados",
+            "href": "/grupo2/sprint1/Banco de dados/",
+            "docId": "sprint1/Banco de dados/index"
+          },
+          {
+            "type": "link",
+            "label": "Design Patterns",
+            "href": "/grupo2/sprint1/Design Patterns/",
+            "docId": "sprint1/Design Patterns/index"
+          },
+          {
+            "type": "link",
+            "label": "Processamento de Requisições de Peças",
+            "href": "/grupo2/sprint1/Processamento de requisições de peças/",
+            "docId": "sprint1/Processamento de requisições de peças/index"
+          },
+          {
+            "type": "link",
+            "label": "Requisitos funcionais e não funcionais",
+            "href": "/grupo2/sprint1/Requisitos funcionais e não funcionais/",
+            "docId": "sprint1/Requisitos funcionais e não funcionais/index"
+          }
+        ],
+        "href": "/grupo2/category/sprint-1"
+      },
+      {
+        "type": "category",
+        "label": "Sprint 2",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Setup do robô",
+            "href": "/grupo2/sprint2/Setup do robô/",
+            "docId": "sprint2/Setup do robô/index"
+          },
+          {
+            "type": "link",
+            "label": "Testes e Avaliação dos Requisitos",
+            "href": "/grupo2/sprint2/Testes do robô/",
+            "docId": "sprint2/Testes do robô/index"
+          },
+          {
+            "type": "link",
+            "label": "Mapeamento do ambiente",
+            "href": "/grupo2/sprint2/Mapeamento/",
+            "docId": "sprint2/Mapeamento/index"
+          },
+          {
+            "type": "link",
+            "label": "Frontend",
+            "href": "/grupo2/sprint2/Frontend/",
+            "docId": "sprint2/Frontend/index"
+          },
+          {
+            "type": "link",
+            "label": "Funcionalidades do sistema",
+            "href": "/grupo2/sprint2/Funcionalidades do sistema/",
+            "docId": "sprint2/Funcionalidades do sistema/index"
+          }
+        ],
+        "href": "/grupo2/category/sprint-2"
+      },
+      {
+        "type": "category",
+        "label": "Sprint 3",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Sistema de Navegação",
+            "href": "/grupo2/sprint3/Sistema de navegação/",
+            "docId": "sprint3/Sistema de navegação/index"
+          },
+          {
+            "type": "link",
+            "label": "Large Language Model",
+            "href": "/grupo2/sprint3/LLM/",
+            "docId": "sprint3/LLM/index"
+          },
+          {
+            "type": "link",
+            "label": "Fluxo do chatbot",
+            "href": "/grupo2/sprint3/Fluxo do chatbot/",
+            "docId": "sprint3/Fluxo do chatbot/index"
+          },
+          {
+            "type": "link",
+            "label": "Sistema de Logs",
+            "href": "/grupo2/sprint3/Sistema de logs/",
+            "docId": "sprint3/Sistema de logs/index"
+          },
+          {
+            "type": "link",
+            "label": "Como executar o projeto V1",
+            "href": "/grupo2/sprint3/Modo de execução do projeto/",
+            "docId": "sprint3/Modo de execução do projeto/index"
+          },
+          {
+            "type": "link",
+            "label": "Descrição de Testes (LLM)",
+            "href": "/grupo2/sprint3/Descrição de testes/",
+            "docId": "sprint3/Descrição de testes/index"
+          },
+          {
+            "type": "link",
+            "label": "Funcionalidades do sistema",
+            "href": "/grupo2/sprint3/Funcionalidades do sistema/",
+            "docId": "sprint3/Funcionalidades do sistema/index"
+          },
+          {
+            "type": "link",
+            "label": "Acompanhamento de requisitos",
+            "href": "/grupo2/sprint3/Acompanhamento de requisitos/",
+            "docId": "sprint3/Acompanhamento de requisitos/index"
+          }
+        ],
+        "href": "/grupo2/category/sprint-3"
+      },
+      {
+        "type": "category",
+        "label": "Sprint 4",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Speech-to-Text",
+            "href": "/grupo2/sprint4/Speech-to-Text/",
+            "docId": "sprint4/Speech-to-Text/index"
+          },
+          {
+            "type": "link",
+            "label": "Text-to-Speech",
+            "href": "/grupo2/sprint4/Text-to-Speech/",
+            "docId": "sprint4/Text-to-Speech/index"
+          },
+          {
+            "type": "link",
+            "label": "Testes de usabilidade",
+            "href": "/grupo2/sprint4/Testes de usabilidade/",
+            "docId": "sprint4/Testes de usabilidade/index"
+          },
+          {
+            "type": "link",
+            "label": "Como executar o projeto V2",
+            "href": "/grupo2/sprint4/Modo de execução do projeto/",
+            "docId": "sprint4/Modo de execução do projeto/index"
+          },
+          {
+            "type": "link",
+            "label": "Demonstração de Funcionalidades Desenvolvidas",
+            "href": "/grupo2/sprint4/Funcionalidades Desenvolvidas/",
+            "docId": "sprint4/Funcionalidades Desenvolvidas/index"
+          },
+          {
+            "type": "link",
+            "label": "Acompanhamento de requisitos",
+            "href": "/grupo2/sprint4/Acompanhamento de requisitos/",
+            "docId": "sprint4/Acompanhamento de requisitos/index"
+          }
+        ],
+        "href": "/grupo2/category/sprint-4"
+      },
+      {
+        "type": "category",
+        "label": "Sprint 5",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Sistema de Speech-to-Text",
+            "href": "/grupo2/sprint5/Speech-to-Text/",
+            "docId": "sprint5/Speech-to-Text/index"
+          },
+          {
+            "type": "link",
+            "label": "Sistema de Text-to-Speech",
+            "href": "/grupo2/sprint5/Sistema de text-to-speech/",
+            "docId": "sprint5/Sistema de text-to-speech/index"
+          },
+          {
+            "type": "link",
+            "label": "Sistema de Navegação e Mapeamento Simultâneo",
+            "href": "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/",
+            "docId": "sprint5/Sistema de localização e mapeamento simultâneo/index"
+          },
+          {
+            "type": "link",
+            "label": "Sistema de Chatbot",
+            "href": "/grupo2/sprint5/Sistema de Chatbot/",
+            "docId": "sprint5/Sistema de Chatbot/index"
+          },
+          {
+            "type": "link",
+            "label": "Roadmap para Próximos Passos",
+            "href": "/grupo2/sprint5/Roadmap/",
+            "docId": "sprint5/Roadmap/index"
+          },
+          {
+            "type": "category",
+            "label": "Entendimento do negócio",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Conclusão da Análise Financeira",
+                "href": "/grupo2/sprint5/Entendimento do negócio/Análise Financeira/",
+                "docId": "sprint5/Entendimento do negócio/Análise Financeira/index"
+              },
+              {
+                "type": "link",
+                "label": "Conclusão do Canvas Proposta de Valor",
+                "href": "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/",
+                "docId": "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index"
+              },
+              {
+                "type": "link",
+                "label": "Conclusão da Matriz Oceano Azul",
+                "href": "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/",
+                "docId": "sprint5/Entendimento do negócio/Matriz Oceano Aazul/index"
+              },
+              {
+                "type": "link",
+                "label": "Conclusão da Matriz de Riscos",
+                "href": "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/",
+                "docId": "sprint5/Entendimento do negócio/Matriz de Risco/index"
+              },
+              {
+                "type": "link",
+                "label": "Conclusão de TAM, SAM e SOM",
+                "href": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/",
+                "docId": "sprint5/Entendimento do negócio/TAM, SAM e SOM/index"
+              }
+            ],
+            "href": "/grupo2/category/entendimento-do-negócio-1"
+          },
+          {
+            "type": "link",
+            "label": "Interface do usuário",
+            "href": "/grupo2/sprint5/Interface do Usuário/",
+            "docId": "sprint5/Interface do Usuário/index"
+          },
+          {
+            "type": "link",
+            "label": "Validação da Eficiência do Sistema",
+            "href": "/grupo2/sprint5/Eficiência do sistema/",
+            "docId": "sprint5/Eficiência do sistema/index"
+          },
+          {
+            "type": "link",
+            "label": "Conclusão da Arquitetura do Sistema",
+            "href": "/grupo2/sprint5/Arquitetura da solução/",
+            "docId": "sprint5/Arquitetura da solução/index"
+          },
+          {
+            "type": "link",
+            "label": "Entendimento da experiência do usuário",
+            "href": "/grupo2/sprint5/Entendimento da experiência do usuário/",
+            "docId": "sprint5/Entendimento da experiência do usuário/index"
+          },
+          {
+            "type": "link",
+            "label": "Sistema de cartografia",
+            "href": "/grupo2/sprint5/Sistema de cartografia/",
+            "docId": "sprint5/Sistema de cartografia/index"
+          }
+        ],
+        "href": "/grupo2/category/sprint-5"
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Introdução",
+      "description": "Sprint 1",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Análise de impacto ético/index": {
+      "id": "sprint1/Análise de impacto ético/index",
+      "title": "Análise do Impacto Ético",
+      "description": "Ao passo que a automação, robótica e inteligência artificial ficam mais presentes em ambientes diversos, é importante levantar discussões quanto à privacidade e proteção dos dados que essas aplicações gerenciam. Este tópico explora a interseção entre tecnologia e diversos pontos de preocupação ética no cenário de um artefato robótico com capacidade de navegação autônoma, capaz de receber ordens de busca de itens em um almoxarifado. No contexto desse projeto, a preocupação central é a segurança dos dados utilizados pelo robô, que podem variar desde informações sensíveis sobre ativos valiosos até dados relacionados à saúde e configuração de produção em uma fábrica. Para mitigar esses riscos, a implementação de estratégias robustas de criptografia e tokenização são discutidas, no contexto de armazenamento em nuvem. Além disso, questões de equidade e justiça, destacando desafios potenciais para usuários com diferentes habilidades linguísticas, deficiências físicas ou idades avançadas também foi discutido.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Arquitetura do sistema/index": {
+      "id": "sprint1/Arquitetura do sistema/index",
+      "title": "Arquitetura do sistema",
+      "description": "Arquitetura do sistema",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Banco de dados/index": {
+      "id": "sprint1/Banco de dados/index",
+      "title": "Documentação do Banco de Dados",
+      "description": "Banco de dados",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Design Patterns/index": {
+      "id": "sprint1/Design Patterns/index",
+      "title": "Design Patterns",
+      "description": "Para a operacionalização do robô autônomo que localizará itens em um almoxarifado será utilizado o Sistema Operacional de Robôs, ou ROS (Robot Operating System). No ROS, o padrão de design publicador-inscrito (publisher-subscriber) é utilizado para a comunicação de abstrações chamadas de Nós. Esses Nós em ROS podem publicar mensagem para tópicos específicos, assim como outros Nós podem se inscrever nesses mesmos tópicos para receber as mesmas mensagens. Esse padrão de design permite a construção de sistemas de robótica modulares e distribuídos, ideal para o cenário de aplicação do projeto e sua futura escalabilidade.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento da experiência do usuário/index": {
+      "id": "sprint1/Entendimento da experiência do usuário/index",
+      "title": "Entendimento da experiência do usuário",
+      "description": "O objetivo do artefato é entender melhor como o usuário vai interagir com o projeto.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index": {
+      "id": "sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index",
+      "title": "Jornada do Usuário",
+      "description": "Análise do fluxo da solução e mapeamento de pontos de fragilidade",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento da experiência do usuário/Personas/index": {
+      "id": "sprint1/Entendimento da experiência do usuário/Personas/index",
+      "title": "Personas",
+      "description": "Personas são retratos fictícios de indivíduos reais, construídos a partir de dados e informações adquiridas através de entrevistas com os stakeholders e pesquisas relacionadas à área de interesse. O propósito das personas é auxiliar a equipe do projeto na aprofundada compreensão das metas, obstáculos e padrões de comportamento dos usuários finais do produto ou serviço. Isso, por sua vez, possibilita o desenvolvimento de soluções mais adequadas e personalizadas, direcionadas para atender às necessidades específicas dos usuários.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento da experiência do usuário/User Stories/index": {
+      "id": "sprint1/Entendimento da experiência do usuário/User Stories/index",
+      "title": "User Stories",
+      "description": "As User Stories apresentadas aqui refletem as necessidades e expectativas de um técnico de almoxarifado em relação a um sistema robótico de assistência no ambiente de armazenamento. Cada história descreve um aspecto essencial da funcionalidade desejada, destacando a importância da eficiência, precisão e segurança no gerenciamento do estoque. A busca por produtos ágil e eficiente, a disponibilidade de informações atualizadas, a navegação segura, a identificação de itens, a orientação de novos funcionários, a sugestão de rotas eficientes, a integração com sistemas de gerenciamento de estoque e a capacidade de relatar problemas são todos elementos cruciais para otimizar as operações de almoxarifado. Essas User Stories definem a base para o desenvolvimento de um sistema robótico que atenda às necessidades dos técnicos de almoxarifado, contribuindo para uma gestão de estoque mais eficaz e livre de erros.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento do negócio/Análise Financeira/index": {
+      "id": "sprint1/Entendimento do negócio/Análise Financeira/index",
+      "title": "Análise Financeira",
+      "description": "Construir uma análise financeira para o projeto é de fundamental importância para que o cliente possa avaliar a viabilidade de sua implementação. Desse modo, os componentes do projeto foram segmentados em hardware, software, equipe de desenvolvimeto e equipe de manutenção, e foram precificados de acordo com referências do mercado atual.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento do negócio/Canvas Proposta de Valor/index": {
+      "id": "sprint1/Entendimento do negócio/Canvas Proposta de Valor/index",
+      "title": "Canvas Proposta de Valor",
+      "description": "Canvas Proposta de Valor",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento do negócio/Matriz de Risco/index": {
+      "id": "sprint1/Entendimento do negócio/Matriz de Risco/index",
+      "title": "Matriz de Riscos",
+      "description": "A matriz de riscos é primordial para elencar os pontos que merecem mais atenção no projeto e sua probabilidade de acontecer.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento do negócio/Matriz Oceano Aazul/index": {
+      "id": "sprint1/Entendimento do negócio/Matriz Oceano Aazul/index",
+      "title": "Matriz Oceano Azul",
+      "description": "A matriz Oceano Azul é uma ferramenta de estratégia de negócios que visa criar novos espaços de mercado, livres da concorrência direta, ao invés de competir em mercados existentes. Ela se concentra em identificar e explorar oportunidades de mercado não atendidas, redefinindo as regras do jogo e criando novas demandas. Isso é feito por meio da análise de diferentes atributos que podem diferenciar um produto ou serviço no mercado.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Entendimento do negócio/TAM, SAM e SOM/index": {
+      "id": "sprint1/Entendimento do negócio/TAM, SAM e SOM/index",
+      "title": "Total Addressable Market, Service Addressable Market e Service Obtainable Market",
+      "description": "1. TAM (Mercado Total Endereçável)",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Processamento de requisições de peças/index": {
+      "id": "sprint1/Processamento de requisições de peças/index",
+      "title": "Processamento de Requisições de Peças",
+      "description": "A arquitetura foi projetada para otimizar a entrega de peças por meio de um robô, levando em consideração a singularidade do robô em ação. Para evitar conflitos e garantir a eficiência no atendimento das requisições, adotamos um sistema baseado em fila. Aqui está uma visão detalhada de como as requisições de peças são processadas:",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint1/Requisitos funcionais e não funcionais/index": {
+      "id": "sprint1/Requisitos funcionais e não funcionais/index",
+      "title": "Requisitos funcionais e não funcionais",
+      "description": "Para garantir que o projeto atende às necessidades do cliente especificada em entrevista de levantamento de requisitos em sala de aula, os requisitos foram divisidos em requisitos de hardware e software. Tal divisão se deu pela característica multitécnica do projeto, que envolve componentes de software e hardware, na figura de um artefato robótico. Dentre os requisitos de hardware e software, esses foram classificados entre funcionais (descrição do requisito) e não funcionais (qual é métrica de desempenho que cada requisito funcional deve atingir). Além disso, cada um dos requisitos foi classificado como \"obrigatório\" ou \"desejável\", o que auxiliará a equipe de desenvolvimento a estabelecer uma hierarquia de prioridades para sua implementação.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint2/Frontend/index": {
+      "id": "sprint2/Frontend/index",
+      "title": "Frontend",
+      "description": "Durante a fase atual de desenvolvimento do projeto de Robô de Autoatendimento do Almoxarifado da AMBEV, nossa equipe focou em criar uma experiência de usuário eficiente e adaptável. Compreendendo a diversidade de cenários de uso e a importância de uma interação intuitiva, desenvolvemos dois frontends distintos: um para fins de demonstração e outro como uma solução completa de interação com o usuário.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint2/Funcionalidades do sistema/index": {
+      "id": "sprint2/Funcionalidades do sistema/index",
+      "title": "Funcionalidades do sistema",
+      "description": "Durante as duas primeiras sprints do projeto, a equipe se dedicou a desenvolver os dois principais componentes da solução proposta.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint2/Mapeamento/index": {
+      "id": "sprint2/Mapeamento/index",
+      "title": "Mapeamento do ambiente",
+      "description": "Introdução",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint2/Setup do robô/index": {
+      "id": "sprint2/Setup do robô/index",
+      "title": "Setup do robô",
+      "description": "Introdução",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint2/Testes do robô/index": {
+      "id": "sprint2/Testes do robô/index",
+      "title": "Testes e Avaliação dos Requisitos",
+      "description": "Durante o sprint corrente, a equipe se dedicou a testar componentes essenciais do sistema de autoatendimento robótico para o Almoxarifado da AMBEV. Os testes realizados foram desenhados para avaliar a comunicação, mapeamento de ambiente e movimentação simples do robô, além de diferentes formatos de frontend. A seguir, apresentaremos uma análise detalhada desses testes, considerando os requisitos do projeto e discutindo a adequação dos sistemas desenvolvidos.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint3/Acompanhamento de requisitos/index": {
+      "id": "sprint3/Acompanhamento de requisitos/index",
+      "title": "Acompanhamento de requisitos",
+      "description": "Requisitos funcionais de software",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint3/Descrição de testes/index": {
+      "id": "sprint3/Descrição de testes/index",
+      "title": "Descrição de Testes (LLM)",
+      "description": "Um dos requisitos da sprint foi a testagem do chatbot construído, uma vez que um Large Language Model (LLM) foi implementado para compor a solução. Embora a integração entre o chatbot e o sistema de navegação do robô esteja prevista para a quarta sprint, é possível testar as funcionalidades do chatbot de forma isolada, a fim de verificar a eficácia do modelo de linguagem adotado pela equipe de projeto.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint3/Fluxo do chatbot/index": {
+      "id": "sprint3/Fluxo do chatbot/index",
+      "title": "Fluxo do chatbot",
+      "description": "No diagrama de estados abaixo é possível observar o fluxo das intereações pretendidas para a interface Telegram com o chatbot.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint3/Funcionalidades do sistema/index": {
+      "id": "sprint3/Funcionalidades do sistema/index",
+      "title": "Funcionalidades do sistema",
+      "description": "Nas três primeiras iterações do projeto, a equipe concentrou seus esforços no desenvolvimento de três componentes-chave: o LLM, o robô autônomo e o chatbot.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint3/LLM/index": {
+      "id": "sprint3/LLM/index",
+      "title": "Large Language Model",
+      "description": "Visão Geral",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint3/Modo de execução do projeto/index": {
+      "id": "sprint3/Modo de execução do projeto/index",
+      "title": "Como executar o projeto V1",
+      "description": "Para começar a executar o projeto, é necessário ter entendimento sobre a estrutura de pastas.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint3/Sistema de logs/index": {
+      "id": "sprint3/Sistema de logs/index",
+      "title": "Sistema de Logs",
+      "description": "Um dos requisitos da sprint foi a  criação de um sistema de logs, ou seja registrar as mais diversas interações que o usúario tem com o sistema e respostas do sistema. O objetivo dos logs é ter um histórico das interações e a hora em que tais inputs e outputs foram recebidos.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint3/Sistema de navegação/index": {
+      "id": "sprint3/Sistema de navegação/index",
+      "title": "Sistema de Navegação",
+      "description": "Na segunda sprint do projeto, o grupo concretizou o mapeamento do circuito físico construído para simular o almoxarifado da Ambev. Além disso, foi possível fazer o robô se movimentar de forma autônoma através de um script simples de navegação, que definia uma série de waypoints para o Turtlebot percorrer. No entanto, a terceira sprint foi marcada pela implementação de um sistema de navegação mais robusto, cuja estrutura de código se caracteriza pela implementação do sistema publisher-subscriber.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint4/Acompanhamento de requisitos/index": {
+      "id": "sprint4/Acompanhamento de requisitos/index",
+      "title": "Acompanhamento de requisitos",
+      "description": "Requisitos funcionais de software",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint4/Funcionalidades Desenvolvidas/index": {
+      "id": "sprint4/Funcionalidades Desenvolvidas/index",
+      "title": "Demonstração de Funcionalidades Desenvolvidas",
+      "description": "O objetivo desta etapa da documentação é elencar as funcionalidas que foram desenvolvidas até a sprint 4, explicitando o que o sistema é ou não capaz de fazer.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint4/Modo de execução do projeto/index": {
+      "id": "sprint4/Modo de execução do projeto/index",
+      "title": "Como executar o projeto V2",
+      "description": "Para começar a executar o projeto, é necessário ter entendimento sobre a estrutura de pastas.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint4/Speech-to-Text/index": {
+      "id": "sprint4/Speech-to-Text/index",
+      "title": "Speech-to-Text",
+      "description": "Interface de interação com o chatbot",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint4/Testes de usabilidade/index": {
+      "id": "sprint4/Testes de usabilidade/index",
+      "title": "Testes de usabilidade",
+      "description": "Com o objetivo de testar as principais funcionalidades da interação do usuário do sistema com a interface do Telegram para chatbot, foi realizado um teste de usabilidade com a colaboradora responsável pelo almoxarifado da Planta Guarulhos da Ambev. O teste foi realizado com o intuito de verificar a facilidade de uso do sistema, nível de assertividade de suas instruções, bem como familiaridade com a interface do Telegram e interações com chatbots.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint4/Text-to-Speech/index": {
+      "id": "sprint4/Text-to-Speech/index",
+      "title": "Text-to-Speech",
+      "description": "Text-to-Speech",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Arquitetura da solução/index": {
+      "id": "sprint5/Arquitetura da solução/index",
+      "title": "Conclusão da Arquitetura do Sistema",
+      "description": "Este documento representa a conclusão e reflexão sobre a arquitetura do sistema que foi desenvolvido e aprimorado ao longo de cinco sprints.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Eficiência do sistema/index": {
+      "id": "sprint5/Eficiência do sistema/index",
+      "title": "Validação da Eficiência do Sistema",
+      "description": "Para assegurar a eficácia do nosso sistema, conduzimos uma série de testes abrangendo as funcionalidades de text-to-speech (TTS) e speech-to-text (STT). Diversas requisições foram feitas utilizando diferentes ferramentas, proporcionando uma validação abrangente do TTS. Além disso, todas as mensagens geradas foram sintetizadas através da API de TTS da OpenAI, reforçando a confiabilidade e qualidade da saída do sistema.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Entendimento da experiência do usuário/index": {
+      "id": "sprint5/Entendimento da experiência do usuário/index",
+      "title": "Entendimento da experiência do usuário",
+      "description": "Acessibilidade",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Entendimento do negócio/Análise Financeira/index": {
+      "id": "sprint5/Entendimento do negócio/Análise Financeira/index",
+      "title": "Conclusão da Análise Financeira",
+      "description": "Retomando a Análise Financeira inicial da Sprint 1, observamos um alinhamento consistente com o planejamento orçamentário proposto no início do projeto. A conclusão financeira aqui apresentada reflete a evolução e adaptações necessárias que foram identificadas ao longo do desenvolvimento do sistema.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index": {
+      "id": "sprint5/Entendimento do negócio/Canvas Proposta de Valor/index",
+      "title": "Conclusão do Canvas Proposta de Valor",
+      "description": "Ao revisitar o Canvas Proposta de Valor elaborado na Sprint 1, é evidente que a visão central da proposta manteve-se inalterada: aprimorar a eficiência e a precisão nos processos de busca e requisição de itens em almoxarifados. A execução do projeto até a Sprint 5 ampliou e refinou as características do robô autônomo e do chatbot integrado, garantindo que os benefícios previstos inicialmente fossem não só atingidos, mas também superados.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Entendimento do negócio/Matriz de Risco/index": {
+      "id": "sprint5/Entendimento do negócio/Matriz de Risco/index",
+      "title": "Conclusão da Matriz de Riscos",
+      "description": "Ao concluirmos a análise da Matriz de Riscos, é evidente que os riscos identificados na Sprint 1 foram cuidadosamente gerenciados ao longo do desenvolvimento do projeto. O processo de mitigação de riscos e a exploração de oportunidades foram centrais para a entrega de um sistema robusto e eficiente.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Entendimento do negócio/Matriz Oceano Aazul/index": {
+      "id": "sprint5/Entendimento do negócio/Matriz Oceano Aazul/index",
+      "title": "Conclusão da Matriz Oceano Azul",
+      "description": "Ao final do projeto, revisitamos a Matriz Oceano Azul elaborada na Sprint 1 e confirmamos que as estratégias adotadas foram bem-sucedidas em diferenciar nossa solução no mercado. A matriz foi uma ferramenta fundamental para identificar onde poderíamos inovar e como poderíamos adicionar valor único ao nosso produto, criando um novo espaço de mercado.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Entendimento do negócio/TAM, SAM e SOM/index": {
+      "id": "sprint5/Entendimento do negócio/TAM, SAM e SOM/index",
+      "title": "Conclusão de TAM, SAM e SOM",
+      "description": "A análise de TAM, SAM e SOM é essencial para entender o potencial de mercado de um projeto e suas possibilidades reais de alcance. A análise inicial foi fundamental para estabelecer metas realistas e fornecer um norte para estratégias de penetração de mercado.",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Interface do Usuário/index": {
+      "id": "sprint5/Interface do Usuário/index",
+      "title": "Interface do usuário",
+      "description": "Introdução",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Roadmap/index": {
+      "id": "sprint5/Roadmap/index",
+      "title": "Roadmap para Próximos Passos",
+      "description": "Roadmap para próximos passos",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Sistema de cartografia/index": {
+      "id": "sprint5/Sistema de cartografia/index",
+      "title": "Sistema de cartografia",
+      "description": "Um dos principais pontos do projeto foi a tecnologias avançadas de navegação robótica, centrando-se em conceitos fundamentais para sistemas cartográficos, como SLAM (Simultaneous Localization and Mapping), LIDAR (Light Detection and Ranging) e NAV 2 (Navigation Stack 2).",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Sistema de Chatbot/index": {
+      "id": "sprint5/Sistema de Chatbot/index",
+      "title": "Sistema de Chatbot",
+      "description": "Introdução",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Sistema de localização e mapeamento simultâneo/index": {
+      "id": "sprint5/Sistema de localização e mapeamento simultâneo/index",
+      "title": "Sistema de Navegação e Mapeamento Simultâneo",
+      "description": "Introdução",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Sistema de text-to-speech/index": {
+      "id": "sprint5/Sistema de text-to-speech/index",
+      "title": "Sistema de Text-to-Speech",
+      "description": "Introdução",
+      "sidebar": "tutorialSidebar"
+    },
+    "sprint5/Speech-to-Text/index": {
+      "id": "sprint5/Speech-to-Text/index",
+      "title": "Sistema de Speech-to-Text",
+      "description": "Introdução",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}
