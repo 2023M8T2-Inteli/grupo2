@@ -59,3 +59,5 @@ A última sprint do projeto foi dedicada ao refinamento da solução, à finaliz
     style={{ display: 'block', margin: 'auto', width: '100%', height: '55.7vh' }}
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF3boPf1p0&#x2F;view?embed" >
 </iframe>
+
+Validação da Build.
