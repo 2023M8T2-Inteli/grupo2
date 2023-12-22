@@ -8,7 +8,7 @@
   "slug": "/sprint5/Interface do Usuário/",
   "permalink": "/grupo2/sprint5/Interface do Usuário/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Interface do Usuário/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Interface do Usuário/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 6,
@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Conclusão de TAM, SAM e SOM",
-    "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/"
+    "title": "Roadmap para Próximos Passos",
+    "permalink": "/grupo2/sprint5/Roadmap/"
   },
   "next": {
-    "title": "Validação da Eficiência do Sistema",
-    "permalink": "/grupo2/sprint5/Eficiência do sistema/"
+    "title": "Entendimento do negócio",
+    "permalink": "/grupo2/category/entendimento-do-negócio-1"
   }
 }

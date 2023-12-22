@@ -4,11 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Grupo2",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "Grupo 2 - Módulo 8 - EC",
+  "tagline": "Robótica móvel e deep learning",
+  "favicon": "img/inteli.svg",
+  "url": "https://2023M8T2-Inteli.github.io",
   "baseUrl": "/grupo2/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "2023M8T2-Inteli",
+  "projectName": "grupo2",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -26,12 +28,9 @@ export default {
         "docs": {
           "routeBasePath": "/",
           "sidebarPath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
+        "blog": false,
         "theme": {
           "customCss": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\src\\css\\custom.css"
         }
@@ -41,53 +40,29 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Home",
+      "title": "Grupo 2 - Módulo 8 - EC",
       "logo": {
-        "alt": "Home Logo",
-        "src": "img/inteli_logo.png"
+        "alt": "Logo Inteli",
+        "src": "img/inteli.svg"
       },
       "items": [
         {
-          "to": "category/negócios",
-          "label": "Negócios",
-          "position": "left"
+          "type": "docSidebar",
+          "sidebarId": "tutorialSidebar",
+          "position": "left",
+          "label": "Material de Computação"
         },
         {
-          "to": "category/user-experience",
-          "label": "UX",
-          "position": "left"
-        },
-        {
-          "to": "category/liderança",
-          "label": "Liderança",
-          "position": "left"
-        },
-        {
-          "to": "category/programação",
-          "label": "Programação",
-          "position": "left"
-        },
-        {
-          "to": "category/setup-do-sistema",
-          "label": "Setup",
-          "position": "left"
-        },
-        {
-          "to": "category/demonstrações",
-          "label": "Demonstrações",
-          "position": "left"
-        },
-        {
-          "to": "category/apresentações",
-          "label": "Apresentações",
-          "position": "left"
+          "href": "https://github.com/2023M8T2-Inteli/grupo2",
+          "label": "GitHub",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2023 José Entregas, Inc. Built with Docusaurus.",
+      "copyright": "Copyright © 2023 Módulo 8. Built with Docusaurus.",
       "links": []
     },
     "prism": {
@@ -282,7 +257,6 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
@@ -291,8 +265,25 @@ export default {
             "start": "highlight-start",
             "end": "highlight-end"
           }
+        },
+        {
+          "className": "code-block-red",
+          "line": "red"
+        },
+        {
+          "className": "code-block-green",
+          "line": "green"
+        },
+        {
+          "className": "code-block-blue",
+          "line": "blue"
+        },
+        {
+          "className": "code-block-purple",
+          "line": "purple"
         }
-      ]
+      ],
+      "additionalLanguages": []
     },
     "colorMode": {
       "defaultMode": "light",
@@ -324,7 +315,6 @@ export default {
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
-  "tagline": "",
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {

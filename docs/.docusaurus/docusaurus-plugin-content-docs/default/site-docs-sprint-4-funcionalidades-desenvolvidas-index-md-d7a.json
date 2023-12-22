@@ -8,7 +8,7 @@
   "slug": "/sprint4/Funcionalidades Desenvolvidas/",
   "permalink": "/grupo2/sprint4/Funcionalidades Desenvolvidas/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Funcionalidades Desenvolvidas/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint4/Funcionalidades Desenvolvidas/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,

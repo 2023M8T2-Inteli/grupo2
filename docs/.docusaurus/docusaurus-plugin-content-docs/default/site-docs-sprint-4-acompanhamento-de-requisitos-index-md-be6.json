@@ -8,7 +8,7 @@
   "slug": "/sprint4/Acompanhamento de requisitos/",
   "permalink": "/grupo2/sprint4/Acompanhamento de requisitos/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Acompanhamento de requisitos/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint4/Acompanhamento de requisitos/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 8,

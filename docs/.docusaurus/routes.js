@@ -38,61 +38,6 @@ export default [
     exact: true
   },
   {
-    path: '/grupo2/blog',
-    component: ComponentCreator('/grupo2/blog', '2c8'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/archive',
-    component: ComponentCreator('/grupo2/blog/archive', '251'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/first-blog-post',
-    component: ComponentCreator('/grupo2/blog/first-blog-post', '427'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/long-blog-post',
-    component: ComponentCreator('/grupo2/blog/long-blog-post', '124'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/mdx-blog-post',
-    component: ComponentCreator('/grupo2/blog/mdx-blog-post', '4d8'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/tags',
-    component: ComponentCreator('/grupo2/blog/tags', '151'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/tags/docusaurus',
-    component: ComponentCreator('/grupo2/blog/tags/docusaurus', 'bea'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/tags/facebook',
-    component: ComponentCreator('/grupo2/blog/tags/facebook', '3a6'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/tags/hello',
-    component: ComponentCreator('/grupo2/blog/tags/hello', '2c5'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/tags/hola',
-    component: ComponentCreator('/grupo2/blog/tags/hola', '207'),
-    exact: true
-  },
-  {
-    path: '/grupo2/blog/welcome',
-    component: ComponentCreator('/grupo2/blog/welcome', '077'),
-    exact: true
-  },
-  {
     path: '/grupo2/markdown-page',
     component: ComponentCreator('/grupo2/markdown-page', 'a89'),
     exact: true

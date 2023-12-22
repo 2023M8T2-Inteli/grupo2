@@ -8,7 +8,7 @@
   "slug": "/sprint2/Mapeamento/",
   "permalink": "/grupo2/sprint2/Mapeamento/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Mapeamento/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint2/Mapeamento/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,

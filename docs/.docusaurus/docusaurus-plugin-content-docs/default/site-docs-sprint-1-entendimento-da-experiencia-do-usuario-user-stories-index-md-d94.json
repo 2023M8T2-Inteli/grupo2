@@ -8,7 +8,7 @@
   "slug": "/sprint1/Entendimento da experiência do usuário/User Stories/",
   "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/User Stories/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento da experiência do usuário/User Stories/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,

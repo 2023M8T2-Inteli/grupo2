@@ -8,7 +8,7 @@
   "slug": "/sprint1/Requisitos funcionais e não funcionais/",
   "permalink": "/grupo2/sprint1/Requisitos funcionais e não funcionais/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Requisitos funcionais e não funcionais/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Requisitos funcionais e não funcionais/index.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},

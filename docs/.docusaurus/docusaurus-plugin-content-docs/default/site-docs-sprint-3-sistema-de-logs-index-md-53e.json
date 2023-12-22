@@ -8,7 +8,7 @@
   "slug": "/sprint3/Sistema de logs/",
   "permalink": "/grupo2/sprint3/Sistema de logs/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Sistema de logs/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/Sistema de logs/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,

@@ -304,6 +304,12 @@
             "docId": "sprint5/Roadmap/index"
           },
           {
+            "type": "link",
+            "label": "Interface do usuário",
+            "href": "/grupo2/sprint5/Interface do Usuário/",
+            "docId": "sprint5/Interface do Usuário/index"
+          },
+          {
             "type": "category",
             "label": "Entendimento do negócio",
             "collapsible": true,
@@ -341,12 +347,6 @@
               }
             ],
             "href": "/grupo2/category/entendimento-do-negócio-1"
-          },
-          {
-            "type": "link",
-            "label": "Interface do usuário",
-            "href": "/grupo2/sprint5/Interface do Usuário/",
-            "docId": "sprint5/Interface do Usuário/index"
           },
           {
             "type": "link",

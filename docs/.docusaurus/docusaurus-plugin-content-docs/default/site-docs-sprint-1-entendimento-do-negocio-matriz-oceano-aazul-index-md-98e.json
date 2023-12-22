@@ -8,7 +8,7 @@
   "slug": "/sprint1/Entendimento do negócio/Matriz Oceano Aazul/",
   "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Matriz Oceano Aazul/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento do negócio/Matriz Oceano Aazul/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,

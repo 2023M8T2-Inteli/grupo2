@@ -11,8 +11,8 @@
           "className": "docs-version-current",
           "path": "/grupo2/",
           "tagsPath": "/grupo2/tags",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs",
+          "editUrlLocalized": "https://github.com/${organizationName}/${projectName}/tree/main/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\sidebars.js",
@@ -29,7 +29,7 @@
               "slug": "/",
               "permalink": "/grupo2/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -54,7 +54,7 @@
               "slug": "/sprint1/Análise de impacto ético/",
               "permalink": "/grupo2/sprint1/Análise de impacto ético/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Análise de impacto ético/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Análise de impacto ético/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -82,7 +82,7 @@
               "slug": "/sprint1/Arquitetura do sistema/",
               "permalink": "/grupo2/sprint1/Arquitetura do sistema/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Arquitetura do sistema/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Arquitetura do sistema/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -110,7 +110,7 @@
               "slug": "/sprint1/Banco de dados/",
               "permalink": "/grupo2/sprint1/Banco de dados/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Banco de dados/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Banco de dados/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -134,7 +134,7 @@
               "slug": "/sprint1/Design Patterns/",
               "permalink": "/grupo2/sprint1/Design Patterns/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Design Patterns/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Design Patterns/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -158,7 +158,7 @@
               "slug": "/sprint1/Entendimento da experiência do usuário/",
               "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento da experiência do usuário/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -186,7 +186,7 @@
               "slug": "/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/",
               "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento da experiência do usuário/Jornada do Usuario/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -214,7 +214,7 @@
               "slug": "/sprint1/Entendimento da experiência do usuário/Personas/",
               "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/Personas/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/Personas/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento da experiência do usuário/Personas/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -242,7 +242,7 @@
               "slug": "/sprint1/Entendimento da experiência do usuário/User Stories/",
               "permalink": "/grupo2/sprint1/Entendimento da experiência do usuário/User Stories/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento da experiência do usuário/User Stories/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento da experiência do usuário/User Stories/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -270,7 +270,7 @@
               "slug": "/sprint1/Entendimento do negócio/Análise Financeira/",
               "permalink": "/grupo2/sprint1/Entendimento do negócio/Análise Financeira/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Análise Financeira/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento do negócio/Análise Financeira/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -298,7 +298,7 @@
               "slug": "/sprint1/Entendimento do negócio/Canvas Proposta de Valor/",
               "permalink": "/grupo2/sprint1/Entendimento do negócio/Canvas Proposta de Valor/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Canvas Proposta de Valor/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento do negócio/Canvas Proposta de Valor/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -326,7 +326,7 @@
               "slug": "/sprint1/Entendimento do negócio/Matriz de Risco/",
               "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz de Risco/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Matriz de Risco/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento do negócio/Matriz de Risco/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -354,7 +354,7 @@
               "slug": "/sprint1/Entendimento do negócio/Matriz Oceano Aazul/",
               "permalink": "/grupo2/sprint1/Entendimento do negócio/Matriz Oceano Aazul/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/Matriz Oceano Aazul/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento do negócio/Matriz Oceano Aazul/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -382,7 +382,7 @@
               "slug": "/sprint1/Entendimento do negócio/TAM, SAM e SOM/",
               "permalink": "/grupo2/sprint1/Entendimento do negócio/TAM, SAM e SOM/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Entendimento do negócio/TAM, SAM e SOM/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Entendimento do negócio/TAM, SAM e SOM/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -410,7 +410,7 @@
               "slug": "/sprint1/Processamento de requisições de peças/",
               "permalink": "/grupo2/sprint1/Processamento de requisições de peças/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Processamento de requisições de peças/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Processamento de requisições de peças/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -434,7 +434,7 @@
               "slug": "/sprint1/Requisitos funcionais e não funcionais/",
               "permalink": "/grupo2/sprint1/Requisitos funcionais e não funcionais/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint1/Requisitos funcionais e não funcionais/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint1/Requisitos funcionais e não funcionais/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -458,7 +458,7 @@
               "slug": "/sprint2/Frontend/",
               "permalink": "/grupo2/sprint2/Frontend/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Frontend/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint2/Frontend/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -486,7 +486,7 @@
               "slug": "/sprint2/Funcionalidades do sistema/",
               "permalink": "/grupo2/sprint2/Funcionalidades do sistema/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Funcionalidades do sistema/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint2/Funcionalidades do sistema/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -514,7 +514,7 @@
               "slug": "/sprint2/Mapeamento/",
               "permalink": "/grupo2/sprint2/Mapeamento/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Mapeamento/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint2/Mapeamento/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -542,7 +542,7 @@
               "slug": "/sprint2/Setup do robô/",
               "permalink": "/grupo2/sprint2/Setup do robô/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Setup do robô/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint2/Setup do robô/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -570,7 +570,7 @@
               "slug": "/sprint2/Testes do robô/",
               "permalink": "/grupo2/sprint2/Testes do robô/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint2/Testes do robô/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint2/Testes do robô/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -598,7 +598,7 @@
               "slug": "/sprint3/Acompanhamento de requisitos/",
               "permalink": "/grupo2/sprint3/Acompanhamento de requisitos/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Acompanhamento de requisitos/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/Acompanhamento de requisitos/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 8,
@@ -626,7 +626,7 @@
               "slug": "/sprint3/Descrição de testes/",
               "permalink": "/grupo2/sprint3/Descrição de testes/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Descrição de testes/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/Descrição de testes/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -654,7 +654,7 @@
               "slug": "/sprint3/Fluxo do chatbot/",
               "permalink": "/grupo2/sprint3/Fluxo do chatbot/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Fluxo do chatbot/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/Fluxo do chatbot/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -682,7 +682,7 @@
               "slug": "/sprint3/Funcionalidades do sistema/",
               "permalink": "/grupo2/sprint3/Funcionalidades do sistema/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Funcionalidades do sistema/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/Funcionalidades do sistema/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -710,7 +710,7 @@
               "slug": "/sprint3/LLM/",
               "permalink": "/grupo2/sprint3/LLM/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/LLM/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/LLM/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -738,7 +738,7 @@
               "slug": "/sprint3/Modo de execução do projeto/",
               "permalink": "/grupo2/sprint3/Modo de execução do projeto/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Modo de execução do projeto/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/Modo de execução do projeto/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -766,7 +766,7 @@
               "slug": "/sprint3/Sistema de logs/",
               "permalink": "/grupo2/sprint3/Sistema de logs/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Sistema de logs/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/Sistema de logs/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -794,7 +794,7 @@
               "slug": "/sprint3/Sistema de navegação/",
               "permalink": "/grupo2/sprint3/Sistema de navegação/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint3/Sistema de navegação/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint3/Sistema de navegação/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -822,7 +822,7 @@
               "slug": "/sprint4/Acompanhamento de requisitos/",
               "permalink": "/grupo2/sprint4/Acompanhamento de requisitos/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Acompanhamento de requisitos/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint4/Acompanhamento de requisitos/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 8,
@@ -850,7 +850,7 @@
               "slug": "/sprint4/Funcionalidades Desenvolvidas/",
               "permalink": "/grupo2/sprint4/Funcionalidades Desenvolvidas/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Funcionalidades Desenvolvidas/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint4/Funcionalidades Desenvolvidas/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -878,7 +878,7 @@
               "slug": "/sprint4/Modo de execução do projeto/",
               "permalink": "/grupo2/sprint4/Modo de execução do projeto/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Modo de execução do projeto/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint4/Modo de execução do projeto/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -906,7 +906,7 @@
               "slug": "/sprint4/Speech-to-Text/",
               "permalink": "/grupo2/sprint4/Speech-to-Text/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Speech-to-Text/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint4/Speech-to-Text/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -934,7 +934,7 @@
               "slug": "/sprint4/Testes de usabilidade/",
               "permalink": "/grupo2/sprint4/Testes de usabilidade/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Testes de usabilidade/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint4/Testes de usabilidade/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -962,7 +962,7 @@
               "slug": "/sprint4/Text-to-Speech/",
               "permalink": "/grupo2/sprint4/Text-to-Speech/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint4/Text-to-Speech/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint4/Text-to-Speech/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -990,7 +990,7 @@
               "slug": "/sprint5/Arquitetura da solução/",
               "permalink": "/grupo2/sprint5/Arquitetura da solução/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Arquitetura da solução/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Arquitetura da solução/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 9,
@@ -1018,7 +1018,7 @@
               "slug": "/sprint5/Eficiência do sistema/",
               "permalink": "/grupo2/sprint5/Eficiência do sistema/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Eficiência do sistema/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Eficiência do sistema/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 8,
@@ -1028,8 +1028,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Interface do usuário",
-                "permalink": "/grupo2/sprint5/Interface do Usuário/"
+                "title": "Conclusão de TAM, SAM e SOM",
+                "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/"
               },
               "next": {
                 "title": "Conclusão da Arquitetura do Sistema",
@@ -1046,7 +1046,7 @@
               "slug": "/sprint5/Entendimento da experiência do usuário/",
               "permalink": "/grupo2/sprint5/Entendimento da experiência do usuário/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento da experiência do usuário/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Entendimento da experiência do usuário/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 10,
@@ -1074,7 +1074,7 @@
               "slug": "/sprint5/Entendimento do negócio/Análise Financeira/",
               "permalink": "/grupo2/sprint5/Entendimento do negócio/Análise Financeira/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Análise Financeira/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Entendimento do negócio/Análise Financeira/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1098,7 +1098,7 @@
               "slug": "/sprint5/Entendimento do negócio/Canvas Proposta de Valor/",
               "permalink": "/grupo2/sprint5/Entendimento do negócio/Canvas Proposta de Valor/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Canvas Proposta de Valor/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Entendimento do negócio/Canvas Proposta de Valor/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1122,7 +1122,7 @@
               "slug": "/sprint5/Entendimento do negócio/Matriz de Risco/",
               "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Matriz de Risco/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Entendimento do negócio/Matriz de Risco/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1146,7 +1146,7 @@
               "slug": "/sprint5/Entendimento do negócio/Matriz Oceano Aazul/",
               "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz Oceano Aazul/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/Matriz Oceano Aazul/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Entendimento do negócio/Matriz Oceano Aazul/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1170,7 +1170,7 @@
               "slug": "/sprint5/Entendimento do negócio/TAM, SAM e SOM/",
               "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento do negócio/TAM, SAM e SOM/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Entendimento do negócio/TAM, SAM e SOM/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1180,8 +1180,8 @@
                 "permalink": "/grupo2/sprint5/Entendimento do negócio/Matriz de Risco/"
               },
               "next": {
-                "title": "Interface do usuário",
-                "permalink": "/grupo2/sprint5/Interface do Usuário/"
+                "title": "Validação da Eficiência do Sistema",
+                "permalink": "/grupo2/sprint5/Eficiência do sistema/"
               }
             },
             {
@@ -1194,7 +1194,7 @@
               "slug": "/sprint5/Interface do Usuário/",
               "permalink": "/grupo2/sprint5/Interface do Usuário/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Interface do Usuário/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Interface do Usuário/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -1204,12 +1204,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Conclusão de TAM, SAM e SOM",
-                "permalink": "/grupo2/sprint5/Entendimento do negócio/TAM, SAM e SOM/"
+                "title": "Roadmap para Próximos Passos",
+                "permalink": "/grupo2/sprint5/Roadmap/"
               },
               "next": {
-                "title": "Validação da Eficiência do Sistema",
-                "permalink": "/grupo2/sprint5/Eficiência do sistema/"
+                "title": "Entendimento do negócio",
+                "permalink": "/grupo2/category/entendimento-do-negócio-1"
               }
             },
             {
@@ -1222,7 +1222,7 @@
               "slug": "/sprint5/Roadmap/",
               "permalink": "/grupo2/sprint5/Roadmap/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Roadmap/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Roadmap/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -1236,8 +1236,8 @@
                 "permalink": "/grupo2/sprint5/Sistema de Chatbot/"
               },
               "next": {
-                "title": "Entendimento do negócio",
-                "permalink": "/grupo2/category/entendimento-do-negócio-1"
+                "title": "Interface do usuário",
+                "permalink": "/grupo2/sprint5/Interface do Usuário/"
               }
             },
             {
@@ -1250,7 +1250,7 @@
               "slug": "/sprint5/Sistema de cartografia/",
               "permalink": "/grupo2/sprint5/Sistema de cartografia/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de cartografia/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Sistema de cartografia/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 10,
@@ -1274,7 +1274,7 @@
               "slug": "/sprint5/Sistema de Chatbot/",
               "permalink": "/grupo2/sprint5/Sistema de Chatbot/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de Chatbot/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Sistema de Chatbot/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -1302,7 +1302,7 @@
               "slug": "/sprint5/Sistema de localização e mapeamento simultâneo/",
               "permalink": "/grupo2/sprint5/Sistema de localização e mapeamento simultâneo/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de localização e mapeamento simultâneo/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Sistema de localização e mapeamento simultâneo/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -1330,7 +1330,7 @@
               "slug": "/sprint5/Sistema de text-to-speech/",
               "permalink": "/grupo2/sprint5/Sistema de text-to-speech/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Sistema de text-to-speech/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Sistema de text-to-speech/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -1358,7 +1358,7 @@
               "slug": "/sprint5/Speech-to-Text/",
               "permalink": "/grupo2/sprint5/Speech-to-Text/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Speech-to-Text/index.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Speech-to-Text/index.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -1663,6 +1663,11 @@
                     "id": "sprint5/Roadmap/index"
                   },
                   {
+                    "type": "doc",
+                    "label": "Interface do usuário",
+                    "id": "sprint5/Interface do Usuário/index"
+                  },
+                  {
                     "type": "category",
                     "label": "Entendimento do negócio",
                     "collapsible": true,
@@ -1703,11 +1708,6 @@
                   },
                   {
                     "type": "doc",
-                    "label": "Interface do usuário",
-                    "id": "sprint5/Interface do Usuário/index"
-                  },
-                  {
-                    "type": "doc",
                     "label": "Validação da Eficiência do Sistema",
                     "id": "sprint5/Eficiência do sistema/index"
                   },
@@ -1738,349 +1738,6 @@
           }
         }
       ]
-    }
-  },
-  "docusaurus-plugin-content-blog": {
-    "default": {
-      "blogSidebarTitle": "Recent posts",
-      "blogPosts": [
-        {
-          "id": "welcome",
-          "metadata": {
-            "permalink": "/grupo2/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
-            "source": "@site/blog/2021-08-26-welcome/index.md",
-            "title": "Welcome",
-            "description": "Docusaurus blogging features are powered by the blog plugin.",
-            "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
-            "tags": [
-              {
-                "label": "facebook",
-                "permalink": "/grupo2/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/grupo2/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/grupo2/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.405,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              },
-              {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
-              }
-            ],
-            "frontMatter": {
-              "slug": "welcome",
-              "title": "Welcome",
-              "authors": [
-                "slorber",
-                "yangshun"
-              ],
-              "tags": [
-                "facebook",
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "nextItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/grupo2/blog/mdx-blog-post"
-            }
-          },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\r\n\r\nSimply add Markdown files (or folders) to the `blog` directory.\r\n\r\nRegular blog authors can be added to `authors.yml`.\r\n\r\nThe blog post date can be extracted from filenames, such as:\r\n\r\n- `2019-05-30-welcome.md`\r\n- `2019-05-30-welcome/index.md`\r\n\r\nA blog post folder can be convenient to co-locate blog post images:\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\nThe blog supports tags as well!\r\n\r\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-        },
-        {
-          "id": "mdx-blog-post",
-          "metadata": {
-            "permalink": "/grupo2/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
-            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-            "title": "MDX Blog Post",
-            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-            "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
-            "tags": [
-              {
-                "label": "docusaurus",
-                "permalink": "/grupo2/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              }
-            ],
-            "frontMatter": {
-              "slug": "mdx-blog-post",
-              "title": "MDX Blog Post",
-              "authors": [
-                "slorber"
-              ],
-              "tags": [
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/grupo2/blog/welcome"
-            },
-            "nextItem": {
-              "title": "Long Blog Post",
-              "permalink": "/grupo2/blog/long-blog-post"
-            }
-          },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\r\n\r\n:::tip\r\n\r\nUse the power of React to create interactive blog posts.\r\n\r\n```js\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n```\r\n\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n\r\n:::"
-        },
-        {
-          "id": "long-blog-post",
-          "metadata": {
-            "permalink": "/grupo2/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
-            "source": "@site/blog/2019-05-29-long-blog-post.md",
-            "title": "Long Blog Post",
-            "description": "This is the summary of a very long blog post,",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/grupo2/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/grupo2/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 2.05,
-            "hasTruncateMarker": true,
-            "authors": [
-              {
-                "name": "Endilie Yacop Sucipto",
-                "title": "Maintainer of Docusaurus",
-                "url": "https://github.com/endiliey",
-                "imageURL": "https://github.com/endiliey.png",
-                "key": "endi"
-              }
-            ],
-            "frontMatter": {
-              "slug": "long-blog-post",
-              "title": "Long Blog Post",
-              "authors": "endi",
-              "tags": [
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/grupo2/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/grupo2/blog/first-blog-post"
-            }
-          },
-          "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/grupo2/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/grupo2/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/grupo2/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              }
-            ],
-            "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              },
-              "tags": [
-                "hola",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/grupo2/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "metadata": {
-            "permalink": "/grupo2/blog",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 4,
-            "blogDescription": "Blog",
-            "blogTitle": "Blog"
-          }
-        }
-      ],
-      "blogTags": {
-        "/grupo2/blog/tags/facebook": {
-          "label": "facebook",
-          "items": [
-            "welcome"
-          ],
-          "permalink": "/grupo2/blog/tags/facebook",
-          "pages": [
-            {
-              "items": [
-                "welcome"
-              ],
-              "metadata": {
-                "permalink": "/grupo2/blog/tags/facebook",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/grupo2/blog/tags/hello": {
-          "label": "hello",
-          "items": [
-            "welcome",
-            "long-blog-post"
-          ],
-          "permalink": "/grupo2/blog/tags/hello",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "long-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/grupo2/blog/tags/hello",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/grupo2/blog/tags/docusaurus": {
-          "label": "docusaurus",
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "permalink": "/grupo2/blog/tags/docusaurus",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/grupo2/blog/tags/docusaurus",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 4,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/grupo2/blog/tags/hola": {
-          "label": "hola",
-          "items": [
-            "first-blog-post"
-          ],
-          "permalink": "/grupo2/blog/tags/hola",
-          "pages": [
-            {
-              "items": [
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/grupo2/blog/tags/hola",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        }
-      },
-      "blogTagsListPath": "/grupo2/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {

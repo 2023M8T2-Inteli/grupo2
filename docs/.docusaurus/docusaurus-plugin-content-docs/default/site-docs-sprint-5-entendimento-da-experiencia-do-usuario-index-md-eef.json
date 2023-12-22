@@ -8,7 +8,7 @@
   "slug": "/sprint5/Entendimento da experiência do usuário/",
   "permalink": "/grupo2/sprint5/Entendimento da experiência do usuário/",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/sprint5/Entendimento da experiência do usuário/index.md",
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/sprint5/Entendimento da experiência do usuário/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 10,
