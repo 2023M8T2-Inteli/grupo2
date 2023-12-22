@@ -26,7 +26,7 @@ env:
   NODE_OPTIONS: --max-old-space-size=6144
 
 jobs:
-  build-docusaurus:
+  build:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -43,7 +43,7 @@ jobs:
 
     - name: Install and Build
       run: |
-        cd docs
+        cd documentation
         npm install
         npm run build
         mv build ../build
