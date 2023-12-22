@@ -15,12 +15,12 @@ const config = {
   title: 'Grupo 2 - Módulo 8 - EC',
   tagline: 'Robótica móvel e deep learning',
   favicon: 'img/inteli.svg',
-  url: `https://${organizationName}.github.io`,
-  // url:'https://your-docusaurus-test-site.com' ,
-  baseUrl: `/${projectName}/`,
+  // url: `https://${organizationName}.github.io`,
+  url: 'https://your-docusaurus-test-site.com',
 
   organizationName: '2023M8T2-Inteli', // Usually your GitHub org/user name.
   projectName: 'grupo2', // Usually your repo name.
+  baseUrl: `/${projectName}/`,
 
 
 
