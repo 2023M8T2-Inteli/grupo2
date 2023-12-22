@@ -3,6 +3,8 @@ name: Deploy Docusaurus
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'docs/**'
   pull_request:
     branches: ["main"]
 # Allows you to run this workflow manually from the Actions tab
@@ -24,7 +26,7 @@ env:
   NODE_OPTIONS: --max-old-space-size=6144
 
 jobs:
-  build-docusaurus:
+  build:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
