@@ -4,100 +4,51 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/grupo2/__docusaurus/debug',
-    component: ComponentCreator('/grupo2/__docusaurus/debug', 'a56'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug', '78b'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/config',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/config', '5a3'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/config', '939'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/content',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/content', 'cc9'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/content', 'b67'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/globalData',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/globalData', '664'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/globalData', '30b'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/metadata',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/metadata', '9df'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/metadata', 'd83'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/registry',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/registry', '481'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/registry', '3b3'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/routes',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/routes', 'a37'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/routes', '888'),
     exact: true
   },
   {
     path: '/grupo2/markdown-page',
-    component: ComponentCreator('/grupo2/markdown-page', '91e'),
-    exact: true
-  },
-  {
-    path: '/grupo2/tags',
-    component: ComponentCreator('/grupo2/tags', 'ca7'),
-    exact: true
-  },
-  {
-    path: '/grupo2/tags/docusaurus',
-    component: ComponentCreator('/grupo2/tags/docusaurus', 'a2d'),
-    exact: true
-  },
-  {
-    path: '/grupo2/tags/facebook',
-    component: ComponentCreator('/grupo2/tags/facebook', 'f10'),
-    exact: true
-  },
-  {
-    path: '/grupo2/tags/hello',
-    component: ComponentCreator('/grupo2/tags/hello', '091'),
-    exact: true
-  },
-  {
-    path: '/grupo2/tags/hola',
-    component: ComponentCreator('/grupo2/tags/hola', 'c7b'),
+    component: ComponentCreator('/grupo2/markdown-page', 'a89'),
     exact: true
   },
   {
     path: '/grupo2/',
-    component: ComponentCreator('/grupo2/', '754'),
+    component: ComponentCreator('/grupo2/', '3ee'),
     routes: [
       {
         path: '/grupo2/',
         component: ComponentCreator('/grupo2/', 'd2c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/blog/2021-08-26-welcome/welcome',
-        component: ComponentCreator('/grupo2/blog/2021-08-26-welcome/welcome', '80d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/blog/first-blog-post',
-        component: ComponentCreator('/grupo2/blog/first-blog-post', '626'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/blog/long-blog-post',
-        component: ComponentCreator('/grupo2/blog/long-blog-post', '95c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/blog/mdx-blog-post',
-        component: ComponentCreator('/grupo2/blog/mdx-blog-post', 'afd'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -140,18 +91,6 @@ export default [
       {
         path: '/grupo2/category/sprint-5',
         component: ComponentCreator('/grupo2/category/sprint-5', 'c7c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/category/tutorial---basics',
-        component: ComponentCreator('/grupo2/category/tutorial---basics', '3e6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/category/tutorial---extras',
-        component: ComponentCreator('/grupo2/category/tutorial---extras', '6d0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -446,54 +385,6 @@ export default [
       {
         path: '/grupo2/sprint5/Speech-to-Text/',
         component: ComponentCreator('/grupo2/sprint5/Speech-to-Text/', '869'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/tutorial-basics/congratulations',
-        component: ComponentCreator('/grupo2/tutorial-basics/congratulations', 'd6b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/grupo2/tutorial-basics/create-a-blog-post', 'f60'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/tutorial-basics/create-a-document',
-        component: ComponentCreator('/grupo2/tutorial-basics/create-a-document', 'f6f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/tutorial-basics/create-a-page',
-        component: ComponentCreator('/grupo2/tutorial-basics/create-a-page', '9df'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/grupo2/tutorial-basics/deploy-your-site', '048'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/tutorial-basics/markdown-features',
-        component: ComponentCreator('/grupo2/tutorial-basics/markdown-features', 'c2f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/grupo2/tutorial-extras/manage-docs-versions', '6b9'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/grupo2/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/grupo2/tutorial-extras/translate-your-site', '06e'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

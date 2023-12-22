@@ -7,10 +7,10 @@ export default {
   "title": "Grupo 2 - Módulo 8 - EC",
   "tagline": "Robótica móvel e deep learning",
   "favicon": "img/inteli.svg",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://2023M8T2-Inteli.github.io",
+  "baseUrl": "/grupo2/",
   "organizationName": "2023M8T2-Inteli",
   "projectName": "grupo2",
-  "baseUrl": "/grupo2/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -27,12 +27,12 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "C:\\Users\\anton\\Documents\\GitHub\\grupo2\\docs\\sidebars.js",
+          "sidebarPath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\sidebars.js",
           "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs"
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\Users\\anton\\Documents\\GitHub\\grupo2\\docs\\src\\css\\custom.css"
+          "customCss": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\src\\css\\custom.css"
         }
       }
     ]
