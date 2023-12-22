@@ -11,6 +11,26 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "blog/2019-05-28-first-blog-post",
+              "path": "/grupo2/blog/first-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blog/2019-05-29-long-blog-post",
+              "path": "/grupo2/blog/long-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blog/2021-08-01-mdx-blog-post",
+              "path": "/grupo2/blog/mdx-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blog/2021-08-26-welcome/index",
+              "path": "/grupo2/blog/2021-08-26-welcome/welcome",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/grupo2/",
               "sidebar": "tutorialSidebar"
@@ -261,6 +281,46 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-basics/congratulations",
+              "path": "/grupo2/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/grupo2/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/grupo2/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/grupo2/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/grupo2/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/grupo2/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/grupo2/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/grupo2/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/sprint-1",
               "path": "/grupo2/category/sprint-1",
               "sidebar": "tutorialSidebar"
@@ -271,8 +331,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/tutorial---basics",
+              "path": "/grupo2/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/sprint-2",
               "path": "/grupo2/category/sprint-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/grupo2/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             },
             {

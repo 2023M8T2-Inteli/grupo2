@@ -15,10 +15,180 @@
           "editUrlLocalized": "https://github.com/${organizationName}/${projectName}/tree/main/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\sidebars.js",
-          "contentPath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\docs",
-          "contentPathLocalized": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\anton\\Documents\\GitHub\\grupo2\\docs\\sidebars.js",
+          "contentPath": "C:\\Users\\anton\\Documents\\GitHub\\grupo2\\docs\\docs",
+          "contentPathLocalized": "C:\\Users\\anton\\Documents\\GitHub\\grupo2\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
+            {
+              "unversionedId": "blog/2019-05-28-first-blog-post",
+              "id": "blog/2019-05-28-first-blog-post",
+              "title": "First Blog Post",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+              "source": "@site/docs/blog/2019-05-28-first-blog-post.md",
+              "sourceDirName": "blog",
+              "slug": "/blog/first-blog-post",
+              "permalink": "/grupo2/blog/first-blog-post",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/blog/2019-05-28-first-blog-post.md",
+              "tags": [
+                {
+                  "label": "hola",
+                  "permalink": "/grupo2/tags/hola"
+                },
+                {
+                  "label": "docusaurus",
+                  "permalink": "/grupo2/tags/docusaurus"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "first-blog-post",
+                "title": "First Blog Post",
+                "authors": {
+                  "name": "Gao Wei",
+                  "title": "Docusaurus Core Team",
+                  "url": "https://github.com/wgao19",
+                  "image_url": "https://github.com/wgao19.png"
+                },
+                "tags": [
+                  "hola",
+                  "docusaurus"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sistema de cartografia",
+                "permalink": "/grupo2/sprint5/Sistema de cartografia/"
+              },
+              "next": {
+                "title": "Long Blog Post",
+                "permalink": "/grupo2/blog/long-blog-post"
+              }
+            },
+            {
+              "unversionedId": "blog/2019-05-29-long-blog-post",
+              "id": "blog/2019-05-29-long-blog-post",
+              "title": "Long Blog Post",
+              "description": "This is the summary of a very long blog post,",
+              "source": "@site/docs/blog/2019-05-29-long-blog-post.md",
+              "sourceDirName": "blog",
+              "slug": "/blog/long-blog-post",
+              "permalink": "/grupo2/blog/long-blog-post",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/blog/2019-05-29-long-blog-post.md",
+              "tags": [
+                {
+                  "label": "hello",
+                  "permalink": "/grupo2/tags/hello"
+                },
+                {
+                  "label": "docusaurus",
+                  "permalink": "/grupo2/tags/docusaurus"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "long-blog-post",
+                "title": "Long Blog Post",
+                "authors": "endi",
+                "tags": [
+                  "hello",
+                  "docusaurus"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "First Blog Post",
+                "permalink": "/grupo2/blog/first-blog-post"
+              },
+              "next": {
+                "title": "MDX Blog Post",
+                "permalink": "/grupo2/blog/mdx-blog-post"
+              }
+            },
+            {
+              "unversionedId": "blog/2021-08-01-mdx-blog-post",
+              "id": "blog/2021-08-01-mdx-blog-post",
+              "title": "MDX Blog Post",
+              "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+              "source": "@site/docs/blog/2021-08-01-mdx-blog-post.mdx",
+              "sourceDirName": "blog",
+              "slug": "/blog/mdx-blog-post",
+              "permalink": "/grupo2/blog/mdx-blog-post",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/blog/2021-08-01-mdx-blog-post.mdx",
+              "tags": [
+                {
+                  "label": "docusaurus",
+                  "permalink": "/grupo2/tags/docusaurus"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "mdx-blog-post",
+                "title": "MDX Blog Post",
+                "authors": [
+                  "slorber"
+                ],
+                "tags": [
+                  "docusaurus"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Long Blog Post",
+                "permalink": "/grupo2/blog/long-blog-post"
+              },
+              "next": {
+                "title": "Welcome",
+                "permalink": "/grupo2/blog/2021-08-26-welcome/welcome"
+              }
+            },
+            {
+              "unversionedId": "blog/2021-08-26-welcome/index",
+              "id": "blog/2021-08-26-welcome/index",
+              "title": "Welcome",
+              "description": "Docusaurus blogging features are powered by the blog plugin.",
+              "source": "@site/docs/blog/2021-08-26-welcome/index.md",
+              "sourceDirName": "blog/2021-08-26-welcome",
+              "slug": "/blog/2021-08-26-welcome/welcome",
+              "permalink": "/grupo2/blog/2021-08-26-welcome/welcome",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/blog/2021-08-26-welcome/index.md",
+              "tags": [
+                {
+                  "label": "facebook",
+                  "permalink": "/grupo2/tags/facebook"
+                },
+                {
+                  "label": "hello",
+                  "permalink": "/grupo2/tags/hello"
+                },
+                {
+                  "label": "docusaurus",
+                  "permalink": "/grupo2/tags/docusaurus"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "slug": "welcome",
+                "title": "Welcome",
+                "authors": [
+                  "slorber",
+                  "yangshun"
+                ],
+                "tags": [
+                  "facebook",
+                  "hello",
+                  "docusaurus"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MDX Blog Post",
+                "permalink": "/grupo2/blog/mdx-blog-post"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
@@ -444,8 +614,8 @@
                 "permalink": "/grupo2/sprint1/Processamento de requisições de peças/"
               },
               "next": {
-                "title": "Sprint 2",
-                "permalink": "/grupo2/category/sprint-2"
+                "title": "Tutorial - Basics",
+                "permalink": "/grupo2/category/tutorial---basics"
               }
             },
             {
@@ -500,8 +670,8 @@
                 "permalink": "/grupo2/sprint2/Frontend/"
               },
               "next": {
-                "title": "Sprint 3",
-                "permalink": "/grupo2/category/sprint-3"
+                "title": "Tutorial - Extras",
+                "permalink": "/grupo2/category/tutorial---extras"
               }
             },
             {
@@ -1262,6 +1432,10 @@
               "previous": {
                 "title": "Entendimento da experiência do usuário",
                 "permalink": "/grupo2/sprint5/Entendimento da experiência do usuário/"
+              },
+              "next": {
+                "title": "First Blog Post",
+                "permalink": "/grupo2/blog/first-blog-post"
               }
             },
             {
@@ -1374,6 +1548,222 @@
               "next": {
                 "title": "Sistema de Text-to-Speech",
                 "permalink": "/grupo2/sprint5/Sistema de text-to-speech/"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/congratulations",
+              "id": "tutorial-basics/congratulations",
+              "title": "Congratulations!",
+              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+              "source": "@site/docs/tutorial-basics/congratulations.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/congratulations",
+              "permalink": "/grupo2/tutorial-basics/congratulations",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/tutorial-basics/congratulations.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy your site",
+                "permalink": "/grupo2/tutorial-basics/deploy-your-site"
+              },
+              "next": {
+                "title": "Sprint 2",
+                "permalink": "/grupo2/category/sprint-2"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-blog-post",
+              "id": "tutorial-basics/create-a-blog-post",
+              "title": "Create a Blog Post",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-blog-post",
+              "permalink": "/grupo2/tutorial-basics/create-a-blog-post",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/tutorial-basics/create-a-blog-post.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Document",
+                "permalink": "/grupo2/tutorial-basics/create-a-document"
+              },
+              "next": {
+                "title": "Markdown Features",
+                "permalink": "/grupo2/tutorial-basics/markdown-features"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-document",
+              "id": "tutorial-basics/create-a-document",
+              "title": "Create a Document",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/docs/tutorial-basics/create-a-document.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-document",
+              "permalink": "/grupo2/tutorial-basics/create-a-document",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/tutorial-basics/create-a-document.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Page",
+                "permalink": "/grupo2/tutorial-basics/create-a-page"
+              },
+              "next": {
+                "title": "Create a Blog Post",
+                "permalink": "/grupo2/tutorial-basics/create-a-blog-post"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-page",
+              "id": "tutorial-basics/create-a-page",
+              "title": "Create a Page",
+              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "source": "@site/docs/tutorial-basics/create-a-page.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-page",
+              "permalink": "/grupo2/tutorial-basics/create-a-page",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/tutorial-basics/create-a-page.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial - Basics",
+                "permalink": "/grupo2/category/tutorial---basics"
+              },
+              "next": {
+                "title": "Create a Document",
+                "permalink": "/grupo2/tutorial-basics/create-a-document"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/deploy-your-site",
+              "id": "tutorial-basics/deploy-your-site",
+              "title": "Deploy your site",
+              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/deploy-your-site",
+              "permalink": "/grupo2/tutorial-basics/deploy-your-site",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/tutorial-basics/deploy-your-site.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Markdown Features",
+                "permalink": "/grupo2/tutorial-basics/markdown-features"
+              },
+              "next": {
+                "title": "Congratulations!",
+                "permalink": "/grupo2/tutorial-basics/congratulations"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/markdown-features",
+              "id": "tutorial-basics/markdown-features",
+              "title": "Markdown Features",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/markdown-features",
+              "permalink": "/grupo2/tutorial-basics/markdown-features",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/tutorial-basics/markdown-features.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Blog Post",
+                "permalink": "/grupo2/tutorial-basics/create-a-blog-post"
+              },
+              "next": {
+                "title": "Deploy your site",
+                "permalink": "/grupo2/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/manage-docs-versions",
+              "id": "tutorial-extras/manage-docs-versions",
+              "title": "Manage Docs Versions",
+              "description": "Docusaurus can manage multiple versions of your docs.",
+              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/manage-docs-versions",
+              "permalink": "/grupo2/tutorial-extras/manage-docs-versions",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/tutorial-extras/manage-docs-versions.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial - Extras",
+                "permalink": "/grupo2/category/tutorial---extras"
+              },
+              "next": {
+                "title": "Translate your site",
+                "permalink": "/grupo2/tutorial-extras/translate-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/translate-your-site",
+              "id": "tutorial-extras/translate-your-site",
+              "title": "Translate your site",
+              "description": "Let's translate docs/intro.md to French.",
+              "source": "@site/docs/tutorial-extras/translate-your-site.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/translate-your-site",
+              "permalink": "/grupo2/tutorial-extras/translate-your-site",
+              "draft": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/docs/tutorial-extras/translate-your-site.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manage Docs Versions",
+                "permalink": "/grupo2/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "Sprint 3",
+                "permalink": "/grupo2/category/sprint-3"
               }
             }
           ],
@@ -1496,6 +1886,44 @@
               },
               {
                 "type": "category",
+                "label": "Tutorial - Basics",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-page"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-document"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/markdown-features"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/deploy-your-site"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/congratulations"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/tutorial---basics",
+                  "permalink": "/grupo2/category/tutorial---basics"
+                }
+              },
+              {
+                "type": "category",
                 "label": "Sprint 2",
                 "collapsible": true,
                 "collapsed": true,
@@ -1531,6 +1959,27 @@
                   "description": "Localização e mapeamento simultâneo",
                   "slug": "/category/sprint-2",
                   "permalink": "/grupo2/category/sprint-2"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Extras",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/manage-docs-versions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/translate-your-site"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/tutorial---extras",
+                  "permalink": "/grupo2/category/tutorial---extras"
                 }
               },
               {
@@ -1733,6 +2182,31 @@
                   "slug": "/category/sprint-5",
                   "permalink": "/grupo2/category/sprint-5"
                 }
+              },
+              {
+                "type": "category",
+                "label": "blog",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "blog/2019-05-28-first-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "blog/2019-05-29-long-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "blog/2021-08-01-mdx-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Welcome",
+                    "id": "blog/2021-08-26-welcome/index"
+                  }
+                ]
               }
             ]
           }
