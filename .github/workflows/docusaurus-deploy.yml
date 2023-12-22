@@ -24,7 +24,7 @@ env:
   NODE_OPTIONS: --max-old-space-size=6144
 
 jobs:
-  build:
+  build-docusaurus:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
