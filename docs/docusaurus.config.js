@@ -1,56 +1,58 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-const organizationName = '2023M8T2-Inteli'; // Usually your GitHub org/user name.
-const projectName = 'grupo2'; // Usually your repo name.
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  title: "Grupo2",
+
+  // Set the production url of your site here
+  url: "https://your-docusaurus-test-site.com",
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: "/grupo2/",
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
 
-  title: 'Grupo 2 - Módulo 8 - EC',
-  tagline: 'Robótica móvel e deep learning',
-  favicon: 'img/inteli.svg',
-  url: `https://${organizationName}.github.io`,
-  // url:'https://your-docusaurus-test-site.com' ,
-  baseUrl: `/${projectName}/`,
-
-  organizationName: '2023M8T2-Inteli', // Usually your GitHub org/user name.
-  projectName: 'grupo2', // Usually your repo name.
-
-
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
+
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/${organizationName}/${projectName}/tree/main/docs',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -60,58 +62,59 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: 'Grupo 2 - Módulo 8 - EC',
+        title: "Home",
+
         logo: {
-          alt: 'Logo Inteli',
-          src: 'img/inteli.svg',
+          alt: "Home Logo",
+          src: "img/inteli_logo.png",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Material de Computação',
+            to: "category/negócios",
+            label: "Negócios",
+            position: "left",
           },
           {
-            href: 'https://github.com/2023M8T2-Inteli/grupo2',
-            label: 'GitHub',
-            position: 'right',
+            to: "category/user-experience",
+            label: "UX",
+            position: "left",
+          },
+          {
+            to: "category/liderança",
+            label: "Liderança",
+            position: "left",
+          },
+          {
+            to: "category/programação",
+            label: "Programação",
+            position: "left",
+          },
+          {
+            to: "category/setup-do-sistema",
+            label: "Setup",
+            position: "left",
+          },
+          {
+            to: "category/demonstrações",
+            label: "Demonstrações",
+            position: "left",
+          },
+          {
+            to: "category/apresentações",
+            label: "Apresentações",
+            position: "left",
           },
         ],
       },
       footer: {
-        style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Módulo 8. Built with Docusaurus.`,
+        style: "dark",
+        copyright: `Copyright © ${new Date().getFullYear()} José Entregas, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        magicComments: [
-        // Remember to extend the default highlight class name as well!
-        {
-          className: 'theme-code-block-highlighted-line',
-          line: 'highlight-next-line',
-          block: {start: 'highlight-start', end: 'highlight-end'},
-        },
-        {
-          className: 'code-block-red',
-          line: 'red',
-        },
-        {
-          className: 'code-block-green',
-          line: 'green',
-        },
-        {
-          className: 'code-block-blue',
-          line: 'blue',
-        },
-        {
-          className: 'code-block-purple',
-          line: 'purple',
-        },
-      ],
       },
     }),
 };
