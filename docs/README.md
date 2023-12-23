@@ -38,7 +38,7 @@ Este repositório contém várias pastas e arquivos importantes. Aqui está um r
 
 - `README.md`: Este arquivo serve como um guia e explicação geral sobre o projeto. É o documento que você está lendo agora.
 
-- `docs`: Neste diretório há toda a documentação do desenvolvimento do projeto e outros arquivos relacionados a documentação. Para acessar clique [aqui](https://2023m8t2-inteli.github.io/grupo2/)
+- `docs`: Neste diretório há toda a documentação do desenvolvimento do projeto e outros arquivos relacionados a documentação. Para acessar clique [aqui](https://edu-porto.github.io/teste-docusaurus/docs/intro)
 
 - `docs`: Nesta pasta fica localizado todas as subpastas com a documentação de cada sprint. Dentro desta pasta, você encontrará:
   - `assets`: Subpasta para armazenar imagens específicas que ilustram o funcionamento da solução.
