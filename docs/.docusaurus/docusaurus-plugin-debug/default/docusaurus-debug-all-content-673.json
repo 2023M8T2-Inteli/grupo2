@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/${organizationName}/${projectName}/tree/main/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\sidebars.js",
-          "contentPath": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\docs",
-          "contentPathLocalized": "c:\\Users\\eduar\\github\\EC\\grupo2\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\anton\\Documents\\GitHub\\grupo2\\docs\\sidebars.js",
+          "contentPath": "C:\\Users\\anton\\Documents\\GitHub\\grupo2\\docs\\docs",
+          "contentPathLocalized": "C:\\Users\\anton\\Documents\\GitHub\\grupo2\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "intro",

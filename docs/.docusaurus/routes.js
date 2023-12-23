@@ -4,47 +4,47 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/grupo2/__docusaurus/debug',
-    component: ComponentCreator('/grupo2/__docusaurus/debug', '78b'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug', 'a56'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/config',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/config', '939'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/config', '5a3'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/content',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/content', 'b67'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/content', 'cc9'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/globalData',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/globalData', '30b'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/globalData', '664'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/metadata',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/metadata', 'd83'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/metadata', '9df'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/registry',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/registry', '3b3'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/registry', '481'),
     exact: true
   },
   {
     path: '/grupo2/__docusaurus/debug/routes',
-    component: ComponentCreator('/grupo2/__docusaurus/debug/routes', '888'),
+    component: ComponentCreator('/grupo2/__docusaurus/debug/routes', 'a37'),
     exact: true
   },
   {
     path: '/grupo2/markdown-page',
-    component: ComponentCreator('/grupo2/markdown-page', 'a89'),
+    component: ComponentCreator('/grupo2/markdown-page', '91e'),
     exact: true
   },
   {
     path: '/grupo2/',
-    component: ComponentCreator('/grupo2/', '3ee'),
+    component: ComponentCreator('/grupo2/', 'ba3'),
     routes: [
       {
         path: '/grupo2/',
